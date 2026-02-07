@@ -1,13 +1,13 @@
 'use client';
 
 import { useState, FormEvent } from 'react';
-import { Send, CheckCircle, Loader2 } from 'lucide-react';
+import { Send, CheckCircle, Loader2, Banknote } from 'lucide-react';
 
 const betreffOptions = [
   'Allgemeine Anfrage',
   'Support',
-  'Fuer Arbeitgeber',
-  'Fuer Jobsuchende',
+  'Für Arbeitgeber',
+  'Für Jobsuchende',
   'Presse',
   'Sonstiges',
 ];
@@ -35,9 +35,9 @@ export default function KontaktForm() {
 
   if (isSubmitted) {
     return (
-      <div className="bg-white rounded-2xl border border-gray-200 p-8 sm:p-12 text-center">
-        <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-green-100 mb-6">
-          <CheckCircle className="h-8 w-8 text-green-600" />
+      <div className="glow-card rounded-2xl p-8 sm:p-12 text-center">
+        <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-emerald-100 mb-6">
+          <CheckCircle className="h-8 w-8 text-emerald-600" />
         </div>
         <h3 className="text-2xl font-bold text-gray-900 mb-3">
           Nachricht erfolgreich gesendet!
@@ -50,7 +50,7 @@ export default function KontaktForm() {
             setIsSubmitted(false);
             setFormData({ name: '', email: '', betreff: '', nachricht: '' });
           }}
-          className="text-amber-600 hover:text-amber-700 font-medium text-sm transition-colors"
+          className="text-emerald-600 hover:underline font-medium text-sm transition-colors"
         >
           Weitere Nachricht senden
         </button>
@@ -61,7 +61,7 @@ export default function KontaktForm() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="bg-white rounded-2xl border border-gray-200 p-8 sm:p-12 shadow-sm"
+      className="glow-card rounded-2xl p-8 sm:p-12"
     >
       <h3 className="text-2xl font-bold text-gray-900 mb-2">Schreib uns eine Nachricht</h3>
       <p className="text-gray-600 mb-8">
@@ -72,7 +72,7 @@ export default function KontaktForm() {
         {/* Name */}
         <div>
           <label htmlFor="name" className="block text-sm font-semibold text-gray-700 mb-2">
-            Name <span className="text-pink-500">*</span>
+            Name <span className="text-emerald-500">*</span>
           </label>
           <input
             type="text"
@@ -81,14 +81,14 @@ export default function KontaktForm() {
             value={formData.name}
             onChange={(e) => setFormData({ ...formData, name: e.target.value })}
             placeholder="Dein vollständiger Name"
-            className="w-full rounded-xl border border-gray-300 px-4 py-3 text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-transparent transition-shadow"
+            className="w-full rounded-xl border border-gray-300 px-4 py-3 text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-shadow"
           />
         </div>
 
         {/* Email */}
         <div>
           <label htmlFor="email" className="block text-sm font-semibold text-gray-700 mb-2">
-            E-Mail <span className="text-pink-500">*</span>
+            E-Mail <span className="text-emerald-500">*</span>
           </label>
           <input
             type="email"
@@ -97,21 +97,21 @@ export default function KontaktForm() {
             value={formData.email}
             onChange={(e) => setFormData({ ...formData, email: e.target.value })}
             placeholder="deine@email.de"
-            className="w-full rounded-xl border border-gray-300 px-4 py-3 text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-transparent transition-shadow"
+            className="w-full rounded-xl border border-gray-300 px-4 py-3 text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-shadow"
           />
         </div>
 
         {/* Betreff */}
         <div>
           <label htmlFor="betreff" className="block text-sm font-semibold text-gray-700 mb-2">
-            Betreff <span className="text-pink-500">*</span>
+            Betreff <span className="text-emerald-500">*</span>
           </label>
           <select
             id="betreff"
             required
             value={formData.betreff}
             onChange={(e) => setFormData({ ...formData, betreff: e.target.value })}
-            className="w-full rounded-xl border border-gray-300 px-4 py-3 text-gray-900 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-transparent transition-shadow appearance-none bg-white"
+            className="w-full rounded-xl border border-gray-300 px-4 py-3 text-gray-900 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-shadow appearance-none bg-white"
           >
             <option value="" disabled>
               Bitte wählen...
@@ -127,7 +127,7 @@ export default function KontaktForm() {
         {/* Nachricht */}
         <div>
           <label htmlFor="nachricht" className="block text-sm font-semibold text-gray-700 mb-2">
-            Nachricht <span className="text-pink-500">*</span>
+            Nachricht <span className="text-emerald-500">*</span>
           </label>
           <textarea
             id="nachricht"
@@ -136,24 +136,24 @@ export default function KontaktForm() {
             value={formData.nachricht}
             onChange={(e) => setFormData({ ...formData, nachricht: e.target.value })}
             placeholder="Wie können wir dir helfen?"
-            className="w-full rounded-xl border border-gray-300 px-4 py-3 text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-transparent transition-shadow resize-none"
+            className="w-full rounded-xl border border-gray-300 px-4 py-3 text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-shadow resize-none"
           />
         </div>
 
         {/* Privacy Note */}
         <p className="text-xs text-gray-500">
           Mit dem Absenden stimmst du unserer{' '}
-          <a href="/datenschutz" className="text-amber-600 hover:underline">
+          <a href="/datenschutz" className="text-emerald-600 hover:underline">
             Datenschutzerklärung
           </a>{' '}
-          zu. Wir verwenden deine Daten ausschliesslich zur Bearbeitung deiner Anfrage.
+          zu. Wir verwenden deine Daten ausschließlich zur Bearbeitung deiner Anfrage.
         </p>
 
         {/* Submit Button */}
         <button
           type="submit"
           disabled={isSubmitting}
-          className="w-full rounded-xl bg-gradient-to-r from-amber-500 to-yellow-500 px-8 py-4 text-base font-semibold text-white hover:from-amber-600 hover:to-yellow-600 transition-all flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed shadow-lg shadow-amber-200"
+          className="w-full rounded-lg bg-gradient-to-r from-emerald-500 to-green-600 px-8 py-4 text-base font-semibold text-white hover:from-emerald-600 hover:to-green-700 transition-all flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed shadow-lg shadow-emerald-200"
         >
           {isSubmitting ? (
             <>

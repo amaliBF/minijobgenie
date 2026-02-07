@@ -14,20 +14,21 @@ import {
   Globe,
   Users,
   ScrollText,
+  Banknote,
 } from 'lucide-react';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import KontaktForm from './KontaktForm';
 
 export const metadata: Metadata = {
-  title: 'Kontakt - Wir helfen dir weiter',
+  title: 'Kontakt – Wir helfen dir weiter',
   description:
-    'Kontaktiere das Minijobgenie-Team. Fragen, Support oder Feedback - wir sind fuer dich da. E-Mail: kontakt@minijobgenie.de',
+    'Kontaktiere das Minijobgenie-Team. Fragen, Support oder Feedback – wir sind für dich da. E-Mail: kontakt@minijobgenie.de',
   alternates: {
     canonical: '/kontakt',
   },
   openGraph: {
-    title: 'Kontakt - Minijobgenie | Wir helfen dir weiter',
+    title: 'Kontakt – Minijobgenie | Wir helfen dir weiter',
     description:
       'Kontaktiere uns per E-Mail oder Kontaktformular. Wir antworten in der Regel innerhalb von 24 Stunden.',
     url: 'https://minijobgenie.de/kontakt',
@@ -37,9 +38,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Kontakt - Minijobgenie',
+    title: 'Kontakt – Minijobgenie',
     description:
-      'Kontaktiere das Minijobgenie-Team. Wir sind fuer dich da!',
+      'Kontaktiere das Minijobgenie-Team. Wir sind für dich da!',
   },
 };
 
@@ -47,32 +48,32 @@ const faqItems = [
   {
     question: 'Wie schnell antwortet ihr auf Anfragen?',
     answer:
-      'Wir antworten in der Regel innerhalb von 24 Stunden auf alle Anfragen. Bei dringenden Support-Anfragen bemuehen wir uns, noch schneller zu reagieren. Premium-Support-Kunden erhalten Antworten innerhalb von 4 Stunden waehrend der Geschaeftszeiten.',
+      'Wir antworten in der Regel innerhalb von 24 Stunden auf alle Anfragen. Bei dringenden Support-Anfragen bemühen wir uns, noch schneller zu reagieren. Premium-Support-Kunden erhalten Antworten innerhalb von 4 Stunden während der Geschäftszeiten.',
   },
   {
     question: 'Ich bin Jobsuchender und habe ein technisches Problem. An wen wende ich mich?',
     answer:
-      'Schreibe uns einfach eine E-Mail an kontakt@minijobgenie.de oder nutze das Kontaktformular mit dem Betreff "Support". Beschreibe dein Problem moeglichst genau und wir helfen dir schnellstmoeglich weiter. Minijobgenie ist fuer dich komplett kostenlos - auch der Support!',
+      'Schreibe uns einfach eine E-Mail an kontakt@minijobgenie.de oder nutze das Kontaktformular mit dem Betreff „Support". Beschreibe dein Problem möglichst genau und wir helfen dir schnellstmöglich weiter. Minijobgenie ist für dich komplett kostenlos – auch der Support!',
   },
   {
     question: 'Wie kann ich mein Unternehmen auf Minijobgenie registrieren?',
     answer:
-      'Ganz einfach: Besuche dashboard.minijobgenie.de und klicke auf "Registrieren". In nur 2 Schritten legst du dein Firmenprofil und Benutzerkonto an. Danach kannst du sofort Stellenanzeigen erstellen und Videos hochladen. Der Start ist kostenlos!',
+      'Ganz einfach: Besuche dashboard.ausbildungsgenie.de und klicke auf „Registrieren". In nur 2 Schritten legst du dein Firmenprofil und Benutzerkonto an. Danach kannst du sofort Stellenanzeigen erstellen und Videos hochladen. Der Start ist kostenlos!',
   },
   {
-    question: 'Bietet ihr Schulungen oder Demos fuer Arbeitgeber an?',
+    question: 'Bietet ihr Schulungen oder Demos für Arbeitgeber an?',
     answer:
-      'Ja! Wir bieten kostenlose 15-minuetige Video-Demos an, in denen wir euch alle Funktionen zeigen. Kontaktiert uns einfach ueber das Formular mit dem Betreff "Fuer Arbeitgeber" und wir vereinbaren einen Termin.',
+      'Ja! Wir bieten kostenlose 15-minütige Video-Demos an, in denen wir euch alle Funktionen zeigen. Kontaktiert uns einfach über das Formular mit dem Betreff „Für Arbeitgeber" und wir vereinbaren einen Termin.',
   },
   {
-    question: 'Kann ich Minijobgenie fuer eine Presseanfrage kontaktieren?',
+    question: 'Kann ich Minijobgenie für eine Presseanfrage kontaktieren?',
     answer:
-      'Natuerlich! Fuer Presseanfragen nutze bitte das Kontaktformular mit dem Betreff "Presse" oder schreibe direkt an kontakt@minijobgenie.de. Wir stellen gerne Pressematerial, Interviews und Hintergrundinformationen zur Verfuegung.',
+      'Natürlich! Für Presseanfragen nutze bitte das Kontaktformular mit dem Betreff „Presse" oder schreibe direkt an kontakt@minijobgenie.de. Wir stellen gerne Pressematerial, Interviews und Hintergrundinformationen zur Verfügung.',
   },
   {
     question: 'Wo finde ich die rechtlichen Informationen (Impressum, Datenschutz)?',
     answer:
-      'Unser Impressum findest du unter minijobgenie.de/impressum, die Datenschutzerklaerung unter minijobgenie.de/datenschutz und die AGB unter minijobgenie.de/agb. Links zu allen rechtlichen Seiten findest du auch im Footer jeder Seite.',
+      'Unser Impressum findest du unter minijobgenie.de/impressum, die Datenschutzerklärung unter minijobgenie.de/datenschutz und die AGB unter minijobgenie.de/agb. Links zu allen rechtlichen Seiten findest du auch im Footer jeder Seite.',
   },
 ];
 
@@ -111,8 +112,8 @@ const jsonLdBreadcrumb = {
 const jsonLdWebPage = {
   '@context': 'https://schema.org',
   '@type': 'ContactPage',
-  name: 'Kontakt - Minijobgenie',
-  description: 'Kontaktiere das Minijobgenie-Team fuer Fragen, Support oder Feedback.',
+  name: 'Kontakt – Minijobgenie',
+  description: 'Kontaktiere das Minijobgenie-Team für Fragen, Support oder Feedback.',
   url: 'https://minijobgenie.de/kontakt',
   isPartOf: {
     '@type': 'WebSite',
@@ -121,7 +122,7 @@ const jsonLdWebPage = {
   },
   mainEntity: {
     '@type': 'Organization',
-    name: 'Butterflies IT UG (haftungsbeschraenkt)',
+    name: 'Butterflies IT UG (haftungsbeschränkt)',
     url: 'https://minijobgenie.de',
     email: 'kontakt@minijobgenie.de',
     address: {
@@ -141,7 +142,7 @@ const jsonLdWebPage = {
 
 export default function KontaktPage() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-[#F0FDF4]">
       <Header />
 
       {/* JSON-LD */}
@@ -159,8 +160,9 @@ export default function KontaktPage() {
       />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-amber-500 via-yellow-500 to-orange-500 text-white">
-        <div className="max-w-5xl mx-auto text-center">
+      <section className="pt-32 pb-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-emerald-500 via-green-600 to-emerald-700 text-white relative overflow-hidden">
+        <div className="absolute inset-0 cash-dots opacity-10" />
+        <div className="max-w-5xl mx-auto text-center relative z-10">
           {/* Breadcrumb */}
           <nav className="flex items-center justify-center gap-2 text-sm text-white/70 mb-8">
             <Link href="/" className="hover:text-white transition-colors">
@@ -170,9 +172,9 @@ export default function KontaktPage() {
             <span className="text-white font-medium">Kontakt</span>
           </nav>
 
-          <div className="inline-flex items-center gap-2 rounded-full bg-white/15 backdrop-blur px-4 py-1.5 text-sm mb-8">
+          <div className="cash-badge mb-8 mx-auto w-fit">
             <Mail className="h-4 w-4" />
-            <span>Wir sind fuer dich da</span>
+            <span>Wir sind für dich da</span>
           </div>
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight">
@@ -191,39 +193,39 @@ export default function KontaktPage() {
             {/* Zum Formular */}
             <a
               href="#kontaktformular"
-              className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 text-center hover:shadow-xl transition-shadow block"
+              className="glow-card rounded-2xl p-8 text-center block"
             >
-              <div className="inline-flex items-center justify-center w-14 h-14 rounded-xl bg-amber-100 text-amber-600 mb-5">
+              <div className="inline-flex items-center justify-center w-14 h-14 rounded-xl bg-emerald-100 text-emerald-600 mb-5">
                 <ScrollText className="h-7 w-7" />
               </div>
               <h3 className="text-lg font-bold text-gray-900 mb-2">Kontaktformular</h3>
               <p className="text-gray-600">
-                Schreibe uns direkt ueber unser Formular. Wir melden uns schnellstmoeglich zurueck.
+                Schreibe uns direkt über unser Formular. Wir melden uns schnellstmöglich zurück.
               </p>
-              <span className="inline-flex items-center gap-1 text-amber-600 font-medium mt-3 text-sm">
+              <span className="inline-flex items-center gap-1 text-emerald-600 font-medium mt-3 text-sm">
                 Zum Formular
                 <ChevronRight className="h-4 w-4" />
               </span>
             </a>
 
             {/* Email */}
-            <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 text-center hover:shadow-xl transition-shadow">
-              <div className="inline-flex items-center justify-center w-14 h-14 rounded-xl bg-orange-100 text-orange-600 mb-5">
+            <div className="glow-card rounded-2xl p-8 text-center">
+              <div className="inline-flex items-center justify-center w-14 h-14 rounded-xl bg-green-100 text-green-600 mb-5">
                 <Mail className="h-7 w-7" />
               </div>
               <h3 className="text-lg font-bold text-gray-900 mb-2">E-Mail</h3>
               <a
                 href="mailto:kontakt@minijobgenie.de"
-                className="text-amber-600 hover:text-amber-700 font-medium transition-colors block"
+                className="text-emerald-600 hover:underline font-medium transition-colors block"
               >
                 kontakt@minijobgenie.de
               </a>
-              <p className="text-sm text-gray-500 mt-2">Fuer alle Anfragen</p>
+              <p className="text-sm text-gray-500 mt-2">Für alle Anfragen</p>
             </div>
 
             {/* Antwortzeit */}
-            <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 text-center hover:shadow-xl transition-shadow">
-              <div className="inline-flex items-center justify-center w-14 h-14 rounded-xl bg-amber-100 text-amber-600 mb-5">
+            <div className="glow-card rounded-2xl p-8 text-center">
+              <div className="inline-flex items-center justify-center w-14 h-14 rounded-xl bg-emerald-100 text-emerald-600 mb-5">
                 <Clock className="h-7 w-7" />
               </div>
               <h3 className="text-lg font-bold text-gray-900 mb-2">Antwortzeiten</h3>
@@ -253,19 +255,19 @@ export default function KontaktPage() {
 
             {/* Side Info */}
             <div className="lg:col-span-2 space-y-8">
-              {/* Fuer wen */}
-              <div className="bg-gradient-to-br from-amber-50 to-yellow-50 rounded-2xl p-8 border border-amber-100">
-                <h3 className="text-lg font-bold text-gray-900 mb-4">Wie koennen wir helfen?</h3>
+              {/* Für wen */}
+              <div className="bg-gradient-to-br from-emerald-50 to-green-50 rounded-2xl p-8 border border-emerald-100">
+                <h3 className="text-lg font-bold text-gray-900 mb-4">Wie können wir helfen?</h3>
                 <ul className="space-y-4">
                   {[
                     {
                       icon: Users,
-                      title: 'Fuer Jobsuchende',
+                      title: 'Für Jobsuchende',
                       description: 'Fragen zur App, Profil-Hilfe, technischer Support',
                     },
                     {
                       icon: Building2,
-                      title: 'Fuer Arbeitgeber',
+                      title: 'Für Arbeitgeber',
                       description: 'Registrierung, Pakete, Demos, Firmenprofil',
                     },
                     {
@@ -276,11 +278,11 @@ export default function KontaktPage() {
                     {
                       icon: Shield,
                       title: 'Datenschutz & Rechtliches',
-                      description: 'DSGVO-Anfragen, Datenloeschanfragen',
+                      description: 'DSGVO-Anfragen, Datenlöschanfragen',
                     },
                   ].map((item) => (
                     <li key={item.title} className="flex items-start gap-3">
-                      <div className="inline-flex items-center justify-center w-10 h-10 rounded-lg bg-white text-amber-600 flex-shrink-0 mt-0.5 shadow-sm">
+                      <div className="inline-flex items-center justify-center w-10 h-10 rounded-lg bg-white text-emerald-600 flex-shrink-0 mt-0.5 shadow-sm">
                         <item.icon className="h-5 w-5" />
                       </div>
                       <div>
@@ -293,16 +295,16 @@ export default function KontaktPage() {
               </div>
 
               {/* Quick Links */}
-              <div className="bg-white rounded-2xl p-8 border border-gray-200">
+              <div className="glow-card rounded-2xl p-8">
                 <h3 className="text-lg font-bold text-gray-900 mb-4">Schnell-Links</h3>
                 <ul className="space-y-3">
                   <li>
                     <Link
-                      href="https://dashboard.minijobgenie.de/login"
-                      className="flex items-center gap-3 text-sm text-gray-700 hover:text-amber-600 transition-colors group"
+                      href="https://dashboard.ausbildungsgenie.de/login"
+                      className="flex items-center gap-3 text-sm text-gray-700 hover:text-emerald-600 transition-colors group"
                     >
-                      <div className="w-8 h-8 rounded-lg bg-amber-50 flex items-center justify-center group-hover:bg-amber-100 transition-colors">
-                        <Building2 className="h-4 w-4 text-amber-600" />
+                      <div className="w-8 h-8 rounded-lg bg-emerald-50 flex items-center justify-center group-hover:bg-emerald-100 transition-colors">
+                        <Building2 className="h-4 w-4 text-emerald-600" />
                       </div>
                       <span>Arbeitgeber-Dashboard</span>
                       <ExternalLink className="h-3.5 w-3.5 ml-auto text-gray-400" />
@@ -311,10 +313,10 @@ export default function KontaktPage() {
                   <li>
                     <Link
                       href="/preise"
-                      className="flex items-center gap-3 text-sm text-gray-700 hover:text-amber-600 transition-colors group"
+                      className="flex items-center gap-3 text-sm text-gray-700 hover:text-emerald-600 transition-colors group"
                     >
-                      <div className="w-8 h-8 rounded-lg bg-amber-50 flex items-center justify-center group-hover:bg-amber-100 transition-colors">
-                        <Sparkles className="h-4 w-4 text-amber-600" />
+                      <div className="w-8 h-8 rounded-lg bg-emerald-50 flex items-center justify-center group-hover:bg-emerald-100 transition-colors">
+                        <Banknote className="h-4 w-4 text-emerald-600" />
                       </div>
                       <span>Preise & Pakete</span>
                       <ChevronRight className="h-3.5 w-3.5 ml-auto text-gray-400" />
@@ -323,10 +325,10 @@ export default function KontaktPage() {
                   <li>
                     <Link
                       href="/impressum"
-                      className="flex items-center gap-3 text-sm text-gray-700 hover:text-amber-600 transition-colors group"
+                      className="flex items-center gap-3 text-sm text-gray-700 hover:text-emerald-600 transition-colors group"
                     >
-                      <div className="w-8 h-8 rounded-lg bg-amber-50 flex items-center justify-center group-hover:bg-amber-100 transition-colors">
-                        <Shield className="h-4 w-4 text-amber-600" />
+                      <div className="w-8 h-8 rounded-lg bg-emerald-50 flex items-center justify-center group-hover:bg-emerald-100 transition-colors">
+                        <Shield className="h-4 w-4 text-emerald-600" />
                       </div>
                       <span>Impressum</span>
                       <ChevronRight className="h-3.5 w-3.5 ml-auto text-gray-400" />
@@ -335,12 +337,12 @@ export default function KontaktPage() {
                   <li>
                     <Link
                       href="/datenschutz"
-                      className="flex items-center gap-3 text-sm text-gray-700 hover:text-amber-600 transition-colors group"
+                      className="flex items-center gap-3 text-sm text-gray-700 hover:text-emerald-600 transition-colors group"
                     >
-                      <div className="w-8 h-8 rounded-lg bg-amber-50 flex items-center justify-center group-hover:bg-amber-100 transition-colors">
-                        <Shield className="h-4 w-4 text-amber-600" />
+                      <div className="w-8 h-8 rounded-lg bg-emerald-50 flex items-center justify-center group-hover:bg-emerald-100 transition-colors">
+                        <Shield className="h-4 w-4 text-emerald-600" />
                       </div>
-                      <span>Datenschutzerklaerung</span>
+                      <span>Datenschutzerklärung</span>
                       <ChevronRight className="h-3.5 w-3.5 ml-auto text-gray-400" />
                     </Link>
                   </li>
@@ -352,15 +354,15 @@ export default function KontaktPage() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
-            <div className="inline-flex items-center gap-2 rounded-full bg-amber-50 px-4 py-1.5 text-sm text-amber-700 mb-4">
+            <div className="cash-badge mb-4 mx-auto w-fit">
               <HelpCircle className="h-4 w-4" />
-              <span>Haeufig gestellte Fragen</span>
+              <span>Häufig gestellte Fragen</span>
             </div>
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
-              Haeufige Fragen
+              Häufige Fragen
             </h2>
             <p className="mt-4 text-lg text-gray-600">
               Vielleicht findest du hier schon die Antwort auf deine Frage
@@ -371,10 +373,10 @@ export default function KontaktPage() {
             {faqItems.map((item, index) => (
               <div
                 key={index}
-                className="bg-white rounded-xl border border-gray-200 p-6 hover:shadow-md transition-shadow"
+                className="glow-card rounded-xl p-6"
               >
                 <h3 className="text-base font-semibold text-gray-900 mb-3 flex items-start gap-3">
-                  <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-amber-100 text-amber-700 text-xs font-bold flex-shrink-0 mt-0.5">
+                  <span className="cash-badge flex-shrink-0 mt-0.5">
                     {index + 1}
                   </span>
                   <span>{item.question}</span>
@@ -392,42 +394,42 @@ export default function KontaktPage() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
               <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
-                Ueber{' '}
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-yellow-500">
+                Über{' '}
+                <span className="gradient-text-cash">
                   Minijobgenie
                 </span>
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                Minijobgenie ist eine Marke der Butterflies IT UG (haftungsbeschraenkt) mit Sitz in Schwerin.
-                Unsere Mission: Die Minijob-Suche so einfach und schnell wie moeglich machen - und gleichzeitig Arbeitgebern helfen, die besten Minijobber zu finden.
+                Minijobgenie ist eine Marke der Butterflies IT UG (haftungsbeschränkt) mit Sitz in Schwerin.
+                Unsere Mission: Die Minijob-Suche so einfach und schnell wie möglich machen – und gleichzeitig Arbeitgebern helfen, die besten Minijobber zu finden.
               </p>
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
-                  <Building2 className="h-5 w-5 text-amber-600 mt-1 flex-shrink-0" />
+                  <Building2 className="h-5 w-5 text-emerald-600 mt-1 flex-shrink-0" />
                   <div>
-                    <p className="font-semibold text-gray-900">Butterflies IT UG (haftungsbeschraenkt)</p>
+                    <p className="font-semibold text-gray-900">Butterflies IT UG (haftungsbeschränkt)</p>
                     <p className="text-gray-600 text-sm">Handelsregister: Amtsgericht Schwerin, HRB 12765</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <MapPin className="h-5 w-5 text-amber-600 mt-1 flex-shrink-0" />
+                  <MapPin className="h-5 w-5 text-emerald-600 mt-1 flex-shrink-0" />
                   <div>
                     <p className="text-gray-700">Hagenower Str. 73, 19061 Schwerin, Deutschland</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <Mail className="h-5 w-5 text-amber-600 mt-1 flex-shrink-0" />
+                  <Mail className="h-5 w-5 text-emerald-600 mt-1 flex-shrink-0" />
                   <div>
                     <a
                       href="mailto:kontakt@minijobgenie.de"
-                      className="text-amber-600 hover:text-amber-700 font-medium transition-colors"
+                      className="text-emerald-600 hover:underline font-medium transition-colors"
                     >
                       kontakt@minijobgenie.de
                     </a>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <Globe className="h-5 w-5 text-amber-600 mt-1 flex-shrink-0" />
+                  <Globe className="h-5 w-5 text-emerald-600 mt-1 flex-shrink-0" />
                   <div>
                     <p className="text-gray-700">USt-IdNr.: DE301178757</p>
                   </div>
@@ -437,7 +439,7 @@ export default function KontaktPage() {
               <div className="mt-8 flex gap-3">
                 <Link
                   href="/impressum"
-                  className="text-sm font-medium text-amber-600 hover:text-amber-700 transition-colors flex items-center gap-1"
+                  className="text-sm font-medium text-emerald-600 hover:underline transition-colors flex items-center gap-1"
                 >
                   Impressum
                   <ChevronRight className="h-4 w-4" />
@@ -445,7 +447,7 @@ export default function KontaktPage() {
                 <span className="text-gray-300">|</span>
                 <Link
                   href="/datenschutz"
-                  className="text-sm font-medium text-amber-600 hover:text-amber-700 transition-colors flex items-center gap-1"
+                  className="text-sm font-medium text-emerald-600 hover:underline transition-colors flex items-center gap-1"
                 >
                   Datenschutz
                   <ChevronRight className="h-4 w-4" />
@@ -453,7 +455,7 @@ export default function KontaktPage() {
                 <span className="text-gray-300">|</span>
                 <Link
                   href="/agb"
-                  className="text-sm font-medium text-amber-600 hover:text-amber-700 transition-colors flex items-center gap-1"
+                  className="text-sm font-medium text-emerald-600 hover:underline transition-colors flex items-center gap-1"
                 >
                   AGB
                   <ChevronRight className="h-4 w-4" />
@@ -462,7 +464,7 @@ export default function KontaktPage() {
             </div>
 
             {/* Social Media */}
-            <div className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl p-8 sm:p-12 text-white">
+            <div className="bg-gray-900 rounded-2xl p-8 sm:p-12 text-white">
               <h3 className="text-2xl font-bold mb-3">Folge uns</h3>
               <p className="text-gray-400 mb-8">
                 Bleib auf dem Laufenden und entdecke spannende Inhalte rund um Minijobs, Nebenjobs und Karriere.
@@ -482,7 +484,7 @@ export default function KontaktPage() {
                     </svg>
                   </div>
                   <div className="flex-grow">
-                    <p className="font-semibold group-hover:text-amber-300 transition-colors">Instagram</p>
+                    <p className="font-semibold group-hover:text-emerald-400 transition-colors">Instagram</p>
                     <p className="text-sm text-gray-400">@minijobgenie</p>
                   </div>
                   <ExternalLink className="h-4 w-4 text-gray-500 group-hover:text-white transition-colors" />
@@ -501,7 +503,7 @@ export default function KontaktPage() {
                     </svg>
                   </div>
                   <div className="flex-grow">
-                    <p className="font-semibold group-hover:text-amber-300 transition-colors">TikTok</p>
+                    <p className="font-semibold group-hover:text-emerald-400 transition-colors">TikTok</p>
                     <p className="text-sm text-gray-400">@minijobgenie</p>
                   </div>
                   <ExternalLink className="h-4 w-4 text-gray-500 group-hover:text-white transition-colors" />
@@ -520,7 +522,7 @@ export default function KontaktPage() {
                     </svg>
                   </div>
                   <div className="flex-grow">
-                    <p className="font-semibold group-hover:text-amber-300 transition-colors">YouTube</p>
+                    <p className="font-semibold group-hover:text-emerald-400 transition-colors">YouTube</p>
                     <p className="text-sm text-gray-400">@minijobgenie</p>
                   </div>
                   <ExternalLink className="h-4 w-4 text-gray-500 group-hover:text-white transition-colors" />
@@ -532,25 +534,26 @@ export default function KontaktPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-br from-amber-500 to-yellow-500">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section className="py-20 bg-gray-900 relative overflow-hidden">
+        <div className="absolute inset-0 cash-dots opacity-5" />
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <h2 className="text-3xl sm:text-4xl font-bold text-white">
             Bereit loszulegen?
           </h2>
-          <p className="mt-4 text-xl text-white/80 max-w-2xl mx-auto">
+          <p className="mt-4 text-xl text-gray-400 max-w-2xl mx-auto">
             Registriere dein Unternehmen jetzt kostenlos und erreiche motivierte Jobsuchende in deiner Region.
           </p>
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              href="https://dashboard.minijobgenie.de/login"
-              className="rounded-full bg-white px-8 py-3.5 text-base font-semibold text-amber-600 hover:bg-gray-100 transition-colors flex items-center gap-2"
+              href="https://dashboard.ausbildungsgenie.de/register"
+              className="rounded-lg bg-gradient-to-r from-emerald-500 to-green-600 px-8 py-3.5 text-base font-semibold text-white hover:from-emerald-600 hover:to-green-700 transition-all flex items-center gap-2 shadow-lg shadow-emerald-500/25"
             >
               <Building2 className="h-4 w-4" />
               Als Arbeitgeber registrieren
             </Link>
             <Link
               href="/preise"
-              className="rounded-full border-2 border-white/30 px-8 py-3.5 text-base font-medium text-white hover:bg-white/10 transition-colors flex items-center gap-2"
+              className="rounded-lg border-2 border-white/20 px-8 py-3.5 text-base font-medium text-white hover:bg-white/10 transition-colors flex items-center gap-2"
             >
               Preise ansehen
               <ArrowRight className="h-4 w-4" />

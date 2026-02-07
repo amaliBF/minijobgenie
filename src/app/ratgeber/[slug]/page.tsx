@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { getRatgeberBySlug, getAllRatgeberSlugs, getRelatedRatgeber, ratgeberKategorien } from '@/lib/ratgeber-data';
+import { Banknote, CheckCircle2, ChevronRight, ChevronDown, ArrowRight, Calendar, Tag } from 'lucide-react';
 
 interface Props {
   params: { slug: string };
@@ -76,51 +77,65 @@ export default function RatgeberArtikelPage({ params }: Props) {
   return (
     <>
       <Header />
-      <main className="pt-24 pb-16 bg-white min-h-screen">
+      <main className="min-h-screen bg-[#F0FDF4]">
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdArray) }}
         />
 
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          {/* Breadcrumb */}
-          <nav className="text-sm text-gray-500 mb-6" aria-label="Breadcrumb">
-            <ol className="flex flex-wrap items-center gap-1">
-              <li><Link href="/" className="hover:text-amber-600">Home</Link></li>
-              <li>/</li>
-              <li><Link href="/ratgeber" className="hover:text-amber-600">Ratgeber</Link></li>
-              <li>/</li>
-              <li><Link href={`/ratgeber#${artikel.categorySlug}`} className="hover:text-amber-600">{kategorie?.name || artikel.category}</Link></li>
-              <li>/</li>
-              <li className="text-gray-900 font-medium truncate max-w-[200px]">{artikel.title}</li>
-            </ol>
-          </nav>
-
-          {/* Category Badge + Date */}
-          <div className="flex items-center gap-3 mb-4">
-            <span className="px-3 py-1 bg-amber-100 text-amber-700 rounded-full text-xs font-medium">
-              {kategorie?.name || artikel.category}
-            </span>
-            <span className="text-sm text-gray-400">
-              {new Date(artikel.publishDate).toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' })}
-            </span>
+        {/* Top Bar */}
+        <section className="bg-gradient-to-r from-emerald-600 to-green-600 pt-24 pb-8">
+          <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <nav className="text-sm text-emerald-200 mb-4" aria-label="Breadcrumb">
+              <ol className="flex flex-wrap items-center gap-1">
+                <li><Link href="/" className="hover:text-white transition-colors">Home</Link></li>
+                <li><ChevronRight className="w-3.5 h-3.5" /></li>
+                <li><Link href="/ratgeber" className="hover:text-white transition-colors">Ratgeber</Link></li>
+                <li><ChevronRight className="w-3.5 h-3.5" /></li>
+                <li>
+                  <Link href={`/ratgeber#${artikel.categorySlug}`} className="hover:text-white transition-colors">
+                    {kategorie?.name || artikel.category}
+                  </Link>
+                </li>
+              </ol>
+            </nav>
           </div>
+        </section>
 
-          {/* H1 */}
-          <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-            {artikel.title}
-          </h1>
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 -mt-4">
+          {/* Article Header Card */}
+          <div className="glow-card rounded-2xl p-6 sm:p-8 mb-8">
+            {/* Category Badge + Date */}
+            <div className="flex items-center gap-3 mb-4">
+              <span className="cash-badge">
+                <Tag className="w-3 h-3" />
+                {kategorie?.name || artikel.category}
+              </span>
+              <span className="flex items-center gap-1.5 text-sm text-gray-400">
+                <Calendar className="w-3.5 h-3.5" />
+                {new Date(artikel.publishDate).toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' })}
+              </span>
+            </div>
 
-          <p className="text-lg text-gray-600 mb-8">{artikel.description}</p>
+            {/* H1 */}
+            <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
+              {artikel.title}
+            </h1>
+
+            <p className="text-lg text-gray-600">{artikel.description}</p>
+          </div>
 
           {/* Key Points */}
           {artikel.keyPoints.length > 0 && (
-            <section className="bg-amber-50 border border-amber-200 rounded-xl p-5 mb-8">
-              <h2 className="text-lg font-bold text-gray-900 mb-3">Das Wichtigste in Kürze</h2>
-              <ul className="space-y-2">
+            <section className="glow-card rounded-2xl p-6 mb-8 border-l-4 border-l-emerald-500">
+              <h2 className="text-lg font-bold text-gray-900 mb-3 flex items-center gap-2">
+                <Banknote className="w-5 h-5 text-emerald-600" />
+                Das Wichtigste in Kürze
+              </h2>
+              <ul className="space-y-2.5">
                 {artikel.keyPoints.map((point, i) => (
-                  <li key={i} className="flex items-start gap-2 text-gray-800">
-                    <span className="text-amber-500 mt-0.5 flex-shrink-0">✓</span>
+                  <li key={i} className="flex items-start gap-2.5 text-gray-800">
+                    <CheckCircle2 className="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" />
                     <span>{point}</span>
                   </li>
                 ))}
@@ -130,22 +145,26 @@ export default function RatgeberArtikelPage({ params }: Props) {
 
           {/* Main Content */}
           <article
-            className="prose prose-gray prose-amber max-w-none mb-10 prose-headings:font-bold prose-h2:text-2xl prose-h2:mt-8 prose-h2:mb-4 prose-h3:text-xl prose-h3:mt-6 prose-h3:mb-3 prose-p:text-gray-700 prose-p:leading-relaxed prose-li:text-gray-700 prose-strong:text-gray-900 prose-a:text-amber-600 prose-a:no-underline hover:prose-a:underline"
+            className="prose prose-gray max-w-none mb-10 prose-headings:font-bold prose-h2:text-2xl prose-h2:mt-8 prose-h2:mb-4 prose-h3:text-xl prose-h3:mt-6 prose-h3:mb-3 prose-p:text-gray-700 prose-p:leading-relaxed prose-li:text-gray-700 prose-strong:text-gray-900 prose-a:text-emerald-600 prose-a:no-underline hover:prose-a:underline"
             dangerouslySetInnerHTML={{ __html: artikel.content }}
           />
 
           {/* FAQ */}
           {artikel.faqs.length > 0 && (
             <section className="mb-10">
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">Häufige Fragen</h2>
-              <div className="space-y-4">
+              <div className="cash-divider mb-6">
+                <span className="text-sm font-semibold text-emerald-700 uppercase tracking-wider">Häufige Fragen</span>
+              </div>
+              <div className="space-y-3">
                 {artikel.faqs.map((faq, i) => (
-                  <details key={i} className="group border border-gray-200 rounded-lg">
-                    <summary className="flex items-center justify-between p-4 cursor-pointer font-medium text-gray-900 hover:bg-gray-50">
+                  <details key={i} className="group glow-card rounded-xl overflow-hidden">
+                    <summary className="flex items-center justify-between p-5 cursor-pointer font-medium text-gray-900 hover:bg-emerald-50/50 transition-colors">
                       {faq.question}
-                      <span className="text-gray-400 group-open:rotate-180 transition-transform">▼</span>
+                      <ChevronDown className="w-5 h-5 text-emerald-500 group-open:rotate-180 transition-transform flex-shrink-0" />
                     </summary>
-                    <div className="px-4 pb-4 text-gray-700">{faq.answer}</div>
+                    <div className="px-5 pb-5 text-gray-700 border-t border-emerald-100 pt-3">
+                      {faq.answer}
+                    </div>
                   </details>
                 ))}
               </div>
@@ -155,16 +174,23 @@ export default function RatgeberArtikelPage({ params }: Props) {
           {/* Related Articles */}
           {related.length > 0 && (
             <section className="mb-10">
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">Verwandte Artikel</h2>
-              <div className="grid sm:grid-cols-2 gap-3">
+              <div className="cash-divider mb-6">
+                <span className="text-sm font-semibold text-emerald-700 uppercase tracking-wider">Verwandte Artikel</span>
+              </div>
+              <div className="grid sm:grid-cols-2 gap-4">
                 {related.map((r) => (
                   <Link
                     key={r.slug}
                     href={`/ratgeber/${r.slug}`}
-                    className="group p-4 rounded-lg border border-gray-200 hover:border-amber-300 hover:bg-amber-50 transition-colors"
+                    className="group glow-card p-5 rounded-xl"
                   >
-                    <div className="font-medium text-gray-900 group-hover:text-amber-700 mb-1">{r.title}</div>
-                    <p className="text-xs text-gray-500 line-clamp-2">{r.description}</p>
+                    <div className="font-medium text-gray-900 group-hover:text-emerald-600 mb-2 transition-colors">
+                      {r.title}
+                    </div>
+                    <p className="text-xs text-gray-500 line-clamp-2 mb-2">{r.description}</p>
+                    <div className="flex items-center gap-1 text-sm text-emerald-600 font-medium opacity-0 group-hover:opacity-100 transition-opacity">
+                      Lesen <ArrowRight className="w-3.5 h-3.5" />
+                    </div>
                   </Link>
                 ))}
               </div>
@@ -172,24 +198,33 @@ export default function RatgeberArtikelPage({ params }: Props) {
           )}
 
           {/* CTA */}
-          <section className="bg-gradient-to-r from-amber-600 to-yellow-600 rounded-2xl p-8 text-center text-white">
-            <h2 className="text-2xl font-bold mb-3">Bereit für deinen Minijob?</h2>
-            <p className="mb-6 text-amber-100">
-              Finde passende Minijobs und bewirb dich direkt über die Minijobgenie App.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <Link
-                href="/#app-download"
-                className="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-white text-amber-700 font-semibold hover:bg-amber-50 transition-colors"
-              >
-                App herunterladen
-              </Link>
-              <Link
-                href="/ratgeber"
-                className="inline-flex items-center justify-center px-6 py-3 rounded-lg border-2 border-white text-white font-semibold hover:bg-white/10 transition-colors"
-              >
-                Alle Ratgeber ansehen
-              </Link>
+          <section className="bg-gray-900 rounded-2xl p-8 text-center overflow-hidden relative">
+            <div className="absolute inset-0 cash-dots opacity-5" />
+            <div className="relative">
+              <div className="quick-tag mx-auto mb-4 w-fit">
+                <Banknote className="w-3.5 h-3.5" />
+                Quick Cash
+              </div>
+              <h2 className="text-2xl font-bold text-white mb-3">
+                Bereit für deinen <span className="gradient-text-cash">Minijob</span>?
+              </h2>
+              <p className="mb-6 text-gray-400">
+                Finde passende Minijobs und bewirb dich direkt über die Minijobgenie App.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-3 justify-center">
+                <Link
+                  href="/minijobs"
+                  className="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-gradient-to-r from-emerald-500 to-green-600 text-white font-semibold hover:from-emerald-600 hover:to-green-700 transition-all shadow-lg shadow-emerald-500/25"
+                >
+                  Minijobs finden
+                </Link>
+                <Link
+                  href="/ratgeber"
+                  className="inline-flex items-center justify-center px-6 py-3 rounded-lg border-2 border-emerald-500/30 text-emerald-400 font-semibold hover:bg-emerald-500/10 transition-colors"
+                >
+                  Alle Ratgeber ansehen
+                </Link>
+              </div>
             </div>
           </section>
 
@@ -197,6 +232,9 @@ export default function RatgeberArtikelPage({ params }: Props) {
             Stand: {new Date(artikel.publishDate).toLocaleDateString('de-DE', { month: 'long', year: 'numeric' })} · Alle Angaben ohne Gewähr
           </p>
         </div>
+
+        {/* Spacer */}
+        <div className="h-16" />
       </main>
       <Footer />
     </>

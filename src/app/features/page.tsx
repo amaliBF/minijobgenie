@@ -15,7 +15,7 @@ import {
   Upload,
   Users,
   MapPin,
-  Sparkles,
+  Banknote,
   Zap,
   Clock,
   ChevronRight,
@@ -24,19 +24,19 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'Minijobgenie Features – Alle Funktionen im Ueberblick',
+  title: 'Minijobgenie Features – Alle Funktionen im Überblick',
   description:
-    'Entdecke alle Features von Minijobgenie: Video-Einblicke, Swipe-Matching, Direkt-Chat, KI-Jobfinder, regionale Suche und mehr. Kostenlos fuer Jobsuchende.',
+    'Entdecke alle Features von Minijobgenie: Video-Einblicke, Swipe-Matching, Direkt-Chat, KI-Jobfinder, regionale Suche und mehr. Kostenlos für Jobsuchende.',
   alternates: { canonical: '/features' },
   openGraph: {
-    title: 'Minijobgenie Features – Alle Funktionen im Ueberblick',
+    title: 'Minijobgenie Features – Alle Funktionen im Überblick',
     description:
       'Video-Einblicke, Swipe-Matching, KI-Jobfinder und Direkt-Chat. Alle Features von Minijobgenie auf einen Blick.',
     url: 'https://minijobgenie.de/features',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Minijobgenie Features – Alle Funktionen im Ueberblick',
+    title: 'Minijobgenie Features – Alle Funktionen im Überblick',
     description:
       'Video-Einblicke, Swipe-Matching, KI-Jobfinder und Direkt-Chat. Entdecke alle Features.',
   },
@@ -46,13 +46,10 @@ const mainFeatures = [
   {
     icon: Video,
     title: 'Video-Einblicke',
-    color: 'bg-amber-100 text-amber-600',
-    gradientFrom: 'from-amber-500',
-    gradientTo: 'to-yellow-600',
     description:
-      'Vergiss langweilige Stellenanzeigen mit Stockfotos. Bei Minijobgenie zeigen echte Arbeitgeber ihren Arbeitsalltag in authentischen Kurzvideos von 30 Sekunden. Du siehst, wie es wirklich ist, im Cafe zu arbeiten, Pakete zu sortieren oder an der Kasse zu stehen.',
+      'Vergiss langweilige Stellenanzeigen mit Stockfotos. Bei Minijobgenie zeigen echte Arbeitgeber ihren Arbeitsalltag in authentischen Kurzvideos von 30 Sekunden. Du siehst, wie es wirklich ist, im Café zu arbeiten, Pakete zu sortieren oder an der Kasse zu stehen.',
     description2:
-      'Der Feed funktioniert wie TikTok: Fullscreen, Autoplay, vertikale Videos. Einfach nach oben wischen und das naechste Video entdecken. Kein Lesen, kein Scrollen durch endlose Texte. Einfach schauen, fuehlen und entscheiden.',
+      'Der Feed funktioniert wie TikTok: Fullscreen, Autoplay, vertikale Videos. Einfach nach oben wischen und das nächste Video entdecken. Kein Lesen, kein Scrollen durch endlose Texte. Einfach schauen, fühlen und entscheiden.',
     description3:
       'Jedes Video wird von echten Arbeitgebern gedreht, die ihren Arbeitsplatz so zeigen, wie er wirklich ist. Keine Hochglanz-Werbung, keine leeren Versprechen. Du siehst den echten Arbeitsplatz, die echten Kollegen und die echten Aufgaben.',
     bullets: [
@@ -60,43 +57,37 @@ const mainFeatures = [
       'Autoplay mit Ton beim Antippen',
       '30 Sekunden pro Video',
       'Echte Arbeitgeber, keine Schauspieler',
-      'Neue Videos taeglich im Feed',
+      'Neue Videos täglich im Feed',
       'Filterbar nach Branche, Region und Jobtyp',
     ],
   },
   {
     icon: Heart,
     title: 'Swipe-Matching',
-    color: 'bg-yellow-100 text-yellow-600',
-    gradientFrom: 'from-yellow-500',
-    gradientTo: 'to-amber-600',
     description:
-      'Das Matching bei Minijobgenie funktioniert nach dem Tinder-Prinzip: Du schaust dir Videos und Profile von Arbeitgebern an. Gefaellt dir, was du siehst? Swipe nach rechts oder tippe auf das Herz. Nicht interessiert? Swipe nach links und weiter geht es.',
+      'Das Matching bei Minijobgenie funktioniert nach dem Tinder-Prinzip: Du schaust dir Videos und Profile von Arbeitgebern an. Gefällt dir, was du siehst? Swipe nach rechts oder tippe auf das Herz. Nicht interessiert? Swipe nach links und weiter geht es.',
     description2:
-      'Das Besondere: Das Matching ist beidseitig. Nicht nur du likest Arbeitgeber, auch Arbeitgeber koennen dein Profil sehen und dich liken. Wenn beide Seiten Interesse zeigen, entsteht ein Match. Erst dann wird der direkte Kontakt freigeschaltet.',
+      'Das Besondere: Das Matching ist beidseitig. Nicht nur du likest Arbeitgeber, auch Arbeitgeber können dein Profil sehen und dich liken. Wenn beide Seiten Interesse zeigen, entsteht ein Match. Erst dann wird der direkte Kontakt freigeschaltet.',
     description3:
-      'Durch dieses System bekommst du nur Nachrichten von Arbeitgebern, die wirklich an dir interessiert sind. Kein Spam, keine Massenanschreiben. Jedes Match ist ein echtes Signal, dass es von beiden Seiten passen koennte.',
+      'Durch dieses System bekommst du nur Nachrichten von Arbeitgebern, die wirklich an dir interessiert sind. Kein Spam, keine Massenanschreiben. Jedes Match ist ein echtes Signal, dass es von beiden Seiten passen könnte.',
     bullets: [
       'Swipe rechts = Like, Swipe links = Weiter',
-      'Beidseitiges Matching (beide muessen liken)',
+      'Beidseitiges Matching (beide müssen liken)',
       'Match-Benachrichtigung in Echtzeit',
       'Match-Quote sichtbar im Profil',
-      'Keine unerwuenschten Nachrichten',
-      'Unbegrenzte Likes fuer Jobsuchende',
+      'Keine unerwünschten Nachrichten',
+      'Unbegrenzte Likes für Jobsuchende',
     ],
   },
   {
     icon: MessageCircle,
     title: 'Direkter Chat',
-    color: 'bg-blue-100 text-blue-600',
-    gradientFrom: 'from-blue-500',
-    gradientTo: 'to-cyan-600',
     description:
-      'Nach einem Match oeffnet sich der direkte Chat zwischen dir und dem Arbeitgeber. Kein Anschreiben formulieren, kein Bewerbungsformular ausfuellen. Einfach locker schreiben, wie du es von WhatsApp oder Instagram kennst.',
+      'Nach einem Match öffnet sich der direkte Chat zwischen dir und dem Arbeitgeber. Kein Anschreiben formulieren, kein Bewerbungsformular ausfüllen. Einfach locker schreiben, wie du es von WhatsApp oder Instagram kennst.',
     description2:
       'Der Chat funktioniert in Echtzeit: Nachrichten werden sofort zugestellt, du siehst, ob der andere gerade tippt, und bekommst Push-Benachrichtigungen auf dein Handy. So verpasst du keine Nachricht und kannst schnell reagieren.',
     description3:
-      'Im Chat koennt ihr alles besprechen: Fragen zum Job, zum Arbeitsplatz, zu den Arbeitszeiten oder zum Stundenlohn. Und wenn es passt, macht ihr direkt einen Termin fuer ein Probearbeiten oder Vorstellungsgespraech aus. Ohne Umwege.',
+      'Im Chat könnt ihr alles besprechen: Fragen zum Job, zum Arbeitsplatz, zu den Arbeitszeiten oder zum Stundenlohn. Und wenn es passt, macht ihr direkt einen Termin für ein Probearbeiten oder Vorstellungsgespräch aus. Ohne Umwege.',
     bullets: [
       'Echtzeit-Nachrichten (WebSocket)',
       'Push-Benachrichtigungen',
@@ -109,41 +100,35 @@ const mainFeatures = [
   {
     icon: Brain,
     title: 'KI-Jobfinder',
-    color: 'bg-orange-100 text-orange-600',
-    gradientFrom: 'from-orange-500',
-    gradientTo: 'to-amber-600',
     description:
-      'Du weisst noch nicht, welcher Minijob zu dir passt? Kein Problem. Unser KI-Jobfinder stellt dir 5 bis 7 gezielte Fragen zu deinen Verfuegbarkeiten, Interessen und Staerken. Basierend auf deinen Antworten schlaegt die KI passende Minijobs vor.',
+      'Du weißt noch nicht, welcher Minijob zu dir passt? Kein Problem. Unser KI-Jobfinder stellt dir 5 bis 7 gezielte Fragen zu deinen Verfügbarkeiten, Interessen und Stärken. Basierend auf deinen Antworten schlägt die KI passende Minijobs vor.',
     description2:
-      'Die kuenstliche Intelligenz analysiert nicht nur deine Antworten, sondern gleicht sie auch mit echten Jobprofilen ab. Du bekommst nicht einfach eine Liste, sondern erklaert, warum ein bestimmter Job zu dir passen koennte. Mit Stundenlohn, Arbeitszeiten und Anforderungen.',
+      'Die künstliche Intelligenz analysiert nicht nur deine Antworten, sondern gleicht sie auch mit echten Jobprofilen ab. Du bekommst nicht einfach eine Liste, sondern erklärt, warum ein bestimmter Job zu dir passen könnte. Mit Stundenlohn, Arbeitszeiten und Anforderungen.',
     description3:
-      'Das Beste: Du kannst den KI-Chat jederzeit neu starten und andere Antworten ausprobieren. So entdeckst du vielleicht Minijobs, an die du vorher nie gedacht haettest. Der Jobfinder ist wie ein kluger Freund, der sich wirklich mit Minijobs auskennt.',
+      'Das Beste: Du kannst den KI-Chat jederzeit neu starten und andere Antworten ausprobieren. So entdeckst du vielleicht Minijobs, an die du vorher nie gedacht hättest. Der Jobfinder ist wie ein kluger Freund, der sich wirklich mit Minijobs auskennt.',
     bullets: [
-      '5-7 gezielte Fragen zu Verfuegbarkeit und Interessen',
-      'KI-gestuetzte Analyse deiner Antworten',
-      'Personalisierte Jobvorschlaege mit Erklaerung',
+      '5-7 gezielte Fragen zu Verfügbarkeit und Interessen',
+      'KI-gestützte Analyse deiner Antworten',
+      'Personalisierte Jobvorschläge mit Erklärung',
       'Infos zu Stundenlohn, Zeiten und Anforderungen',
-      'Quick-Reply-Buttons fuer schnelle Antworten',
+      'Quick-Reply-Buttons für schnelle Antworten',
       'Beliebig oft wiederholbar',
     ],
   },
   {
     icon: Shield,
-    title: 'Kein Lebenslauf noetig',
-    color: 'bg-green-100 text-green-600',
-    gradientFrom: 'from-green-500',
-    gradientTo: 'to-emerald-600',
+    title: 'Kein Lebenslauf nötig',
     description:
-      'Schluss mit dem Stress, einen perfekten Lebenslauf zu schreiben. Bei Minijobgenie erstellst du dein Profil in nur 2 Minuten. Du gibst deine Verfuegbarkeit, Interessen und deinen Standort an. Formelle Qualifikationen spielen keine Rolle.',
+      'Schluss mit dem Stress, einen perfekten Lebenslauf zu schreiben. Bei Minijobgenie erstellst du dein Profil in nur 2 Minuten. Du gibst deine Verfügbarkeit, Interessen und deinen Standort an. Formelle Qualifikationen spielen keine Rolle.',
     description2:
-      'Wir glauben, dass Noten nicht alles sind. Viele Arbeitgeber suchen Aushilfen mit Motivation, Zuverlaessigkeit und Teamgeist. Genau das zeigt dein Profil: Wer du bist, was dich begeistert und wann du verfuegbar bist.',
+      'Wir glauben, dass Noten nicht alles sind. Viele Arbeitgeber suchen Aushilfen mit Motivation, Zuverlässigkeit und Teamgeist. Genau das zeigt dein Profil: Wer du bist, was dich begeistert und wann du verfügbar bist.',
     description3:
-      'Dein Profil ist wie eine digitale Visitenkarte. Du praesentierst dich so, wie du bist: authentisch, direkt und ohne Formular-Stress. Arbeitgeber sehen auf einen Blick, ob ihr zusammenpasst.',
+      'Dein Profil ist wie eine digitale Visitenkarte. Du präsentierst dich so, wie du bist: authentisch, direkt und ohne Formular-Stress. Arbeitgeber sehen auf einen Blick, ob ihr zusammenpasst.',
     bullets: [
       'Profil in 2 Minuten erstellen',
-      'Verfuegbarkeit und Interessen statt Noten',
+      'Verfügbarkeit und Interessen statt Noten',
       'Standort und Umkreis angeben',
-      'Kein Anschreiben noetig',
+      'Kein Anschreiben nötig',
       'Keine formellen Dokumente hochladen',
       'Profil jederzeit anpassbar',
     ],
@@ -151,21 +136,18 @@ const mainFeatures = [
   {
     icon: Star,
     title: 'Regional First',
-    color: 'bg-orange-100 text-orange-600',
-    gradientFrom: 'from-orange-500',
-    gradientTo: 'to-red-600',
     description:
-      'Dein Minijob sollte in deiner Naehe sein. Deshalb zeigt dir Minijobgenie zuerst Arbeitgeber aus deiner Region. Du stellst deinen Wunsch-Umkreis ein und siehst nur Videos und Profile von Arbeitgebern, die du auch wirklich erreichen kannst.',
+      'Dein Minijob sollte in deiner Nähe sein. Deshalb zeigt dir Minijobgenie zuerst Arbeitgeber aus deiner Region. Du stellst deinen Wunsch-Umkreis ein und siehst nur Videos und Profile von Arbeitgebern, die du auch wirklich erreichen kannst.',
     description2:
-      'Wir zeigen dir sogar die geschaetzte Fahrzeit mit OEPNV an, damit du weisst, wie lange du taeglich unterwegs waerst. Denn ein Minijob 60 Minuten entfernt macht wenig Sinn.',
+      'Wir zeigen dir sogar die geschätzte Fahrzeit mit ÖPNV an, damit du weißt, wie lange du täglich unterwegs wärst. Denn ein Minijob 60 Minuten entfernt macht wenig Sinn.',
     description3:
-      'Natuerlich kannst du den Radius jederzeit erweitern oder bestimmte Staedte und Regionen gezielt durchsuchen. So findest du die perfekte Balance zwischen Traumjob und kurzer Fahrt.',
+      'Natürlich kannst du den Radius jederzeit erweitern oder bestimmte Städte und Regionen gezielt durchsuchen. So findest du die perfekte Balance zwischen Traumjob und kurzer Fahrt.',
     bullets: [
       'Umkreissuche mit einstellbarem Radius',
-      'Fahrzeitanzeige mit OEPNV',
+      'Fahrzeitanzeige mit ÖPNV',
       'Standort-basierte Empfehlungen',
       'Regionale Arbeitgeber bevorzugt im Feed',
-      'Staedte- und Regionsfilter',
+      'Städte- und Regionsfilter',
       'Kombi-Suche: Branche + Stadt',
     ],
   },
@@ -190,7 +172,7 @@ const companyFeatures = [
   {
     icon: Users,
     title: 'Team-Verwaltung',
-    description: 'Fuegen Sie Kollegen hinzu, vergeben Sie Rollen und arbeiten Sie gemeinsam an der Suche nach zuverlaessigen Aushilfen.',
+    description: 'Fügen Sie Kollegen hinzu, vergeben Sie Rollen und arbeiten Sie gemeinsam an der Suche nach zuverlässigen Aushilfen.',
   },
   {
     icon: Heart,
@@ -200,7 +182,7 @@ const companyFeatures = [
   {
     icon: MessageCircle,
     title: 'Chat-System',
-    description: 'Kommunizieren Sie direkt mit gematchten Kandidaten. Echtzeit-Nachrichten, ohne Umwege ueber externe Plattformen.',
+    description: 'Kommunizieren Sie direkt mit gematchten Kandidaten. Echtzeit-Nachrichten, ohne Umwege über externe Plattformen.',
   },
 ];
 
@@ -227,17 +209,17 @@ const comparisonRows = [
   },
   {
     feature: 'Jobfinder',
-    minijobgenie: 'KI-Jobfinder mit personalisierten Vorschlaegen',
+    minijobgenie: 'KI-Jobfinder mit personalisierten Vorschlägen',
     klassisch: 'Eigenrecherche oder Zeitungsanzeigen',
   },
   {
-    feature: 'Kosten fuer Jobsuchende',
+    feature: 'Kosten für Jobsuchende',
     minijobgenie: '100% kostenlos, alle Features',
     klassisch: 'Oft kostenlos, aber Premium-Features kostenpflichtig',
   },
   {
     feature: 'Zielgruppe',
-    minijobgenie: 'Speziell fuer Minijobs und 538-Euro-Jobs',
+    minijobgenie: 'Speziell für Minijobs und 538-Euro-Jobs',
     klassisch: 'Allgemein, nicht auf Minijobs zugeschnitten',
   },
 ];
@@ -255,7 +237,7 @@ export default function FeaturesPage() {
   const webPageJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
-    name: 'Minijobgenie Features – Alle Funktionen im Ueberblick',
+    name: 'Minijobgenie Features – Alle Funktionen im Überblick',
     description:
       'Entdecke alle Features von Minijobgenie: Video-Einblicke, Swipe-Matching, Direkt-Chat, KI-Jobfinder und mehr.',
     url: 'https://minijobgenie.de/features',
@@ -267,7 +249,7 @@ export default function FeaturesPage() {
   };
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-[#F0FDF4]">
       <Header />
 
       <script
@@ -280,9 +262,12 @@ export default function FeaturesPage() {
       />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-amber-500 via-amber-600 to-yellow-600 pt-28 pb-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <nav className="text-sm text-amber-100 mb-6" aria-label="Breadcrumb">
+      <section className="bg-gradient-to-br from-emerald-600 via-emerald-500 to-green-600 pt-28 pb-20 relative overflow-hidden">
+        <div className="absolute inset-0 cash-dots opacity-10" />
+        <div className="absolute top-10 right-10 w-72 h-72 bg-white/10 rounded-full blur-3xl" />
+        <div className="absolute bottom-0 left-0 w-96 h-96 bg-green-400/10 rounded-full blur-3xl" />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <nav className="text-sm text-emerald-100 mb-6" aria-label="Breadcrumb">
             <ol className="flex items-center gap-1">
               <li>
                 <Link href="/" className="hover:text-white transition-colors">Home</Link>
@@ -293,14 +278,14 @@ export default function FeaturesPage() {
           </nav>
 
           <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-2 rounded-full bg-white/10 backdrop-blur-sm px-4 py-1.5 text-sm text-amber-100 mb-6 border border-white/20">
-              <Sparkles className="h-4 w-4" />
+            <div className="cash-badge mb-6 bg-white/15 border-white/25 text-white">
+              <Banknote className="h-4 w-4" />
               <span>Alle Funktionen im Detail</span>
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
-              Alle Features auf einen Blick
+              Alle <span className="euro-highlight">Features</span> auf einen Blick
             </h1>
-            <p className="text-lg sm:text-xl text-amber-100 mb-8 max-w-2xl">
+            <p className="text-lg sm:text-xl text-emerald-100 mb-8 max-w-2xl">
               Minijobgenie verbindet das Beste aus Video-Einblicken, Swipe-Matching und KI zu einer
               Plattform, die die Minijob-Suche endlich so macht, wie sie sein sollte:
               schnell, visuell und direkt.
@@ -310,7 +295,7 @@ export default function FeaturesPage() {
                 (tag) => (
                   <span
                     key={tag}
-                    className="px-3 py-1.5 bg-white/10 backdrop-blur-sm rounded-full text-sm text-white border border-white/20"
+                    className="quick-tag"
                   >
                     {tag}
                   </span>
@@ -325,24 +310,26 @@ export default function FeaturesPage() {
       {mainFeatures.map((feature, index) => (
         <section
           key={feature.title}
-          className={`py-20 ${index % 2 === 0 ? 'bg-white' : 'bg-gray-50'}`}
+          className={`py-20 ${index % 2 === 0 ? 'bg-white' : 'bg-[#F0FDF4]'}`}
         >
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className={`grid lg:grid-cols-2 gap-12 lg:gap-16 items-center`}>
+            <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
               <div className={index % 2 === 1 ? 'lg:order-2' : ''}>
-                <div className={`inline-flex items-center justify-center w-14 h-14 rounded-2xl ${feature.color} mb-6`}>
+                <div className="inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-emerald-100 text-emerald-600 mb-6">
                   <feature.icon className="h-7 w-7" />
                 </div>
                 <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
                   {feature.title}
                 </h2>
-                <p className="text-gray-600 text-lg leading-relaxed mb-4">{feature.description}</p>
-                <p className="text-gray-600 leading-relaxed mb-4">{feature.description2}</p>
-                <p className="text-gray-600 leading-relaxed mb-8">{feature.description3}</p>
+                <div className="speed-line">
+                  <p className="text-gray-600 text-lg leading-relaxed mb-4">{feature.description}</p>
+                  <p className="text-gray-600 leading-relaxed mb-4">{feature.description2}</p>
+                  <p className="text-gray-600 leading-relaxed mb-8">{feature.description3}</p>
+                </div>
                 <ul className="space-y-3">
                   {feature.bullets.map((bullet) => (
                     <li key={bullet} className="flex items-start gap-3">
-                      <Check className="h-5 w-5 text-amber-600 flex-shrink-0 mt-0.5" />
+                      <Check className="h-5 w-5 text-emerald-600 flex-shrink-0 mt-0.5" />
                       <span className="text-gray-700">{bullet}</span>
                     </li>
                   ))}
@@ -350,9 +337,10 @@ export default function FeaturesPage() {
               </div>
 
               <div className={index % 2 === 1 ? 'lg:order-1' : ''}>
-                <div className={`bg-gradient-to-br ${feature.gradientFrom} ${feature.gradientTo} rounded-3xl p-8 sm:p-12 aspect-square max-w-md mx-auto flex items-center justify-center relative overflow-hidden`}>
+                <div className="bg-gradient-to-br from-emerald-500 to-green-600 rounded-3xl p-8 sm:p-12 aspect-square max-w-md mx-auto flex items-center justify-center relative overflow-hidden shadow-xl shadow-emerald-500/20">
                   <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -mr-16 -mt-16" />
                   <div className="absolute bottom-0 left-0 w-24 h-24 bg-white/10 rounded-full -ml-12 -mb-12" />
+                  <div className="absolute inset-0 cash-dots opacity-5" />
                   <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                     <feature.icon className="h-24 w-24 sm:h-32 sm:w-32 text-white/90" strokeWidth={1} />
                   </div>
@@ -368,22 +356,22 @@ export default function FeaturesPage() {
         </section>
       ))}
 
-      {/* Features fuer Arbeitgeber */}
+      {/* Features für Arbeitgeber */}
       <section className="py-20 bg-gray-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <div className="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-1.5 text-sm text-amber-300 mb-6">
+            <div className="inline-flex items-center gap-2 rounded-lg bg-emerald-500/20 px-4 py-1.5 text-sm text-emerald-300 mb-6 border border-emerald-500/30">
               <Building2 className="h-4 w-4" />
-              Fuer Arbeitgeber
+              Für Arbeitgeber
             </div>
             <h2 className="text-3xl sm:text-4xl font-bold mb-4">
-              Leistungsstarke Features fuer{' '}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-yellow-400">
+              Leistungsstarke Features für{' '}
+              <span className="gradient-text-cash">
                 Arbeitgeber
               </span>
             </h2>
             <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-              Unser Dashboard gibt Ihnen alle Werkzeuge an die Hand, um zuverlaessige Minijobber zu finden
+              Unser Dashboard gibt Ihnen alle Werkzeuge an die Hand, um zuverlässige Minijobber zu finden
               und einzustellen. Effizient, modern und direkt.
             </p>
           </div>
@@ -392,9 +380,9 @@ export default function FeaturesPage() {
             {companyFeatures.map((feature) => (
               <div
                 key={feature.title}
-                className="bg-white/5 backdrop-blur rounded-2xl p-6 border border-white/10 hover:border-amber-500/50 transition-colors"
+                className="bg-white/5 backdrop-blur rounded-2xl p-6 border border-white/10 hover:border-emerald-500/50 transition-colors"
               >
-                <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-amber-500/20 text-amber-400 mb-4">
+                <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-emerald-500/20 text-emerald-400 mb-4">
                   <feature.icon className="h-6 w-6" />
                 </div>
                 <h3 className="text-lg font-semibold text-white mb-2">{feature.title}</h3>
@@ -405,8 +393,8 @@ export default function FeaturesPage() {
 
           <div className="text-center mt-12">
             <Link
-              href="https://dashboard.minijobgenie.de/login"
-              className="inline-flex items-center gap-2 rounded-full bg-amber-600 px-8 py-3.5 text-base font-medium text-white hover:bg-amber-500 transition-colors"
+              href="https://dashboard.ausbildungsgenie.de/register"
+              className="inline-flex items-center gap-2 rounded-lg bg-gradient-to-r from-emerald-500 to-green-600 px-8 py-3.5 text-base font-medium text-white hover:from-emerald-400 hover:to-green-500 transition-all shadow-lg shadow-emerald-500/25"
             >
               Arbeitgeber-Dashboard testen
               <ChevronRight className="h-4 w-4" />
@@ -419,6 +407,9 @@ export default function FeaturesPage() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
+            <div className="cash-divider mb-4">
+              <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">VERGLEICH</span>
+            </div>
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
               Minijobgenie vs. Klassische Stellenportale
             </h2>
@@ -428,16 +419,16 @@ export default function FeaturesPage() {
           </div>
 
           {/* Desktop Table */}
-          <div className="hidden md:block overflow-hidden rounded-2xl border border-gray-200">
+          <div className="hidden md:block overflow-hidden rounded-2xl border border-emerald-200">
             <table className="w-full">
               <thead>
-                <tr className="bg-gray-50">
+                <tr className="bg-emerald-50">
                   <th className="text-left px-6 py-4 text-sm font-semibold text-gray-900 w-1/3">
                     Kriterium
                   </th>
                   <th className="text-left px-6 py-4 text-sm font-semibold w-1/3">
-                    <span className="inline-flex items-center gap-2 text-amber-600">
-                      <Sparkles className="h-4 w-4" />
+                    <span className="inline-flex items-center gap-2 text-emerald-600">
+                      <Banknote className="h-4 w-4" />
                       Minijobgenie
                     </span>
                   </th>
@@ -448,11 +439,11 @@ export default function FeaturesPage() {
               </thead>
               <tbody>
                 {comparisonRows.map((row, index) => (
-                  <tr key={row.feature} className={index % 2 === 0 ? 'bg-white' : 'bg-gray-50/50'}>
+                  <tr key={row.feature} className={index % 2 === 0 ? 'bg-white' : 'bg-emerald-50/30'}>
                     <td className="px-6 py-4 text-sm font-medium text-gray-900">{row.feature}</td>
                     <td className="px-6 py-4 text-sm text-gray-700">
                       <span className="flex items-start gap-2">
-                        <Check className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />
+                        <Check className="h-4 w-4 text-emerald-500 flex-shrink-0 mt-0.5" />
                         {row.minijobgenie}
                       </span>
                     </td>
@@ -471,13 +462,13 @@ export default function FeaturesPage() {
           {/* Mobile Cards */}
           <div className="md:hidden space-y-4">
             {comparisonRows.map((row) => (
-              <div key={row.feature} className="rounded-xl border border-gray-200 p-4">
+              <div key={row.feature} className="glow-card rounded-xl p-4">
                 <h3 className="font-semibold text-gray-900 mb-3">{row.feature}</h3>
                 <div className="space-y-2">
                   <div className="flex items-start gap-2 text-sm">
-                    <Check className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />
+                    <Check className="h-4 w-4 text-emerald-500 flex-shrink-0 mt-0.5" />
                     <div>
-                      <span className="font-medium text-amber-600">Minijobgenie: </span>
+                      <span className="font-medium text-emerald-600">Minijobgenie: </span>
                       <span className="text-gray-700">{row.minijobgenie}</span>
                     </div>
                   </div>
@@ -496,34 +487,37 @@ export default function FeaturesPage() {
       </section>
 
       {/* Quick Feature Grid */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-[#F0FDF4]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
+            <div className="cash-divider mb-4">
+              <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">MEHR FEATURES</span>
+            </div>
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
               Und noch mehr Features
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Minijobgenie steckt voller durchdachter Details, die deine Minijob-Suche
-              so einfach und angenehm wie moeglich machen.
+              so einfach und angenehm wie möglich machen.
             </p>
           </div>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {[
               { icon: Zap, title: 'Schnelle Ladezeiten', text: 'Videos und Profile laden blitzschnell, auch bei langsamer Verbindung.' },
-              { icon: Shield, title: 'Datenschutz', text: 'DSGVO-konform. Deine Daten gehoeren dir und werden nie verkauft.' },
+              { icon: Shield, title: 'Datenschutz', text: 'DSGVO-konform. Deine Daten gehören dir und werden nie verkauft.' },
               { icon: MapPin, title: 'Standort-Filter', text: 'Finde Arbeitgeber in deinem Umkreis mit einstellbarem Radius.' },
-              { icon: Clock, title: 'Echtzeit-Updates', text: 'Neue Videos, Matches und Nachrichten sofort auf deinem Geraet.' },
+              { icon: Clock, title: 'Echtzeit-Updates', text: 'Neue Videos, Matches und Nachrichten sofort auf deinem Gerät.' },
               { icon: Star, title: 'Favoriten', text: 'Speichere Arbeitgeber und Videos, die dir besonders gefallen.' },
               { icon: Users, title: 'Community', text: 'Werde Teil einer Generation, die Minijob-Suche neu denkt.' },
-              { icon: Brain, title: 'Smarte Vorschlaege', text: 'Je mehr du swipest, desto besser werden die Empfehlungen.' },
-              { icon: Heart, title: 'Kostenlos', text: 'Alle Features fuer Jobsuchende sind und bleiben 100% kostenlos.' },
+              { icon: Brain, title: 'Smarte Vorschläge', text: 'Je mehr du swipest, desto besser werden die Empfehlungen.' },
+              { icon: Heart, title: 'Kostenlos', text: 'Alle Features für Jobsuchende sind und bleiben 100% kostenlos.' },
             ].map((item) => (
               <div
                 key={item.title}
-                className="bg-white rounded-xl p-5 border border-gray-100 hover:border-amber-200 hover:shadow-sm transition-all"
+                className="glow-card rounded-xl p-5"
               >
-                <item.icon className="h-6 w-6 text-amber-600 mb-3" />
+                <item.icon className="h-6 w-6 text-emerald-600 mb-3" />
                 <h3 className="font-semibold text-gray-900 mb-1 text-sm">{item.title}</h3>
                 <p className="text-gray-500 text-sm">{item.text}</p>
               </div>
@@ -533,8 +527,9 @@ export default function FeaturesPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-br from-amber-500 to-yellow-500">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section className="py-20 bg-gradient-to-br from-emerald-600 via-emerald-500 to-green-600 relative overflow-hidden">
+        <div className="absolute inset-0 cash-dots opacity-10" />
+        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
             Bereit, die Zukunft der Minijob-Suche zu erleben?
           </h2>
@@ -544,15 +539,15 @@ export default function FeaturesPage() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              href="https://dashboard.minijobgenie.de/login"
-              className="rounded-full bg-white px-8 py-3.5 text-base font-medium text-amber-600 hover:bg-gray-100 transition-colors flex items-center gap-2"
+              href="https://dashboard.ausbildungsgenie.de/register"
+              className="rounded-lg bg-white px-8 py-3.5 text-base font-medium text-emerald-700 hover:bg-emerald-50 transition-colors flex items-center gap-2 shadow-lg"
             >
               <Building2 className="h-4 w-4" />
               Als Arbeitgeber registrieren
             </Link>
             <Link
               href="/so-funktionierts"
-              className="rounded-full border-2 border-white px-8 py-3.5 text-base font-medium text-white hover:bg-white/10 transition-colors flex items-center gap-2"
+              className="rounded-lg border-2 border-white/30 px-8 py-3.5 text-base font-medium text-white hover:bg-white/10 hover:border-white/50 transition-colors flex items-center gap-2"
             >
               So funktioniert&apos;s
               <ArrowRight className="h-4 w-4" />

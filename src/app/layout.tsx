@@ -11,21 +11,21 @@ const geistSans = localFont({
 export const metadata: Metadata = {
   metadataBase: new URL('https://minijobgenie.de'),
   title: {
-    default: 'Minijobgenie \u2013 Finde deinen Minijob per Swipe | 538\u20AC-Jobs, Nebenjobs & Aushilfen',
+    default: 'Minijobgenie – Finde deinen Minijob per Swipe | 538€-Jobs, Nebenjobs & Aushilfen',
     template: '%s | Minijobgenie',
   },
   description:
-    'Finde deinen perfekten Minijob, 538\u20AC-Job oder Nebenjob per Swipe. Kurzvideos von echten Arbeitgebern, Swipe-Matching und KI-Jobfinder. Kostenlos f\u00fcr Jobsuchende.',
+    'Finde deinen perfekten Minijob, 538€-Job oder Nebenjob per Swipe. Kurzvideos von echten Arbeitgebern, Swipe-Matching und KI-Jobfinder. Kostenlos für Jobsuchende.',
   keywords: [
     'Minijob',
     '538 Euro Job',
     'Nebenjob',
     'Aushilfe',
     'Teilzeit',
-    'geringf\u00fcgige Besch\u00e4ftigung',
+    'geringfügige Beschäftigung',
     'Minijob finden',
     'Nebenjob Studenten',
-    'Minijob Sch\u00fcler',
+    'Minijob Schüler',
     'Aushilfsjob',
     'Jobsuche',
     'Swipe Matching',
@@ -33,14 +33,14 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Butterflies IT UG' }],
   creator: 'Minijobgenie',
-  publisher: 'Butterflies IT UG (haftungsbeschr\u00e4nkt)',
+  publisher: 'Butterflies IT UG (haftungsbeschränkt)',
   alternates: {
     canonical: '/',
   },
   openGraph: {
-    title: 'Minijobgenie \u2013 Finde deinen Minijob per Swipe | 538\u20AC-Jobs & Nebenjobs',
+    title: 'Minijobgenie – Finde deinen Minijob per Swipe | 538€-Jobs & Nebenjobs',
     description:
-      'Die Plattform die Jobsuchende und Arbeitgeber zusammenbringt. Minijobs, 538\u20AC-Jobs und Nebenjobs per Swipe-Matching finden.',
+      'Die Plattform die Jobsuchende und Arbeitgeber zusammenbringt. Minijobs, 538€-Jobs und Nebenjobs per Swipe-Matching finden.',
     url: 'https://minijobgenie.de',
     siteName: 'Minijobgenie',
     locale: 'de_DE',
@@ -48,9 +48,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Minijobgenie \u2013 Finde deinen Minijob per Swipe | 538\u20AC-Jobs & Nebenjobs',
+    title: 'Minijobgenie – Finde deinen Minijob per Swipe | 538€-Jobs & Nebenjobs',
     description:
-      'Finde deinen perfekten Minijob, 538\u20AC-Job oder Nebenjob per Swipe. Kurzvideos, Swipe-Matching, KI-Jobfinder. Kostenlos f\u00fcr Jobsuchende.',
+      'Finde deinen perfekten Minijob, 538€-Job oder Nebenjob per Swipe. Kurzvideos, Swipe-Matching, KI-Jobfinder. Kostenlos für Jobsuchende.',
   },
   robots: {
     index: true,
@@ -65,32 +65,36 @@ export const metadata: Metadata = {
   },
 };
 
-const jsonLd = {
+const jsonLdOrg = {
   '@context': 'https://schema.org',
-  '@type': 'WebApplication',
+  '@type': 'Organization',
   name: 'Minijobgenie',
   url: 'https://minijobgenie.de',
+  logo: 'https://minijobgenie.de/icon.png',
   description:
-    'Die Plattform die Jobsuchende und Arbeitgeber zusammenbringt. Minijobs, 538\u20AC-Jobs und Nebenjobs per Swipe-Matching, Kurzvideos und KI-Jobfinder.',
-  applicationCategory: 'BusinessApplication',
-  operatingSystem: 'Web, iOS, Android',
-  offers: {
-    '@type': 'Offer',
-    price: '0',
-    priceCurrency: 'EUR',
-    description: 'Kostenlos f\u00fcr Jobsuchende',
-  },
-  creator: {
+    'Die innovative Minijob-Plattform mit Kurzvideos, Swipe-Matching und KI-Jobfinder. 538€-Jobs, Nebenjobs und Aushilfen per Swipe finden.',
+  founder: {
     '@type': 'Organization',
-    name: 'Butterflies IT UG (haftungsbeschr\u00e4nkt)',
-    address: {
-      '@type': 'PostalAddress',
-      streetAddress: 'Hagenower Str. 73',
-      addressLocality: 'Schwerin',
-      postalCode: '19061',
-      addressCountry: 'DE',
-    },
+    name: 'Butterflies IT UG (haftungsbeschränkt)',
   },
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: 'Hagenower Str. 73',
+    addressLocality: 'Schwerin',
+    postalCode: '19061',
+    addressCountry: 'DE',
+  },
+  contactPoint: {
+    '@type': 'ContactPoint',
+    email: 'kontakt@minijobgenie.de',
+    contactType: 'customer service',
+    availableLanguage: 'German',
+  },
+  sameAs: [
+    'https://instagram.com/minijobgenie',
+    'https://tiktok.com/@minijobgenie',
+    'https://youtube.com/@minijobgenie',
+  ],
 };
 
 export default function RootLayout({
@@ -103,7 +107,7 @@ export default function RootLayout({
       <head>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdOrg) }}
         />
       </head>
       <body className={`${geistSans.variable} font-sans antialiased`}>

@@ -5,6 +5,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { getStadtBySlug, getAllStaedteSlugs, getNachbarstaedte } from '@/lib/staedte-data';
 import { branchen } from '@/lib/branchen-data';
+import { Banknote, MapPin, Users, Wallet, Train, CheckCircle2, ChevronRight } from 'lucide-react';
 
 interface Props {
   params: { slug: string };
@@ -49,64 +50,100 @@ export default function MinijobsStadtPage({ params }: Props) {
   return (
     <>
       <Header />
-      <main className="pt-24 pb-16 bg-white min-h-screen">
+      <main className="min-h-screen bg-[#F0FDF4]">
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
         />
 
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <nav className="text-sm text-gray-500 mb-6" aria-label="Breadcrumb">
-            <ol className="flex items-center gap-1">
-              <li><Link href="/" className="hover:text-amber-600">Home</Link></li>
-              <li>/</li>
-              <li><Link href="/minijobs" className="hover:text-amber-600">Minijobs</Link></li>
-              <li>/</li>
-              <li className="text-gray-900 font-medium">{stadt.name}</li>
-            </ol>
-          </nav>
+        {/* Hero */}
+        <section className="relative bg-gradient-to-br from-emerald-600 via-emerald-500 to-green-600 pt-24 pb-16 overflow-hidden">
+          <div className="absolute inset-0 cash-dots opacity-10" />
+          <div className="absolute top-10 right-10 w-64 h-64 bg-emerald-400/20 rounded-full blur-3xl" />
 
-          <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-            Minijobs in {stadt.name}
-          </h1>
-          <p className="text-lg text-gray-600 mb-8">{stadt.beschreibung}</p>
+          <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <nav className="text-sm text-emerald-200 mb-6" aria-label="Breadcrumb">
+              <ol className="flex items-center gap-1">
+                <li><Link href="/" className="hover:text-white transition-colors">Home</Link></li>
+                <li><ChevronRight className="w-3.5 h-3.5" /></li>
+                <li><Link href="/minijobs" className="hover:text-white transition-colors">Minijobs</Link></li>
+                <li><ChevronRight className="w-3.5 h-3.5" /></li>
+                <li className="text-white font-medium">{stadt.name}</li>
+              </ol>
+            </nav>
 
-          {/* Stadt-Info */}
-          <div className="grid sm:grid-cols-3 gap-4 mb-8">
-            <div className="bg-amber-50 rounded-xl p-4 text-center">
+            <div className="flex items-center gap-3 mb-4">
+              <div className="quick-tag">
+                <MapPin className="w-3.5 h-3.5" />
+                {stadt.bundesland}
+              </div>
+            </div>
+
+            <h1 className="text-3xl sm:text-4xl font-bold text-white mb-4">
+              Minijobs in <span className="text-emerald-200">{stadt.name}</span>
+            </h1>
+            <p className="text-lg text-emerald-100">{stadt.beschreibung}</p>
+          </div>
+        </section>
+
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+          {/* Stadt-Info Cards */}
+          <div className="grid sm:grid-cols-3 gap-4 mb-10">
+            <div className="glow-card rounded-xl p-5 text-center">
+              <div className="w-10 h-10 rounded-xl bg-emerald-100 flex items-center justify-center mx-auto mb-2">
+                <MapPin className="w-5 h-5 text-emerald-600" />
+              </div>
               <div className="text-sm text-gray-500">Bundesland</div>
               <div className="font-semibold text-gray-900">{stadt.bundesland}</div>
             </div>
-            <div className="bg-amber-50 rounded-xl p-4 text-center">
+            <div className="glow-card rounded-xl p-5 text-center">
+              <div className="w-10 h-10 rounded-xl bg-emerald-100 flex items-center justify-center mx-auto mb-2">
+                <Users className="w-5 h-5 text-emerald-600" />
+              </div>
               <div className="text-sm text-gray-500">Einwohner</div>
               <div className="font-semibold text-gray-900">{stadt.einwohner.toLocaleString('de-DE')}</div>
             </div>
-            <div className="bg-amber-50 rounded-xl p-4 text-center">
+            <div className="glow-card rounded-xl p-5 text-center">
+              <div className="w-10 h-10 rounded-xl bg-emerald-100 flex items-center justify-center mx-auto mb-2">
+                <Wallet className="w-5 h-5 text-emerald-600" />
+              </div>
               <div className="text-sm text-gray-500">Lebenshaltung</div>
               <div className="font-semibold text-gray-900 capitalize">{stadt.lebenshaltung}</div>
             </div>
           </div>
 
-          {/* OEPNV */}
+          {/* ÖPNV */}
           {stadt.oepnv && (
-            <section className="mb-8">
-              <h2 className="text-xl font-bold text-gray-900 mb-3">Nahverkehr in {stadt.name}</h2>
-              <p className="text-gray-600">{stadt.oepnv}</p>
+            <section className="mb-10">
+              <div className="cash-divider mb-4">
+                <span className="text-sm font-semibold text-emerald-700 uppercase tracking-wider">Nahverkehr</span>
+              </div>
+              <div className="glow-card rounded-xl p-5 flex items-start gap-3">
+                <div className="w-10 h-10 rounded-xl bg-emerald-100 flex items-center justify-center flex-shrink-0">
+                  <Train className="w-5 h-5 text-emerald-600" />
+                </div>
+                <div>
+                  <h2 className="font-bold text-gray-900 mb-1">Nahverkehr in {stadt.name}</h2>
+                  <p className="text-gray-600">{stadt.oepnv}</p>
+                </div>
+              </div>
             </section>
           )}
 
           {/* Beliebte Branchen */}
-          <section className="mb-8">
-            <h2 className="text-xl font-bold text-gray-900 mb-3">Beliebte Minijob-Branchen in {stadt.name}</h2>
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
+          <section className="mb-10">
+            <div className="cash-divider mb-6">
+              <span className="text-sm font-semibold text-emerald-700 uppercase tracking-wider">Beliebte Branchen</span>
+            </div>
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
               {branchen.slice(0, 6).map((b) => (
                 <Link
                   key={b.slug}
                   href={`/branchen/${b.slug}`}
-                  className="flex items-center gap-2 p-3 rounded-lg border border-gray-200 hover:border-amber-300 hover:bg-amber-50 transition-colors"
+                  className="group glow-card flex items-center gap-2.5 p-3.5 rounded-xl"
                 >
                   <span className="text-lg">{b.icon}</span>
-                  <span className="text-sm font-medium text-gray-900">{b.name}</span>
+                  <span className="text-sm font-medium text-gray-900 group-hover:text-emerald-600 transition-colors">{b.name}</span>
                 </Link>
               ))}
             </div>
@@ -114,12 +151,14 @@ export default function MinijobsStadtPage({ params }: Props) {
 
           {/* Besonderheiten */}
           {stadt.besonderheiten.length > 0 && (
-            <section className="mb-8">
-              <h2 className="text-xl font-bold text-gray-900 mb-3">Besonderheiten</h2>
-              <ul className="space-y-2">
+            <section className="mb-10">
+              <div className="cash-divider mb-6">
+                <span className="text-sm font-semibold text-emerald-700 uppercase tracking-wider">Besonderheiten</span>
+              </div>
+              <ul className="space-y-3">
                 {stadt.besonderheiten.map((b, i) => (
-                  <li key={i} className="flex items-start gap-2 text-gray-700">
-                    <span className="text-amber-500 mt-0.5 flex-shrink-0">&#10003;</span>
+                  <li key={i} className="speed-line flex items-start gap-2.5 text-gray-700 py-2">
+                    <CheckCircle2 className="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" />
                     <span>{b}</span>
                   </li>
                 ))}
@@ -127,17 +166,20 @@ export default function MinijobsStadtPage({ params }: Props) {
             </section>
           )}
 
-          {/* Nachbarstaedte */}
+          {/* Nachbarstädte */}
           {nachbarn.length > 0 && (
-            <section className="mb-8">
-              <h2 className="text-xl font-bold text-gray-900 mb-3">Minijobs in der Naehe</h2>
+            <section className="mb-10">
+              <div className="cash-divider mb-6">
+                <span className="text-sm font-semibold text-emerald-700 uppercase tracking-wider">Minijobs in der Nähe</span>
+              </div>
               <div className="flex flex-wrap gap-2">
                 {nachbarn.map((n) => (
                   <Link
                     key={n.slug}
                     href={`/minijobs/${n.slug}`}
-                    className="px-3 py-1.5 bg-gray-100 hover:bg-amber-100 hover:text-amber-700 rounded-full text-sm font-medium text-gray-700 transition-colors"
+                    className="cash-badge hover:bg-emerald-200 transition-colors"
                   >
+                    <MapPin className="w-3 h-3" />
                     Minijobs {n.name}
                   </Link>
                 ))}
@@ -146,24 +188,33 @@ export default function MinijobsStadtPage({ params }: Props) {
           )}
 
           {/* CTA */}
-          <section className="bg-gradient-to-r from-amber-500 to-yellow-500 rounded-2xl p-8 text-center text-white">
-            <h2 className="text-2xl font-bold mb-3">Minijob in {stadt.name} finden</h2>
-            <p className="mb-6 text-amber-100">
-              Entdecke passende 538-Euro-Jobs und Nebenjobs in {stadt.name} per Swipe-Matching.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <Link
-                href="/branchen"
-                className="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-white text-amber-700 font-semibold hover:bg-amber-50 transition-colors"
-              >
-                Alle Branchen ansehen
-              </Link>
-              <Link
-                href="/ratgeber"
-                className="inline-flex items-center justify-center px-6 py-3 rounded-lg border-2 border-white text-white font-semibold hover:bg-white/10 transition-colors"
-              >
-                Minijob-Ratgeber
-              </Link>
+          <section className="bg-gray-900 rounded-2xl p-8 text-center overflow-hidden relative">
+            <div className="absolute inset-0 cash-dots opacity-5" />
+            <div className="relative">
+              <div className="quick-tag mx-auto mb-4 w-fit">
+                <Banknote className="w-3.5 h-3.5" />
+                Quick Cash
+              </div>
+              <h2 className="text-2xl font-bold text-white mb-3">
+                Minijob in {stadt.name} finden
+              </h2>
+              <p className="mb-6 text-gray-400">
+                Entdecke passende 538-Euro-Jobs und Nebenjobs in {stadt.name} per Swipe-Matching.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-3 justify-center">
+                <Link
+                  href="/branchen"
+                  className="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-gradient-to-r from-emerald-500 to-green-600 text-white font-semibold hover:from-emerald-600 hover:to-green-700 transition-all shadow-lg shadow-emerald-500/25"
+                >
+                  Alle Branchen ansehen
+                </Link>
+                <Link
+                  href="/ratgeber"
+                  className="inline-flex items-center justify-center px-6 py-3 rounded-lg border-2 border-emerald-500/30 text-emerald-400 font-semibold hover:bg-emerald-500/10 transition-colors"
+                >
+                  Minijob-Ratgeber
+                </Link>
+              </div>
             </div>
           </section>
         </div>

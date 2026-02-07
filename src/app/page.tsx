@@ -11,7 +11,6 @@ import {
   Zap,
   Shield,
   ChevronRight,
-  Quote,
   Briefcase,
   UtensilsCrossed,
   ShoppingCart,
@@ -19,12 +18,15 @@ import {
   Bike,
   Monitor,
   PartyPopper,
-  Sparkles as SparklesIcon,
   BookOpen,
   HeartPulse,
   Dumbbell,
   Wrench,
   Factory,
+  Banknote,
+  Clock,
+  TrendingUp,
+  Euro,
 } from 'lucide-react';
 import Link from 'next/link';
 import Header from '../components/Header';
@@ -36,18 +38,18 @@ const jsonLd = {
   name: 'Minijobgenie',
   url: 'https://minijobgenie.de',
   description:
-    'Die innovative Minijob-Plattform mit Video-Einblicken, Swipe-Matching und KI-Jobfinder. Finde deinen 538-Euro-Job per Swipe - kostenlos fuer Jobsuchende.',
+    'Die innovative Minijob-Plattform mit Video-Einblicken, Swipe-Matching und KI-Jobfinder. Finde deinen 538-Euro-Job per Swipe – kostenlos für Jobsuchende.',
   applicationCategory: 'BusinessApplication',
   operatingSystem: 'Web, iOS, Android',
   offers: {
     '@type': 'Offer',
     price: '0',
     priceCurrency: 'EUR',
-    description: 'Kostenlos fuer Jobsuchende',
+    description: 'Kostenlos für Jobsuchende',
   },
   creator: {
     '@type': 'Organization',
-    name: 'Butterflies IT UG (haftungsbeschraenkt)',
+    name: 'Butterflies IT UG (haftungsbeschränkt)',
     address: {
       '@type': 'PostalAddress',
       streetAddress: 'Hagenower Str. 73',
@@ -58,176 +60,178 @@ const jsonLd = {
   },
 };
 
-const jsonLdWebSite = {
+const jsonLdSearch = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
   name: 'Minijobgenie',
   url: 'https://minijobgenie.de',
   potentialAction: {
     '@type': 'SearchAction',
-    target: 'https://minijobgenie.de/jobs?q={search_term_string}',
+    target: 'https://minijobgenie.de/minijobs?q={search_term_string}',
     'query-input': 'required name=search_term_string',
   },
 };
 
 export default function LandingPage() {
   return (
-    <div className="min-h-screen bg-white">
-      {/* JSON-LD Structured Data */}
+    <div className="min-h-screen bg-[#F0FDF4]">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdWebSite) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSearch) }}
       />
 
       <Header />
 
-      {/* Hero Section */}
-      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto text-center">
-          <div className="inline-flex items-center gap-2 rounded-full bg-amber-50 px-4 py-1.5 text-sm text-amber-700 mb-8">
-            <Zap className="h-4 w-4" />
-            <span>Die neue Art, Minijobs zu finden</span>
-          </div>
-          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-gray-900 max-w-5xl mx-auto">
-            Finde deinen{' '}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-yellow-500">
-              Minijob
-            </span>{' '}
-            &ndash; per Swipe!
-          </h1>
-          <p className="mt-6 text-xl text-gray-600 max-w-3xl mx-auto">
-            Die smarte Plattform f&uuml;r 538-Euro-Jobs, Nebenjobs und Aushilfst&auml;tigkeiten.
-            Kurze Videos von echten Arbeitgebern, Swipe-Matching und direkter Chat.
-            So einfach war die Minijob-Suche noch nie.
-          </p>
-          <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a
-              href="#so-funktionierts"
-              className="rounded-full bg-gray-900 px-8 py-3.5 text-base font-medium text-white hover:bg-gray-800 transition-colors flex items-center gap-2"
-            >
-              App kommt bald
-              <ArrowRight className="h-4 w-4" />
-            </a>
-            <Link
-              href="https://dashboard.minijobgenie.de/login"
-              className="rounded-full border-2 border-gray-200 px-8 py-3.5 text-base font-medium text-gray-700 hover:border-gray-300 transition-colors flex items-center gap-2"
-            >
-              <Building2 className="h-4 w-4" />
-              Als Arbeitgeber registrieren
-            </Link>
-          </div>
+      {/* Hero Section – Quick Cash Style */}
+      <section className="pt-28 pb-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+        <div className="absolute inset-0 cash-dots opacity-40" />
+        <div className="max-w-7xl mx-auto relative">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <div className="cash-badge mb-6">
+                <Zap className="h-3.5 w-3.5" />
+                <span>538€-Jobs per Swipe finden</span>
+              </div>
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-gray-900 leading-[1.1]">
+                Finde deinen{' '}
+                <span className="euro-highlight">Minijob</span>{' '}
+                – schnell & einfach
+              </h1>
+              <p className="mt-6 text-lg text-gray-600 leading-relaxed max-w-xl">
+                Die innovative Minijob-Plattform mit 30-Sekunden-Videos, Swipe-Matching
+                und KI-Jobfinder. Lerne Arbeitgeber authentisch kennen und starte sofort.
+              </p>
+              <div className="mt-8 flex flex-col sm:flex-row gap-3">
+                <a
+                  href="#so-funktionierts"
+                  className="inline-flex items-center justify-center gap-2 rounded-lg bg-gradient-to-r from-emerald-500 to-green-600 px-7 py-3.5 text-base font-semibold text-white hover:from-emerald-400 hover:to-green-500 transition-all shadow-lg shadow-emerald-500/20"
+                >
+                  App kommt bald
+                  <ArrowRight className="h-4 w-4" />
+                </a>
+                <Link
+                  href="https://dashboard.ausbildungsgenie.de/register"
+                  className="inline-flex items-center justify-center gap-2 rounded-lg border-2 border-emerald-200 px-7 py-3.5 text-base font-semibold text-gray-700 hover:border-emerald-400 hover:bg-emerald-50 transition-all"
+                >
+                  <Building2 className="h-4 w-4" />
+                  Als Arbeitgeber starten
+                </Link>
+              </div>
+            </div>
 
-          {/* Stats with Icons */}
-          <div className="mt-20 grid grid-cols-3 gap-8 max-w-lg mx-auto">
-            <div className="flex flex-col items-center">
-              <div className="w-10 h-10 rounded-xl bg-amber-100 flex items-center justify-center mb-2">
-                <Video className="h-5 w-5 text-amber-600" />
+            {/* Right side – Quick Cash Cards */}
+            <div className="grid grid-cols-2 gap-4">
+              <div className="space-y-4">
+                <div className="glow-card rounded-2xl p-6">
+                  <div className="w-10 h-10 rounded-xl bg-emerald-100 flex items-center justify-center mb-3">
+                    <Video className="h-5 w-5 text-emerald-600" />
+                  </div>
+                  <p className="text-2xl font-bold text-gray-900">30s</p>
+                  <p className="text-sm text-gray-500 mt-0.5">Video-Einblicke</p>
+                </div>
+                <div className="glow-card rounded-2xl p-6">
+                  <div className="w-10 h-10 rounded-xl bg-green-100 flex items-center justify-center mb-3">
+                    <Heart className="h-5 w-5 text-green-600" />
+                  </div>
+                  <p className="text-2xl font-bold text-gray-900">Swipe</p>
+                  <p className="text-sm text-gray-500 mt-0.5">Match & los</p>
+                </div>
               </div>
-              <p className="text-3xl font-bold text-gray-900">30s</p>
-              <p className="text-sm text-gray-500 mt-1">Arbeitgeber-Videos</p>
-            </div>
-            <div className="flex flex-col items-center">
-              <div className="w-10 h-10 rounded-xl bg-yellow-100 flex items-center justify-center mb-2">
-                <Briefcase className="h-5 w-5 text-yellow-600" />
+              <div className="space-y-4 mt-8">
+                <div className="glow-card rounded-2xl p-6">
+                  <div className="w-10 h-10 rounded-xl bg-lime-100 flex items-center justify-center mb-3">
+                    <Banknote className="h-5 w-5 text-lime-600" />
+                  </div>
+                  <p className="text-2xl font-bold text-gray-900">538€</p>
+                  <p className="text-sm text-gray-500 mt-0.5">Steuerfrei verdienen</p>
+                </div>
+                <div className="glow-card rounded-2xl p-6">
+                  <div className="w-10 h-10 rounded-xl bg-teal-100 flex items-center justify-center mb-3">
+                    <Shield className="h-5 w-5 text-teal-600" />
+                  </div>
+                  <p className="text-2xl font-bold text-gray-900">0 €</p>
+                  <p className="text-sm text-gray-500 mt-0.5">Kostenlos für dich</p>
+                </div>
               </div>
-              <p className="text-3xl font-bold text-gray-900">100.000+</p>
-              <p className="text-sm text-gray-500 mt-1">Minijobs deutschlandweit</p>
-            </div>
-            <div className="flex flex-col items-center">
-              <div className="w-10 h-10 rounded-xl bg-green-100 flex items-center justify-center mb-2">
-                <Shield className="h-5 w-5 text-green-600" />
-              </div>
-              <p className="text-3xl font-bold text-gray-900">0&euro;</p>
-              <p className="text-sm text-gray-500 mt-1">Kostenlos f&uuml;r Jobsuchende</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Features Section */}
-      <section id="features" className="py-20 bg-gray-50">
+      {/* Features – Glow Cards */}
+      <section id="features" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
+            <div className="cash-divider mb-4">
+              <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">Features</span>
+            </div>
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
-              Minijob-Suche, die Spa&szlig; macht
+              Minijob-Suche, die <span className="euro-highlight">Spaß macht</span>
             </h2>
             <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-              Schluss mit langweiligen Stellenanzeigen. Erlebe Arbeitgeber in kurzen Videos und finde per Swipe deinen perfekten Nebenjob.
+              Schluss mit langweiligen Stellenanzeigen. Erlebe Arbeitgeber live in kurzen Videos und finde deinen Nebenjob per Swipe.
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               {
                 icon: Video,
                 title: 'Video-Einblicke',
-                description:
-                  'Arbeitgeber zeigen sich in 30-Sekunden-Videos: Arbeitsplatz, Team, Aufgaben. Authentisch statt anonyme Stellenanzeige.',
-                color: 'bg-amber-100 text-amber-600',
+                description: 'Arbeitgeber zeigen sich in 30-Sekunden-Videos: Arbeitsalltag, Team, Atmosphäre. Echt statt Floskeln.',
+                color: 'bg-emerald-100 text-emerald-600',
               },
               {
                 icon: Heart,
                 title: 'Swipe-Matching',
-                description:
-                  'Swipe rechts, wenn ein Job dich anspricht. Matched der Arbeitgeber zur&uuml;ck, entsteht sofort eine Verbindung.',
-                color: 'bg-yellow-100 text-yellow-600',
+                description: 'Swipe rechts, wenn ein Job dich anspricht. Matched es auch, entsteht eine direkte Verbindung.',
+                color: 'bg-green-100 text-green-600',
               },
               {
                 icon: Brain,
                 title: 'KI-Jobfinder',
-                description:
-                  'Unsere KI fragt nach deinen Verf&uuml;gbarkeiten, Interessen und St&auml;rken und findet die passenden Minijobs f&uuml;r dich.',
-                color: 'bg-orange-100 text-orange-600',
+                description: 'Unsere KI lernt deine Vorlieben und schlägt dir passende Minijobs in deiner Nähe vor.',
+                color: 'bg-lime-100 text-lime-600',
               },
               {
                 icon: MessageCircle,
                 title: 'Direkt-Chat',
-                description:
-                  'Nach dem Match chattest du direkt mit dem Arbeitgeber. Kein Anschreiben, keine Bewerbungsmappe.',
-                color: 'bg-amber-100 text-amber-700',
+                description: 'Nach dem Match chattest du direkt mit dem Arbeitgeber. Kein Anschreiben, sofort loslegen.',
+                color: 'bg-teal-100 text-teal-600',
               },
             ].map((feature) => (
-              <div
-                key={feature.title}
-                className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow"
-              >
-                <div
-                  className={`inline-flex items-center justify-center w-12 h-12 rounded-xl ${feature.color} mb-5`}
-                >
+              <div key={feature.title} className="glow-card rounded-xl p-7">
+                <div className={`inline-flex items-center justify-center w-12 h-12 rounded-xl ${feature.color} mb-4`}>
                   <feature.icon className="h-6 w-6" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">{feature.title}</h3>
-                <p className="mt-2 text-gray-600">{feature.description}</p>
+                <h3 className="text-lg font-bold text-gray-900">{feature.title}</h3>
+                <p className="mt-2 text-gray-600 leading-relaxed">{feature.description}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Social Proof / Testimonial */}
-      <section className="py-16 bg-white">
+      {/* Testimonial – Speed Line Quote */}
+      <section className="py-16 bg-[#F0FDF4]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="relative bg-gradient-to-br from-amber-50 to-yellow-50 rounded-3xl p-8 sm:p-12 border border-amber-100">
-            <Quote className="absolute top-6 left-6 h-10 w-10 text-amber-200" />
-            <div className="relative text-center">
-              <p className="text-lg sm:text-xl text-gray-700 leading-relaxed italic max-w-2xl mx-auto">
-                &ldquo;Neben dem Studium einen Minijob zu finden war immer nervig &ndash; ewig Stellenanzeigen
-                durchscrollen und Bewerbungen schreiben. Bei Minijobgenie habe ich einfach ein paar Videos
-                geschaut, nach rechts geswipt und zwei Tage sp&auml;ter im Caf&eacute; angefangen.
-                Genau so sollte das laufen!&rdquo;
-              </p>
-              <div className="mt-6 flex items-center justify-center gap-3">
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-amber-200 text-amber-700 font-bold text-sm">
-                  LM
-                </div>
-                <div className="text-left">
-                  <p className="font-semibold text-gray-900 text-sm">Lena M.</p>
-                  <p className="text-sm text-gray-500">Studentin, jobbt nebenbei in der Gastro</p>
-                </div>
+          <div className="speed-line pl-6">
+            <p className="text-xl sm:text-2xl text-gray-700 leading-relaxed italic">
+              „Ich brauchte schnell einen Nebenjob neben dem Studium. Bei Minijobgenie habe ich nach 3 Tagen
+              als Barista angefangen – das Video vom Café hat mich sofort überzeugt. Kein Lebenslauf,
+              kein Anschreiben, einfach swipen und chatten.&ldquo;
+            </p>
+            <div className="mt-6 flex items-center gap-3">
+              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-emerald-100 text-emerald-700 font-bold text-sm">
+                LM
+              </div>
+              <div>
+                <p className="font-semibold text-gray-900 text-sm">Lisa M.</p>
+                <p className="text-sm text-gray-500">Studentin, Barista-Minijob in Hamburg</p>
               </div>
             </div>
           </div>
@@ -235,92 +239,78 @@ export default function LandingPage() {
       </section>
 
       {/* How it Works */}
-      <section id="so-funktionierts" className="py-20 bg-gray-50">
+      <section id="so-funktionierts" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
+            <div className="cash-divider mb-4">
+              <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">So einfach geht&apos;s</span>
+            </div>
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
-              So funktioniert&apos;s
+              In 4 Schritten zum <span className="euro-highlight">Minijob</span>
             </h2>
-            <p className="mt-4 text-lg text-gray-600">In 4 einfachen Schritten zum Minijob</p>
           </div>
 
-          <div className="relative grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            {/* Connecting line (lg only) */}
-            <div className="hidden lg:block absolute top-7 left-[12.5%] right-[12.5%] h-0.5 bg-gradient-to-r from-amber-200 via-yellow-200 to-amber-200" />
-
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              {
-                step: '1',
-                title: 'Profil erstellen',
-                description: 'Verf&uuml;gbarkeit, Interessen und Standort angeben &ndash; in 2 Minuten erledigt.',
-              },
-              {
-                step: '2',
-                title: 'Videos schauen',
-                description: 'Scrolle durch Kurzvideos von Arbeitgebern und sieh dir den Job live an.',
-              },
-              {
-                step: '3',
-                title: 'Swipen & Matchen',
-                description: 'Like Jobs, die dir gefallen. Wenn der Arbeitgeber dich auch mag: Match!',
-              },
-              {
-                step: '4',
-                title: 'Chatten & Loslegen',
-                description: 'Chatte direkt mit dem Arbeitgeber und starte deinen Minijob. Ohne Papierkram.',
-              },
+              { step: '01', title: 'Profil erstellen', description: 'Verfügbarkeit, Wunschbranche und Standort angeben – in 2 Minuten.', icon: Clock },
+              { step: '02', title: 'Videos entdecken', description: 'Scrolle durch Kurzvideos von Arbeitgebern in deiner Nähe.', icon: Video },
+              { step: '03', title: 'Swipen & Matchen', description: 'Like Jobs, die zu dir passen. Bei gegenseitigem Interesse: Match!', icon: Heart },
+              { step: '04', title: 'Loslegen', description: 'Chatte direkt mit dem Arbeitgeber und starte deinen Minijob.', icon: Zap },
             ].map((item) => (
-              <div key={item.step} className="relative text-center">
-                <div className="w-14 h-14 rounded-full bg-gradient-to-br from-amber-500 to-yellow-500 text-white text-2xl font-bold flex items-center justify-center mx-auto relative z-10">
-                  {item.step}
+              <div key={item.step} className="text-center group">
+                <span className="block text-sm font-black text-emerald-300 tracking-widest mb-2">{item.step}</span>
+                <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-emerald-500 to-green-600 flex items-center justify-center shadow-lg shadow-emerald-500/20 mx-auto mb-5 group-hover:scale-105 transition-transform">
+                  <item.icon className="h-7 w-7 text-white" />
                 </div>
-                <h3 className="mt-5 text-lg font-semibold text-gray-900">{item.title}</h3>
-                <p className="mt-2 text-gray-600" dangerouslySetInnerHTML={{ __html: item.description }} />
+                <h3 className="text-lg font-bold text-gray-900">{item.title}</h3>
+                <p className="mt-2 text-gray-600">{item.description}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* For Employers Section */}
-      <section id="fuer-arbeitgeber" className="py-20 bg-gray-900 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      {/* For Employers – Dark Green Section */}
+      <section className="py-20 bg-gray-900 text-white relative overflow-hidden">
+        <div className="absolute inset-0 opacity-5">
+          <div className="absolute inset-0 cash-dots" />
+        </div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
-              <div className="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-1.5 text-sm text-amber-300 mb-6">
-                <Building2 className="h-4 w-4" />
-                F&uuml;r Arbeitgeber
+              <div className="cash-badge !bg-emerald-900/50 !text-emerald-300 !border-emerald-700/50 mb-6">
+                <Building2 className="h-3.5 w-3.5" />
+                <span>Für Arbeitgeber</span>
               </div>
-              <h2 className="text-3xl sm:text-4xl font-bold">
-                Finden Sie{' '}
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-yellow-400">
-                  zuverl&auml;ssige Aushilfen
+              <h2 className="text-3xl sm:text-4xl font-bold leading-tight">
+                Finden Sie die{' '}
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-green-300">
+                  perfekte Aushilfe
                 </span>{' '}
-                per Video & Matching
+                per Video & Swipe
               </h2>
-              <p className="mt-6 text-lg text-gray-300">
-                Minijobber &uuml;ber Zeitungsanzeigen oder Aush&auml;nge suchen? Das war gestern.
-                Mit Minijobgenie zeigen Sie Ihren Arbeitsplatz in kurzen Videos und finden
-                motivierte Aushilfen, Sch&uuml;ler, Studenten und Teilzeitkr&auml;fte per Swipe-Matching.
+              <p className="mt-6 text-lg text-gray-300 leading-relaxed">
+                Klassische Jobportale sind zu langsam für Minijobs. Mit Minijobgenie finden Sie
+                flexible Aushilfen, die wirklich zu Ihrem Team passen – per Kurzvideo und Matching.
               </p>
-              <ul className="mt-8 space-y-4">
+              <ul className="mt-8 space-y-3">
                 {[
-                  '30-Sekunden-Videos von Ihrem Arbeitsplatz hochladen',
-                  'Passende Kandidaten per Swipe-Matching finden',
+                  '30-Sekunden-Teamvideos hochladen',
+                  'Flexible Aushilfen per Swipe matchen',
                   'Direkter Chat nach erfolgreichem Match',
                   'Analytics-Dashboard mit Bewerber-Insights',
-                  'Mehrere Standorte und Jobs verwalten',
-                  'Schnelle Besetzung offener Minijob-Stellen',
+                  'Mehrere Standorte verwalten',
+                  'Schnellbesetzung in unter 48 Stunden',
                 ].map((item) => (
                   <li key={item} className="flex items-center gap-3">
-                    <Check className="h-5 w-5 text-amber-400 flex-shrink-0" />
+                    <Check className="h-5 w-5 text-emerald-400 flex-shrink-0" />
                     <span className="text-gray-200">{item}</span>
                   </li>
                 ))}
               </ul>
               <Link
-                href="https://dashboard.minijobgenie.de/login"
-                className="inline-flex items-center gap-2 mt-10 rounded-full bg-amber-600 px-8 py-3.5 text-base font-medium text-white hover:bg-amber-500 transition-colors"
+                href="https://dashboard.ausbildungsgenie.de/register"
+                className="inline-flex items-center gap-2 mt-10 rounded-lg bg-gradient-to-r from-emerald-500 to-green-600 px-8 py-3.5 text-base font-semibold text-white hover:from-emerald-400 hover:to-green-500 transition-all shadow-lg shadow-emerald-500/20"
               >
                 Jetzt kostenlos starten
                 <ChevronRight className="h-4 w-4" />
@@ -329,20 +319,20 @@ export default function LandingPage() {
 
             <div className="grid grid-cols-2 gap-4">
               {[
-                { icon: Users, label: 'Kandidaten', value: 'Unbegrenzt sichtbar' },
-                { icon: Video, label: 'Videos', value: 'Bis zu 10 Videos' },
-                { icon: MessageCircle, label: 'Chat', value: 'Direktnachrichten' },
-                { icon: Star, label: 'Analytics', value: 'Vollst&auml;ndige Insights' },
-                { icon: Briefcase, label: 'Stellenanzeigen', value: 'Unbegrenzt schalten' },
-                { icon: Zap, label: 'Schnelligkeit', value: 'Besetzung in Tagen' },
+                { icon: Users, label: 'Bewerber', value: 'Sofort sichtbar', color: 'from-emerald-500/20 to-emerald-600/10' },
+                { icon: Video, label: 'Videos', value: 'Bis zu 10 Videos', color: 'from-green-500/20 to-green-600/10' },
+                { icon: MessageCircle, label: 'Chat', value: 'Direktnachrichten', color: 'from-teal-500/20 to-teal-600/10' },
+                { icon: Star, label: 'Analytics', value: 'Volle Insights', color: 'from-lime-500/20 to-lime-600/10' },
+                { icon: Briefcase, label: 'Stellenanzeigen', value: 'Unbegrenzt', color: 'from-cyan-500/20 to-cyan-600/10' },
+                { icon: TrendingUp, label: 'Besetzung', value: 'Unter 48h möglich', color: 'from-blue-500/20 to-blue-600/10' },
               ].map((card) => (
                 <div
                   key={card.label}
-                  className="bg-white/5 backdrop-blur rounded-2xl p-6 border border-white/10"
+                  className={`bg-gradient-to-br ${card.color} backdrop-blur rounded-xl p-6 border border-white/10 hover:border-emerald-500/30 transition-colors`}
                 >
-                  <card.icon className="h-8 w-8 text-amber-400 mb-3" />
+                  <card.icon className="h-7 w-7 text-emerald-400 mb-3" />
                   <p className="font-semibold">{card.label}</p>
-                  <p className="text-sm text-gray-400 mt-1" dangerouslySetInnerHTML={{ __html: card.value }} />
+                  <p className="text-sm text-gray-400 mt-1">{card.value}</p>
                 </div>
               ))}
             </div>
@@ -350,96 +340,87 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* Branchen Section */}
-      <section className="py-20 bg-white">
+      {/* Branchen */}
+      <section className="py-20 bg-[#F0FDF4]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
+            <div className="cash-divider mb-4">
+              <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">Branchen</span>
+            </div>
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
-              Minijobs in allen Branchen
+              Minijobs in <span className="euro-highlight">allen Branchen</span>
             </h2>
             <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-              Ob Gastro, Einzelhandel, Lager oder B&uuml;ro &ndash; finde 538-Euro-Jobs und Nebenjobs in der Branche, die zu dir passt.
+              Ob Gastro, Einzelhandel, Logistik oder Nachhilfe – finde den Minijob, der zu dir passt.
             </p>
           </div>
 
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
             {[
-              { icon: UtensilsCrossed, name: 'Gastronomie & Hotel', jobs: '25.000+ Minijobs', color: 'bg-amber-50 text-amber-600 border-amber-100' },
-              { icon: ShoppingCart, name: 'Einzelhandel & Verkauf', jobs: '20.000+ Minijobs', color: 'bg-yellow-50 text-yellow-600 border-yellow-100' },
-              { icon: Package, name: 'Lager & Logistik', jobs: '18.000+ Minijobs', color: 'bg-orange-50 text-orange-600 border-orange-100' },
-              { icon: Bike, name: 'Lieferung & Kurier', jobs: '12.000+ Minijobs', color: 'bg-lime-50 text-lime-600 border-lime-100' },
-              { icon: Monitor, name: 'B\u00fcro & Verwaltung', jobs: '10.000+ Minijobs', color: 'bg-blue-50 text-blue-600 border-blue-100' },
-              { icon: PartyPopper, name: 'Events & Promotion', jobs: '8.000+ Minijobs', color: 'bg-pink-50 text-pink-600 border-pink-100' },
-              { icon: SparklesIcon, name: 'Reinigung & Haushalt', jobs: '15.000+ Minijobs', color: 'bg-cyan-50 text-cyan-600 border-cyan-100' },
-              { icon: BookOpen, name: 'Nachhilfe & Betreuung', jobs: '7.000+ Minijobs', color: 'bg-indigo-50 text-indigo-600 border-indigo-100' },
-              { icon: HeartPulse, name: 'Pflege & Gesundheit', jobs: '9.000+ Minijobs', color: 'bg-red-50 text-red-600 border-red-100' },
-              { icon: Dumbbell, name: 'Fitness & Sport', jobs: '5.000+ Minijobs', color: 'bg-emerald-50 text-emerald-600 border-emerald-100' },
-              { icon: Wrench, name: 'Handwerk & Technik', jobs: '6.000+ Minijobs', color: 'bg-slate-50 text-slate-600 border-slate-100' },
-              { icon: Factory, name: 'Produktion & Fertigung', jobs: '11.000+ Minijobs', color: 'bg-violet-50 text-violet-600 border-violet-100' },
+              { emoji: '🍽️', name: 'Gastronomie', slug: 'gastronomie-service' },
+              { emoji: '🛍️', name: 'Einzelhandel', slug: 'einzelhandel-verkauf' },
+              { emoji: '📦', name: 'Lager & Logistik', slug: 'lager-logistik' },
+              { emoji: '🚲', name: 'Lieferung & Kurier', slug: 'lieferung-kurier' },
+              { emoji: '💼', name: 'Büro & Verwaltung', slug: 'buero-verwaltung' },
+              { emoji: '🎪', name: 'Events & Promotion', slug: 'events-promotion' },
+              { emoji: '🧹', name: 'Reinigung', slug: 'reinigung-haushalt' },
+              { emoji: '📚', name: 'Nachhilfe', slug: 'nachhilfe-betreuung' },
+              { emoji: '🏥', name: 'Pflege', slug: 'pflege-gesundheit' },
+              { emoji: '💪', name: 'Fitness & Sport', slug: 'fitness-sport' },
             ].map((branche) => (
               <Link
-                key={branche.name}
-                href={`/branchen/${branche.name.toLowerCase().replace(/\s*&\s*/g, '-').replace(/\s+/g, '-').replace(/\u00fc/g, 'ue')}`}
-                className={`flex flex-col items-center p-6 rounded-2xl border ${branche.color} hover:shadow-md transition-all hover:-translate-y-0.5 group`}
+                key={branche.slug}
+                href={`/branchen/${branche.slug}`}
+                className="glow-card flex flex-col items-center p-5 rounded-xl text-center hover:-translate-y-0.5"
               >
-                <branche.icon className="h-8 w-8 mb-3" />
-                <h3 className="font-semibold text-gray-900 text-sm text-center">{branche.name}</h3>
-                <p className="text-xs text-gray-500 mt-1">{branche.jobs}</p>
+                <span className="text-3xl mb-2">{branche.emoji}</span>
+                <h3 className="font-semibold text-gray-900 text-sm">{branche.name}</h3>
               </Link>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Cross-Links Section */}
-      <section className="py-20 bg-gray-50">
+      {/* Cross-Links */}
+      <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
-              Mehr entdecken
-            </h2>
-            <p className="mt-4 text-lg text-gray-600">
-              Alles rund um Minijobs, Nebenjobs und 538-Euro-Jobs
-            </p>
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">Mehr entdecken</h2>
+            <p className="mt-4 text-lg text-gray-600">Alles rund um deinen Minijob bei Minijobgenie</p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-6">
             {[
               {
-                title: 'F\u00fcr Jobsuchende',
-                description: 'So findest du deinen Minijob per Swipe. Kostenlos, ohne Anschreiben, mit Video-Einblicken in echte Arbeitspl\u00e4tze.',
+                title: 'Für Jobsuchende',
+                description: 'So findest du deinen 538€-Job per Swipe. Kostenlos, ohne Anschreiben, mit echten Video-Einblicken.',
                 href: '/fuer-jobsuchende',
                 icon: Heart,
-                gradient: 'from-amber-500 to-yellow-500',
               },
               {
                 title: 'Alle Branchen',
-                description: 'Gastro, Einzelhandel, Lager, Lieferung und mehr. Entdecke Minijobs in deiner Branche.',
+                description: 'Gastro, Einzelhandel, Logistik, Nachhilfe und mehr. Entdecke Minijobs in deiner Branche.',
                 href: '/branchen',
                 icon: Briefcase,
-                gradient: 'from-yellow-500 to-amber-600',
               },
               {
                 title: 'Minijob-Ratgeber',
-                description: 'Alles \u00fcber 538-Euro-Grenze, Steuern, Sozialversicherung und Rechte im Minijob.',
+                description: '538€-Grenze, Steuern, Krankenversicherung, Rechte & Pflichten – alles was du wissen musst.',
                 href: '/ratgeber',
                 icon: BookOpen,
-                gradient: 'from-orange-500 to-amber-600',
               },
             ].map((card) => (
               <Link
                 key={card.title}
                 href={card.href}
-                className="group bg-white rounded-2xl p-8 shadow-sm border border-gray-100 hover:shadow-lg transition-all hover:-translate-y-1"
+                className="group glow-card rounded-xl p-8 hover:-translate-y-1"
               >
-                <div className={`inline-flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br ${card.gradient} text-white mb-5`}>
-                  <card.icon className="h-6 w-6" />
-                </div>
-                <h3 className="text-lg font-semibold text-gray-900 group-hover:text-amber-600 transition-colors">
+                <card.icon className="h-8 w-8 text-emerald-600 mb-4" />
+                <h3 className="text-lg font-bold text-gray-900 group-hover:text-emerald-700 transition-colors">
                   {card.title}
                 </h3>
                 <p className="mt-2 text-gray-600">{card.description}</p>
-                <span className="inline-flex items-center gap-1 text-amber-600 font-medium mt-4 text-sm group-hover:gap-2 transition-all">
+                <span className="inline-flex items-center gap-1 text-emerald-600 font-semibold mt-4 text-sm group-hover:gap-2 transition-all">
                   Mehr erfahren
                   <ArrowRight className="h-4 w-4" />
                 </span>
@@ -450,25 +431,27 @@ export default function LandingPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-br from-amber-500 to-yellow-500">
+      <section className="py-20 bg-gradient-to-br from-emerald-500 via-green-500 to-green-600">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <Banknote className="h-10 w-10 text-white/60 mx-auto mb-4" />
           <h2 className="text-3xl sm:text-4xl font-bold text-white">
-            Bereit f&uuml;r deinen Minijob?
+            Bereit für deinen Minijob?
           </h2>
-          <p className="mt-4 text-xl text-white/90">
-            Die App kommt bald. Arbeitgeber k&ouml;nnen sich jetzt schon registrieren und ihre Minijob-Angebote mit Videos einstellen.
+          <p className="mt-4 text-xl text-white/80">
+            Die App kommt bald. Arbeitgeber können sich jetzt schon registrieren
+            und per Video die besten Aushilfen finden.
           </p>
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              href="https://dashboard.minijobgenie.de/login"
-              className="rounded-full bg-white px-8 py-3.5 text-base font-medium text-amber-600 hover:bg-gray-100 transition-colors flex items-center gap-2"
+              href="https://dashboard.ausbildungsgenie.de/register"
+              className="rounded-lg bg-white px-8 py-3.5 text-base font-semibold text-emerald-700 hover:bg-gray-50 transition-colors flex items-center gap-2 shadow-lg"
             >
               <Building2 className="h-4 w-4" />
               Als Arbeitgeber registrieren
             </Link>
             <a
               href="#features"
-              className="rounded-full border-2 border-white/30 px-8 py-3.5 text-base font-medium text-white hover:border-white/60 transition-colors flex items-center gap-2"
+              className="rounded-lg border-2 border-white/30 px-8 py-3.5 text-base font-semibold text-white hover:border-white/60 transition-colors flex items-center gap-2"
             >
               Mehr erfahren
               <ArrowRight className="h-4 w-4" />
