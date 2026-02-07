@@ -1,0 +1,30 @@
+{
+  "slug": "minijob-arbeitgeber-guide",
+  "title": "Minijobber einstellen: Der Guide fuer Arbeitgeber",
+  "category": "Fuer Arbeitgeber",
+  "categorySlug": "arbeitgeber",
+  "description": "Sie moechten Minijobber einstellen? Erfahre alles ueber Anmeldung, Abgaben, Pflichten und Kosten fuer Arbeitgeber bei 538-Euro-Jobs.",
+  "content": "<h2>Minijobber einstellen: So geht's</h2><p>Minijobs sind fuer viele Unternehmen unverzichtbar. Ob in der Gastronomie, im Einzelhandel oder im Buero - Minijobber bringen Flexibilitaet und entlasten das Stammpersonal. Hier erfahren Sie als Arbeitgeber alles Wichtige.</p><h2>Anmeldung bei der Minijob-Zentrale</h2><p>Jeder Minijobber muss bei der <strong>Minijob-Zentrale</strong> (Deutsche Rentenversicherung Knappschaft-Bahn-See) angemeldet werden. Die Anmeldung erfolgt ueber das elektronische Meldeverfahren und umfasst:</p><ul><li>Persoenliche Daten des Minijobbers</li><li>Beginn der Beschaeftigung</li><li>Monatlicher Verdienst</li><li>Angabe zur Rentenversicherungspflicht</li></ul><h2>Abgaben fuer Arbeitgeber</h2><p>Die pauschalen Abgaben fuer Arbeitgeber betragen insgesamt ca. 30% des Bruttolohns:</p><ul><li><strong>13% Krankenversicherung</strong></li><li><strong>15% Rentenversicherung</strong></li><li><strong>2% Pauschsteuer</strong></li><li><strong>0,9% Umlage U1</strong> (Lohnfortzahlung bei Krankheit)</li><li><strong>0,29% Umlage U2</strong> (Mutterschaftsaufwendungen)</li><li><strong>0,06% Insolvenzgeldumlage</strong></li></ul><p>Bei einem Verdienst von 538 Euro zahlen Sie als Arbeitgeber ca. 167 Euro zusaetzlich.</p><h2>Pflichten als Arbeitgeber</h2><ul><li>Mindestlohn zahlen (12,82 Euro/Stunde, Stand 2026)</li><li>Arbeitsvertrag schliessen (empfohlen, auch wenn muendlich gueltig)</li><li>Lohnabrechnung erstellen</li><li>Arbeitszeitnachweise fuehren (Pflicht seit MiLoG)</li><li>Bezahlten Urlaub gewaehren</li><li>Lohnfortzahlung bei Krankheit leisten (bis 6 Wochen)</li><li>Unfallversicherung sicherstellen</li></ul><h2>Arbeitszeitdokumentation</h2><p>Seit dem Mindestlohngesetz (MiLoG) muessen Arbeitgeber die Arbeitszeiten von Minijobbern <strong>dokumentieren und 2 Jahre aufbewahren</strong>. Aufzuzeichnen sind: Beginn, Ende und Dauer der taeglichen Arbeitszeit.</p><h2>Minijobber finden mit Minijobgenie</h2><p>Die klassische Suche ueber Aushänge oder Zeitungsanzeigen ist veraltet. Mit <strong>Minijobgenie</strong> erreichen Sie motivierte Minijobber per Kurzvideo und Swipe-Matching. Stellen Sie Ihren Betrieb authentisch vor und finden Sie zuverlaessige Aushilfen schneller als je zuvor.</p>",
+  "keyPoints": [
+    "Pauschale Abgaben fuer Arbeitgeber betragen ca. 30% des Bruttolohns",
+    "Anmeldung bei der Minijob-Zentrale ist Pflicht",
+    "Arbeitszeitdokumentation muss gefuehrt und 2 Jahre aufbewahrt werden",
+    "Auch Minijobber haben Anspruch auf Mindestlohn, Urlaub und Lohnfortzahlung"
+  ],
+  "faqs": [
+    {
+      "question": "Was kostet ein Minijobber den Arbeitgeber?",
+      "answer": "Neben dem Bruttolohn zahlen Sie ca. 30% pauschale Abgaben. Bei 538 Euro Brutto sind das ca. 167 Euro, also insgesamt rund 705 Euro pro Monat."
+    },
+    {
+      "question": "Muss ich einen Arbeitsvertrag fuer den Minijob machen?",
+      "answer": "Ein schriftlicher Vertrag ist empfehlenswert, aber nicht zwingend. Ein muendlicher Vertrag ist rechtlich gueltig. Allerdings muessen Sie spaetestens am 1. Arbeitstag die wesentlichen Arbeitsbedingungen schriftlich aushändigen."
+    },
+    {
+      "question": "Wo melde ich Minijobber an?",
+      "answer": "Bei der Minijob-Zentrale der Deutschen Rentenversicherung Knappschaft-Bahn-See. Die Anmeldung erfolgt elektronisch ueber das Meldeverfahren oder ueber Ihre Lohnbuchhaltung."
+    }
+  ],
+  "relatedSlugs": ["minijob-rechte-pflichten", "minijob-538-euro-grenze", "minijob-rentenversicherung"],
+  "publishDate": "2026-02-01"
+}

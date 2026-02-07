@@ -1,0 +1,30 @@
+{
+  "slug": "minijob-538-euro-grenze",
+  "title": "Die 538-Euro-Grenze im Minijob: Alles, was du wissen musst",
+  "category": "Minijob-Basics",
+  "categorySlug": "minijob-basics",
+  "description": "Was passiert, wenn du die 538-Euro-Grenze ueberschreitest? Wie wird die Verdienstgrenze berechnet und welche Ausnahmen gibt es? Alle Antworten hier.",
+  "content": "<h2>Was ist die 538-Euro-Grenze?</h2><p>Die 538-Euro-Grenze (frueher 520 Euro, davor 450 Euro) ist die monatliche Verdienstgrenze fuer geringfuegig entlohnte Beschaeftigte, also Minijobber. Wer regelmaessig nicht mehr als 538 Euro pro Monat verdient, gilt als Minijobber und profitiert von vereinfachten Abgabenregelungen.</p><p>Die Grenze ist an den Mindestlohn gekoppelt: Sie entspricht dem Verdienst bei 10 Stunden Arbeit pro Woche zum Mindestlohn. Bei Erhoehungen des Mindestlohns steigt also auch die Verdienstgrenze.</p><h2>Wie wird die Verdienstgrenze berechnet?</h2><p>Entscheidend ist nicht der monatliche Verdienst allein, sondern der <strong>Jahresdurchschnitt</strong>. Die jaehrliche Verdienstgrenze liegt bei 6.456 Euro (12 x 538 Euro). Das bedeutet: In einzelnen Monaten darfst du mehr als 538 Euro verdienen, solange du im Jahresschnitt unter der Grenze bleibst.</p><h3>Beispielrechnung</h3><p>Du arbeitest in einem Cafe und verdienst normalerweise 400 Euro pro Monat. Im Dezember bekommst du wegen der Weihnachtszeit mehr Schichten und verdienst 700 Euro. Das ist kein Problem, solange dein Jahresverdienst unter 6.456 Euro bleibt.</p><h2>Was passiert bei Ueberschreitung?</h2><p>Wenn du die 538-Euro-Grenze regelmaessig ueberschreitest, wird dein Minijob zum sozialversicherungspflichtigen Midijob. Das bedeutet:</p><ul><li>Du musst Beitraege zur Kranken-, Pflege-, Renten- und Arbeitslosenversicherung zahlen</li><li>Dein Arbeitgeber zahlt ebenfalls hoehere Abgaben</li><li>Du wirst steuerlich anders behandelt</li></ul><h2>Gelegentliches Ueberschreiten erlaubt</h2><p>Bis zu zweimal pro Jahr darfst du die Grenze unvorhergesehen ueberschreiten, z.B. wegen:</p><ul><li>Krankheitsvertretung eines Kollegen</li><li>Unerwartet hohem Arbeitsaufkommen</li><li>Saisonalen Spitzen (z.B. Weihnachtsgeschaeft)</li></ul><p>In diesen Faellen darf der Verdienst in den betroffenen Monaten maximal das Doppelte der Verdienstgrenze betragen (also 1.076 Euro).</p><h2>Tipps zur Einhaltung der Grenze</h2><p>Um Probleme zu vermeiden, solltest du:</p><ul><li>Deine Arbeitsstunden genau dokumentieren</li><li>Bei mehreren Minijobs die Verdienste zusammenrechnen</li><li>Deinen Arbeitgeber informieren, falls du noch andere Minijobs hast</li><li>Regelmaessig deinen Jahresverdienst pruefen</li></ul>",
+  "keyPoints": [
+    "Die 538-Euro-Grenze gilt als monatlicher Durchschnitt, entscheidend ist der Jahresverdienst von 6.456 Euro",
+    "Bis zu zweimal jaehrlich darf die Grenze unvorhergesehen ueberschritten werden",
+    "Bei regelmaessiger Ueberschreitung wird der Minijob sozialversicherungspflichtig",
+    "Bei mehreren Minijobs werden die Verdienste zusammengerechnet"
+  ],
+  "faqs": [
+    {
+      "question": "Wie hoch ist die Minijob-Grenze 2026?",
+      "answer": "Die Minijob-Grenze liegt 2026 bei 538 Euro pro Monat bzw. 6.456 Euro pro Jahr. Sie ist an den gesetzlichen Mindestlohn gekoppelt und steigt bei Mindestlohnerhoehungen mit."
+    },
+    {
+      "question": "Darf ich in einem Monat mehr als 538 Euro verdienen?",
+      "answer": "Ja, solange es sich um ein gelegentliches, unvorhersehbares Ueberschreiten handelt (max. 2x pro Jahr). Der Jahresverdienst von 6.456 Euro darf jedoch nicht ueberschritten werden."
+    },
+    {
+      "question": "Was passiert, wenn ich zwei Minijobs habe?",
+      "answer": "Bei zwei oder mehr Minijobs werden die Verdienste zusammengerechnet. Die 538-Euro-Grenze gilt fuer die Summe aller Minijobs zusammen. Ueberschreitest du die Grenze, wird der zweite Minijob sozialversicherungspflichtig."
+    }
+  ],
+  "relatedSlugs": ["minijob-steuern-abgaben", "minijob-krankenversicherung", "minijob-neben-hauptjob"],
+  "publishDate": "2026-02-01"
+}

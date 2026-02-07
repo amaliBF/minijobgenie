@@ -1,0 +1,30 @@
+{
+  "slug": "minijob-rentenversicherung",
+  "title": "Rentenversicherung im Minijob: Befreiung oder mitzahlen?",
+  "category": "Steuern & Recht",
+  "categorySlug": "steuern-recht",
+  "description": "Rentenversicherungspflicht im Minijob: Lohnt sich die Befreiung? Was bringt das Einzahlen? Vor- und Nachteile einfach erklaert.",
+  "content": "<h2>Rentenversicherung im Minijob</h2><p>Seit 2013 unterliegen Minijobber grundsaetzlich der <strong>Rentenversicherungspflicht</strong>. Das bedeutet: Von deinem Verdienst wird ein Eigenanteil zur Rentenversicherung abgezogen. Du kannst dich aber auf Antrag davon befreien lassen.</p><h2>Was kostet die Rentenversicherung?</h2><p>Dein Arbeitgeber zahlt bereits einen pauschalen Beitrag von 15% zur Rentenversicherung. Wenn du in der Rentenversicherung bleibst, zahlst du den <strong>Differenzbetrag</strong> zum vollen Beitragssatz (18,6%):</p><ul><li><strong>Dein Eigenanteil: 3,6%</strong> des Bruttolohns</li><li>Bei 538 Euro Verdienst: ca. <strong>19,37 Euro pro Monat</strong></li><li>Bei 300 Euro Verdienst: ca. <strong>10,80 Euro pro Monat</strong></li></ul><h2>Vorteile der Rentenversicherung</h2><ul><li><strong>Volle Rentenansprueche:</strong> Du erwirbst vollwertige Pflichtbeitragszeiten</li><li><strong>Mindestversicherungszeit:</strong> Monate zaehlen fuer die 5-Jahres-Mindestversicherungszeit (Wartezeit)</li><li><strong>Riester-Foerderung:</strong> Du hast Anspruch auf die staatliche Riester-Foerderung</li><li><strong>Erwerbsminderungsrente:</strong> Zugang zur Erwerbsminderungsrente wird gesichert</li><li><strong>Rehabilitation:</strong> Anspruch auf Rehabilitationsleistungen</li></ul><h2>Befreiung von der Rentenversicherung</h2><p>Du kannst dich schriftlich bei deinem Arbeitgeber von der Rentenversicherungspflicht befreien lassen. Die Befreiung gilt:</p><ul><li>Ab dem Monat der Antragstellung (oder ab Beschaeftigungsbeginn)</li><li>Fuer die gesamte Dauer der Beschaeftigung</li><li>Ist unwiderruflich fuer dieses Arbeitsverhaeltnis</li></ul><h3>Nachteile der Befreiung</h3><ul><li>Du erwirbst nur minimale Rentenansprueche (auf Basis der Arbeitgeberpauschale)</li><li>Monate zaehlen moeglicherweise nicht fuer die Wartezeit</li><li>Kein Anspruch auf Riester-Foerderung</li><li>Eingeschraenkter Zugang zur Erwerbsminderungsrente</li></ul><h2>Fuer wen lohnt sich was?</h2><p><strong>Befreiung sinnvoll fuer:</strong> Studenten, Schueler, Personen die nur voruebergehend minijobben, Personen mit guter anderweitiger Altersvorsorge.</p><p><strong>Einzahlen sinnvoll fuer:</strong> Hausfrauen/Hausmaenner, langfristige Minijobber, Personen die Wartezeiten fuer die Rente sammeln muessen, Riester-Sparer.</p>",
+  "keyPoints": [
+    "Minijobber sind grundsaetzlich rentenversicherungspflichtig (Eigenanteil 3,6%)",
+    "Befreiung ist moeglich, aber unwiderruflich fuer das Arbeitsverhaeltnis",
+    "Mit Rentenversicherung: volle Rentenansprueche, Riester-Berechtigung, Erwerbsminderungsschutz",
+    "Ohne Rentenversicherung: Brutto = Netto, aber minimale Rentenansprueche"
+  ],
+  "faqs": [
+    {
+      "question": "Wie befreie ich mich von der Rentenversicherung im Minijob?",
+      "answer": "Stelle einen schriftlichen Antrag auf Befreiung bei deinem Arbeitgeber. Er leitet die Befreiung an die Minijob-Zentrale weiter. Beachte: Die Befreiung ist fuer dieses Arbeitsverhaeltnis unwiderruflich."
+    },
+    {
+      "question": "Wie viel Rente bekomme ich durch einen Minijob?",
+      "answer": "Bei 538 Euro Verdienst und vollen Beitraegen erwirbst du pro Jahr ca. 5 Euro monatliche Rente. Nach 10 Jahren Minijob waeren das ca. 50 Euro pro Monat. Klingt wenig, kann aber fuer die Mindestversicherungszeit wichtig sein."
+    },
+    {
+      "question": "Sollte ich als Student die Befreiung waehlen?",
+      "answer": "In den meisten Faellen ja. Als Student hast du noch viele Berufsjahre vor dir und der Minijob-Beitrag zur Rente ist minimal. Die ca. 19 Euro mehr im Monat sind oft sinnvoller eingesetzt."
+    }
+  ],
+  "relatedSlugs": ["minijob-steuern-abgaben", "minijob-538-euro-grenze", "minijob-arbeitgeber-guide"],
+  "publishDate": "2026-02-01"
+}

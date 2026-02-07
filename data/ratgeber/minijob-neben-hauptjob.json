@@ -1,0 +1,30 @@
+{
+  "slug": "minijob-neben-hauptjob",
+  "title": "Minijob neben dem Hauptjob: Regeln, Steuern und Tipps",
+  "category": "Studium & Nebenjob",
+  "categorySlug": "studium-nebenjob",
+  "description": "Du hast einen Hauptjob und willst nebenbei einen Minijob? Erfahre, was erlaubt ist, welche Steuern anfallen und was du deinem Arbeitgeber sagen musst.",
+  "content": "<h2>Minijob neben der Hauptbeschaeftigung</h2><p>Grundsaetzlich ist es erlaubt, neben einem sozialversicherungspflichtigen Hauptjob einen Minijob auszuueben. Der <strong>erste Minijob</strong> bleibt dabei abgabenfrei - genau wie bei Personen ohne Hauptjob.</p><h2>Die wichtigsten Regeln</h2><h3>Ein Minijob ist frei</h3><p>Du darfst neben deinem Hauptjob genau einen Minijob haben, der nicht mit dem Hauptjob zusammengerechnet wird. Fuer diesen Minijob fallen keine Sozialversicherungsbeitraege an.</p><h3>Zweiter Minijob wird zusammengerechnet</h3><p>Hast du neben dem Hauptjob zwei oder mehr Minijobs, wird ab dem zweiten Minijob der Verdienst mit dem Hauptjob zusammengerechnet. Das bedeutet: volle Sozialversicherungspflicht fuer den zweiten Minijob.</p><h2>Muss ich meinen Arbeitgeber informieren?</h2><p>Grundsaetzlich musst du deinen Hauptarbeitgeber nicht um Erlaubnis fragen. Allerdings:</p><ul><li>Pruefe deinen Arbeitsvertrag auf eine <strong>Nebentaetigkeitsklausel</strong></li><li>Viele Arbeitsvertraege verlangen eine <strong>Anzeigepflicht</strong></li><li>Der Minijob darf deine Haupttaetigkeit nicht <strong>beeintraechtigen</strong></li><li>Du darfst nicht bei der <strong>Konkurrenz</strong> jobben (Wettbewerbsverbot)</li><li>Arbeitszeitgesetz beachten: max. 48 Stunden pro Woche insgesamt</li></ul><h2>Steuerliche Behandlung</h2><p>Der Minijob neben dem Hauptjob wird pauschal mit 2% versteuert - das traegt dein Minijob-Arbeitgeber. Du selbst zahlst keine zusaetzlichen Steuern. Der Minijob taucht nicht auf deiner Lohnsteuerbescheinigung auf und muss nicht in der Steuererklaerung angegeben werden.</p><h2>Vorteile eines Minijobs neben dem Hauptjob</h2><ul><li>Zusaetzliches Einkommen von bis zu 538 Euro/Monat</li><li>Keine Abzuege (mit RV-Befreiung)</li><li>Flexible Arbeitszeiten moeglich</li><li>Neue Erfahrungen und Kontakte</li><li>Abwechslung zum Hauptjob</li></ul>",
+  "keyPoints": [
+    "Ein Minijob neben dem Hauptjob ist abgabenfrei",
+    "Ab dem zweiten Minijob greift die Sozialversicherungspflicht",
+    "Arbeitsvertrag auf Nebentaetigkeitsklausel pruefen",
+    "Max. 48 Stunden pro Woche fuer alle Jobs zusammen (Arbeitszeitgesetz)"
+  ],
+  "faqs": [
+    {
+      "question": "Muss ich meinen Chef ueber den Minijob informieren?",
+      "answer": "Das haengt von deinem Arbeitsvertrag ab. Viele Vertraege enthalten eine Anzeigepflicht fuer Nebentaetigkeiten. Pruefe deinen Vertrag und informiere deinen Arbeitgeber im Zweifel."
+    },
+    {
+      "question": "Zahle ich auf den Minijob neben dem Hauptjob Steuern?",
+      "answer": "Nein, der Minijob wird pauschal mit 2% besteuert, was dein Minijob-Arbeitgeber traegt. Dir wird nichts abgezogen."
+    },
+    {
+      "question": "Kann ich zwei Minijobs neben meinem Hauptjob haben?",
+      "answer": "Nur der erste Minijob bleibt abgabenfrei. Der zweite (und jeder weitere) Minijob wird mit dem Hauptjob zusammengerechnet und wird sozialversicherungspflichtig."
+    }
+  ],
+  "relatedSlugs": ["minijob-538-euro-grenze", "minijob-steuern-abgaben", "minijob-rechte-pflichten"],
+  "publishDate": "2026-02-01"
+}

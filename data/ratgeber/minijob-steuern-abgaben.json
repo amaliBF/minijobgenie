@@ -1,0 +1,30 @@
+{
+  "slug": "minijob-steuern-abgaben",
+  "title": "Minijob Steuern und Abgaben: Was wird abgezogen?",
+  "category": "Steuern & Recht",
+  "categorySlug": "steuern-recht",
+  "description": "Welche Steuern und Abgaben fallen im Minijob an? Pauschsteuer, Rentenversicherung und was am Ende uebrig bleibt - einfach erklaert.",
+  "content": "<h2>Steuern im Minijob: Das Wichtigste</h2><p>Die gute Nachricht: Als Minijobber musst du in der Regel <strong>keine Steuern selbst bezahlen</strong>. Dein Arbeitgeber fuehrt eine pauschale Steuer von 2% direkt an die Minijob-Zentrale ab. Das passiert automatisch und hat keinen Einfluss auf dein Nettogehalt.</p><h2>Pauschale Abgaben des Arbeitgebers</h2><p>Dein Arbeitgeber zahlt fuer dich folgende Pauschalen:</p><ul><li><strong>13% Krankenversicherung</strong> (pauschaler Beitrag)</li><li><strong>15% Rentenversicherung</strong> (pauschaler Beitrag)</li><li><strong>2% Pauschsteuer</strong> (Lohnsteuer, Solidaritaetszuschlag, Kirchensteuer)</li><li><strong>Umlagen</strong> fuer Krankheitsausfall (U1), Mutterschaft (U2) und Insolvenzgeld</li></ul><p>Insgesamt zahlt dein Arbeitgeber rund 30% zusaetzlich zu deinem Bruttolohn. Fuer dich als Minijobber bedeutet das: <strong>Brutto = Netto</strong> (sofern du dich von der Rentenversicherungspflicht befreien laesst).</p><h2>Rentenversicherung: Pflicht oder nicht?</h2><p>Seit 2013 sind Minijobber grundsaetzlich rentenversicherungspflichtig. Das bedeutet, dass ein kleiner Eigenanteil von deinem Gehalt abgezogen wird. Allerdings kannst du dich auf Antrag davon befreien lassen.</p><h3>Mit Rentenversicherung</h3><ul><li>Dein Eigenanteil: 3,6% (ca. 19 Euro bei 538 Euro Verdienst)</li><li>Du erwirbst vollwertige Rentenansprueche</li><li>Du sammelst Pflichtbeitragszeiten</li></ul><h3>Ohne Rentenversicherung (Befreiung)</h3><ul><li>Kein Abzug vom Gehalt, Brutto = Netto</li><li>Du erwirbst nur minimale Rentenansprueche</li><li>Die Befreiung gilt fuer die gesamte Dauer der Beschaeftigung</li></ul><h2>Muss ich eine Steuererklaerung machen?</h2><p>Nein, als Minijobber bist du grundsaetzlich nicht verpflichtet, eine Steuererklaerung abzugeben. Die pauschale Besteuerung durch deinen Arbeitgeber deckt alles ab. Ausnahme: Wenn du neben dem Minijob noch andere Einkuenfte hast, kann eine Steuererklaerung sinnvoll sein.</p><h2>Minijob auf Steuerkarte</h2><p>Alternativ zur Pauschalbesteuerung kann dein Minijob auch ueber deine Lohnsteuerkarte abgerechnet werden. Das lohnt sich, wenn du keine weiteren Einkuenfte hast und den Grundfreibetrag nicht ausschoepfst. In diesem Fall zahlst du gar keine Steuer und kannst den Minijob in deiner Steuererklaerung angeben.</p>",
+  "keyPoints": [
+    "Als Minijobber zahlst du in der Regel keine Steuern - dein Arbeitgeber zahlt 2% Pauschsteuer",
+    "Mit Befreiung von der Rentenversicherung gilt: Brutto = Netto",
+    "Dein Arbeitgeber traegt die Hauptlast der Abgaben (ca. 30%)",
+    "Eine Steuererklaerung ist fuer Minijobber nicht verpflichtend"
+  ],
+  "faqs": [
+    {
+      "question": "Muss ich im Minijob Steuern zahlen?",
+      "answer": "Nein, als Minijobber zahlst du selbst keine Steuern. Dein Arbeitgeber fuehrt eine pauschale Steuer von 2% an die Minijob-Zentrale ab. Das wird nicht von deinem Gehalt abgezogen."
+    },
+    {
+      "question": "Soll ich mich von der Rentenversicherung befreien lassen?",
+      "answer": "Das haengt von deiner Situation ab. Ohne Befreiung zahlst du ca. 19 Euro pro Monat (bei 538 Euro), sammelst aber Rentenansprueche. Mit Befreiung bekommst du Brutto = Netto, hast aber weniger Rentenansprueche."
+    },
+    {
+      "question": "Wie viel bleibt netto vom Minijob?",
+      "answer": "Wenn du dich von der Rentenversicherung befreien laesst, bekommst du den vollen Bruttolohn ausgezahlt. Bei 538 Euro Brutto bleiben also 538 Euro Netto. Ohne Befreiung werden ca. 19 Euro abgezogen."
+    }
+  ],
+  "relatedSlugs": ["minijob-538-euro-grenze", "minijob-rentenversicherung", "minijob-krankenversicherung"],
+  "publishDate": "2026-02-01"
+}

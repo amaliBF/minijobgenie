@@ -1,0 +1,30 @@
+{
+  "slug": "minijob-krankenversicherung",
+  "title": "Krankenversicherung im Minijob: So bist du versichert",
+  "category": "Steuern & Recht",
+  "categorySlug": "steuern-recht",
+  "description": "Bin ich im Minijob krankenversichert? Wie laeuft die Krankenversicherung bei 538-Euro-Jobs? Alles ueber Familienversicherung, studentische KV und Selbstversicherung.",
+  "content": "<h2>Minijob und Krankenversicherung</h2><p>Ein Minijob allein begründet <strong>keinen eigenen Krankenversicherungsschutz</strong>. Dein Arbeitgeber zahlt zwar 13% pauschale Krankenversicherungsbeitraege, aber diese gehen an die Minijob-Zentrale und nicht an eine konkrete Krankenkasse fuer dich. Du musst also anderweitig versichert sein.</p><h2>Wie bist du versichert?</h2><p>Die haeufigsten Varianten:</p><h3>1. Familienversicherung</h3><p>Wenn du unter 25 Jahre alt bist und deine Eltern gesetzlich versichert sind, bist du in der Regel <strong>kostenlos familienversichert</strong>. Dein Minijob-Einkommen bis 538 Euro pro Monat gefaehrdet die Familienversicherung nicht.</p><h3>2. Studentische Krankenversicherung</h3><p>Als Student/in bist du entweder ueber die Familienversicherung (bis 25) oder ueber die studentische Krankenversicherung versichert (ab ca. 120 Euro/Monat). Ein Minijob neben dem Studium ist unproblematisch.</p><h3>3. Krankenversicherung ueber den Hauptjob</h3><p>Wenn du neben deinem Hauptjob einen Minijob ausuebst, bist du ueber deinen Hauptjob krankenversichert. Der Minijob hat keinen Einfluss darauf.</p><h3>4. Freiwillige Versicherung</h3><p>Wenn keine der obigen Varianten zutrifft (z.B. wenn du nur einen Minijob hast und ueber 25 bist), musst du dich freiwillig krankenversichern. Die Beitraege richten sich nach einem Mindesteinkommen und liegen bei ca. 200-220 Euro pro Monat.</p><h2>Wann verliere ich die Familienversicherung?</h2><p>Du verlierst die Familienversicherung, wenn:</p><ul><li>Du regelmaessig mehr als 538 Euro pro Monat verdienst</li><li>Du 25 Jahre alt wirst (Ausnahme: Wehr-/Freiwilligendienst)</li><li>Du eine nicht-geringfuegige selbststaendige Taetigkeit ausuebst</li></ul><h2>Tipps fuer Minijobber</h2><ul><li>Pruefe vor Jobantritt, wie du krankenversichert bist</li><li>Informiere deine Krankenkasse ueber den Minijob</li><li>Achte bei mehreren Jobs auf die 538-Euro-Gesamtgrenze</li><li>Studenten: Pruefe, ob dein Studentenstatus erhalten bleibt</li></ul>",
+  "keyPoints": [
+    "Ein Minijob allein bietet keinen Krankenversicherungsschutz",
+    "Unter 25: Familienversicherung bleibt bei Minijob-Einkommen bis 538 Euro bestehen",
+    "Studenten sind ueber studentische KV oder Familienversicherung abgesichert",
+    "Nur Minijob und ueber 25? Freiwillige Versicherung notwendig (ca. 200 Euro/Monat)"
+  ],
+  "faqs": [
+    {
+      "question": "Bin ich im Minijob automatisch krankenversichert?",
+      "answer": "Nein, ein Minijob begruendet keine eigene Krankenversicherung. Du musst anderweitig versichert sein, z.B. ueber Familienversicherung, studentische KV oder deinen Hauptjob."
+    },
+    {
+      "question": "Kann ich mit einem Minijob familienversichert bleiben?",
+      "answer": "Ja, solange du unter 25 bist und nicht mehr als 538 Euro pro Monat verdienst, bleibt die Familienversicherung bestehen."
+    },
+    {
+      "question": "Was kostet die Krankenversicherung, wenn ich nur einen Minijob habe?",
+      "answer": "Wenn du dich freiwillig versichern musst, zahlst du ca. 200-220 Euro pro Monat, berechnet auf Basis eines Mindesteinkommens. Das ist oft mehr als der Minijob-Verdienst hergibt."
+    }
+  ],
+  "relatedSlugs": ["minijob-538-euro-grenze", "minijob-steuern-abgaben", "minijob-neben-studium"],
+  "publishDate": "2026-02-01"
+}
