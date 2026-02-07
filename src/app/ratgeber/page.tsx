@@ -184,7 +184,7 @@ export default function RatgeberPage() {
                     Alle Minijobs ansehen
                   </Link>
                   <Link
-                    href="https://dashboard.ausbildungsgenie.de/register"
+                    href="https://dashboard.genieportal.de/register"
                     className="inline-flex items-center justify-center px-6 py-3 rounded-lg border-2 border-emerald-500/30 text-emerald-400 font-semibold hover:bg-emerald-500/10 transition-colors"
                   >
                     Als Arbeitgeber registrieren

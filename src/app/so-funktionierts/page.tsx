@@ -532,7 +532,7 @@ export default function SoFunktioniertsPage() {
 
           <div className="text-center mt-12">
             <Link
-              href="https://dashboard.ausbildungsgenie.de/register"
+              href="https://dashboard.genieportal.de/register"
               className="inline-flex items-center gap-2 rounded-lg bg-gradient-to-r from-emerald-500 to-green-600 px-8 py-3.5 text-base font-medium text-white hover:from-emerald-400 hover:to-green-500 transition-all shadow-lg shadow-emerald-500/25"
             >
               Jetzt als Arbeitgeber registrieren
@@ -626,7 +626,7 @@ export default function SoFunktioniertsPage() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              href="https://dashboard.ausbildungsgenie.de/register"
+              href="https://dashboard.genieportal.de/register"
               className="rounded-lg bg-white px-8 py-3.5 text-base font-medium text-emerald-700 hover:bg-emerald-50 transition-colors flex items-center gap-2 shadow-lg"
             >
               <Building2 className="h-4 w-4" />

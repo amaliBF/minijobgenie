@@ -185,7 +185,7 @@ export default function FuerArbeitgeberPage() {
                 </p>
                 <div className="mt-10 flex flex-col sm:flex-row gap-4">
                   <Link
-                    href="https://dashboard.ausbildungsgenie.de/register"
+                    href="https://dashboard.genieportal.de/register"
                     className="inline-flex items-center justify-center gap-2 rounded-lg bg-gradient-to-r from-emerald-500 to-green-600 px-8 py-4 text-base font-semibold text-white hover:from-emerald-400 hover:to-green-500 transition-all shadow-lg shadow-emerald-500/25"
                   >
                     Kostenlos registrieren
@@ -522,7 +522,7 @@ export default function FuerArbeitgeberPage() {
 
             <div className="mt-12 text-center">
               <Link
-                href="https://dashboard.ausbildungsgenie.de/register"
+                href="https://dashboard.genieportal.de/register"
                 className="inline-flex items-center gap-2 rounded-lg bg-gradient-to-r from-emerald-500 to-green-600 px-8 py-4 text-base font-semibold text-white hover:from-emerald-400 hover:to-green-500 transition-all shadow-lg shadow-emerald-500/25"
               >
                 Jetzt kostenlos starten
@@ -659,7 +659,7 @@ export default function FuerArbeitgeberPage() {
                     ))}
                   </ul>
                   <Link
-                    href="https://dashboard.ausbildungsgenie.de/register"
+                    href="https://dashboard.genieportal.de/register"
                     className={`mt-8 block text-center rounded-lg px-6 py-3 text-sm font-semibold transition-colors ${
                       plan.highlighted
                         ? 'bg-white text-emerald-700 hover:bg-emerald-50'
@@ -790,7 +790,7 @@ export default function FuerArbeitgeberPage() {
             </p>
             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link
-                href="https://dashboard.ausbildungsgenie.de/register"
+                href="https://dashboard.genieportal.de/register"
                 className="inline-flex items-center gap-2 rounded-lg bg-white px-10 py-4 text-base font-semibold text-emerald-700 hover:bg-emerald-50 transition-colors shadow-lg"
               >
                 <Building2 className="h-5 w-5" />
@@ -800,7 +800,7 @@ export default function FuerArbeitgeberPage() {
             <p className="mt-6 text-sm text-white/60">
               Bereits registriert?{' '}
               <Link
-                href="https://dashboard.ausbildungsgenie.de/login"
+                href="https://dashboard.genieportal.de/login"
                 className="text-white/80 underline hover:text-white"
               >
                 Zum Dashboard einloggen
