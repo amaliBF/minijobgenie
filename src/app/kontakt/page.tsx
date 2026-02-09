@@ -23,7 +23,7 @@ import KontaktForm from './KontaktForm';
 export const metadata: Metadata = {
   title: 'Kontakt – Wir helfen dir weiter',
   description:
-    'Kontaktiere das Minijobgenie-Team. Fragen, Support oder Feedback – wir sind für dich da. E-Mail: kontakt@minijobgenie.de',
+    'Kontaktiere das Minijobgenie-Team. Fragen, Support oder Feedback – wir sind für dich da. E-Mail: minijob@genieportal.de',
   alternates: {
     canonical: '/kontakt',
   },
@@ -53,7 +53,7 @@ const faqItems = [
   {
     question: 'Ich bin Jobsuchender und habe ein technisches Problem. An wen wende ich mich?',
     answer:
-      'Schreibe uns einfach eine E-Mail an kontakt@minijobgenie.de oder nutze das Kontaktformular mit dem Betreff „Support". Beschreibe dein Problem möglichst genau und wir helfen dir schnellstmöglich weiter. Minijobgenie ist für dich komplett kostenlos – auch der Support!',
+      'Schreibe uns einfach eine E-Mail an minijob@genieportal.de oder nutze das Kontaktformular mit dem Betreff „Support". Beschreibe dein Problem möglichst genau und wir helfen dir schnellstmöglich weiter. Minijobgenie ist für dich komplett kostenlos – auch der Support!',
   },
   {
     question: 'Wie kann ich mein Unternehmen auf Minijobgenie registrieren?',
@@ -68,7 +68,7 @@ const faqItems = [
   {
     question: 'Kann ich Minijobgenie für eine Presseanfrage kontaktieren?',
     answer:
-      'Natürlich! Für Presseanfragen nutze bitte das Kontaktformular mit dem Betreff „Presse" oder schreibe direkt an kontakt@minijobgenie.de. Wir stellen gerne Pressematerial, Interviews und Hintergrundinformationen zur Verfügung.',
+      'Natürlich! Für Presseanfragen nutze bitte das Kontaktformular mit dem Betreff „Presse" oder schreibe direkt an minijob@genieportal.de. Wir stellen gerne Pressematerial, Interviews und Hintergrundinformationen zur Verfügung.',
   },
   {
     question: 'Wo finde ich die rechtlichen Informationen (Impressum, Datenschutz)?',
@@ -124,7 +124,7 @@ const jsonLdWebPage = {
     '@type': 'Organization',
     name: 'Butterflies IT UG (haftungsbeschränkt)',
     url: 'https://minijobgenie.de',
-    email: 'kontakt@minijobgenie.de',
+    email: 'minijob@genieportal.de',
     address: {
       '@type': 'PostalAddress',
       streetAddress: 'Hagenower Str. 73',
@@ -215,10 +215,10 @@ export default function KontaktPage() {
               </div>
               <h3 className="text-lg font-bold text-gray-900 mb-2">E-Mail</h3>
               <a
-                href="mailto:kontakt@minijobgenie.de"
+                href="mailto:minijob@genieportal.de"
                 className="text-emerald-600 hover:underline font-medium transition-colors block"
               >
-                kontakt@minijobgenie.de
+                minijob@genieportal.de
               </a>
               <p className="text-sm text-gray-500 mt-2">Für alle Anfragen</p>
             </div>
@@ -421,10 +421,10 @@ export default function KontaktPage() {
                   <Mail className="h-5 w-5 text-emerald-600 mt-1 flex-shrink-0" />
                   <div>
                     <a
-                      href="mailto:kontakt@minijobgenie.de"
+                      href="mailto:minijob@genieportal.de"
                       className="text-emerald-600 hover:underline font-medium transition-colors"
                     >
-                      kontakt@minijobgenie.de
+                      minijob@genieportal.de
                     </a>
                   </div>
                 </div>

@@ -97,7 +97,7 @@ const faqItems = [
   {
     question: 'Gibt es spezielle Konditionen für Personaldienstleister oder Verbände?',
     answer:
-      'Ja, für Personaldienstleister, Kammern und Verbände bieten wir individuelle Pakete an. Kontaktiert uns unter kontakt@minijobgenie.de und wir erstellen ein maßgeschneidertes Angebot.',
+      'Ja, für Personaldienstleister, Kammern und Verbände bieten wir individuelle Pakete an. Kontaktiert uns unter minijob@genieportal.de und wir erstellen ein maßgeschneidertes Angebot.',
   },
 ];
 

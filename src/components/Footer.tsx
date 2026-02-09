@@ -20,8 +20,8 @@ export default function Footer() {
               Finde per Swipe-Matching den perfekten Nebenjob oder die ideale Aushilfe für dein Unternehmen.
             </p>
             <p className="text-sm mb-4">
-              <a href="mailto:kontakt@minijobgenie.de" className="hover:text-white transition-colors">
-                kontakt@minijobgenie.de
+              <a href="mailto:minijob@genieportal.de" className="hover:text-white transition-colors">
+                minijob@genieportal.de
               </a>
             </p>
             <div className="flex gap-3">

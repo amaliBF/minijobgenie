@@ -46,7 +46,7 @@ export default function DatenschutzPage() {
               Butterflies IT UG (haftungsbeschränkt)<br />
               Vertreten durch: Andreas Mali<br />
               Hagenower Str. 73, 19061 Schwerin<br />
-              E-Mail: <a href="mailto:kontakt@minijobgenie.de" className="text-emerald-600 hover:underline">kontakt@minijobgenie.de</a>
+              E-Mail: <a href="mailto:minijob@genieportal.de" className="text-emerald-600 hover:underline">minijob@genieportal.de</a>
             </p>
           </div>
 

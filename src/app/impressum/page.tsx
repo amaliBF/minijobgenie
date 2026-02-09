@@ -56,7 +56,7 @@ export default function ImpressumPage() {
           <div className="speed-line mb-6">
             <p className="text-gray-700">
               <strong>Kontakt:</strong><br />
-              E-Mail: <a href="mailto:kontakt@minijobgenie.de" className="text-emerald-600 hover:underline">kontakt@minijobgenie.de</a>
+              E-Mail: <a href="mailto:minijob@genieportal.de" className="text-emerald-600 hover:underline">minijob@genieportal.de</a>
             </p>
           </div>
 

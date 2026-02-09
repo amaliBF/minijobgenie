@@ -86,7 +86,7 @@ const jsonLdOrg = {
   },
   contactPoint: {
     '@type': 'ContactPoint',
-    email: 'kontakt@minijobgenie.de',
+    email: 'minijob@genieportal.de',
     contactType: 'customer service',
     availableLanguage: 'German',
   },
