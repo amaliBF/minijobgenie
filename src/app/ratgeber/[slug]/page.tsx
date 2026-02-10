@@ -34,8 +34,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default function RatgeberArtikelPage({ params }: Props) {
-  const artikel = getRatgeberBySlug(params.slug);
-  if (!artikel) notFound();
+  const raw = getRatgeberBySlug(params.slug);
+  if (!raw) notFound();
+
+  // Normalize field names (some JSON files use "faq" instead of "faqs")
+  const artikel = {
+    ...raw,
+    faqs: raw.faqs ?? (raw as any).faq ?? [],
+    keyPoints: raw.keyPoints ?? [],
+    content: raw.content ?? '',
+  };
 
   const related = getRelatedRatgeber(artikel);
   const kategorie = ratgeberKategorien.find((k) => k.slug === artikel.categorySlug);

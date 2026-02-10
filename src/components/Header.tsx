@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { Banknote, Menu, X } from 'lucide-react';
 import PortalSwitcher from './PortalSwitcher';
+import { LoginButton, UserMenu, useAuth } from '@/lib/genie-auth';
 
 const navLinks = [
   { href: '/stellen', label: 'Stellen' },
@@ -19,6 +20,7 @@ const navLinks = [
 
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
+  const { isLoggedIn, isLoading } = useAuth();
 
   return (
     <>
@@ -55,12 +57,7 @@ export default function Header() {
             {/* Desktop CTA */}
             <div className="hidden lg:flex items-center gap-3">
               <PortalSwitcher currentPortal="minijob" />
-              <Link
-                href="https://dashboard.genieportal.de/login"
-                className="text-sm font-medium text-gray-600 hover:text-gray-900 px-3 py-2"
-              >
-                Login
-              </Link>
+              {!isLoading && (isLoggedIn ? <UserMenu /> : <LoginButton />)}
               <Link
                 href="https://dashboard.genieportal.de/register"
                 className="rounded-lg bg-gradient-to-r from-emerald-500 to-green-600 px-5 py-2 text-sm font-semibold text-white hover:from-emerald-400 hover:to-green-500 transition-all shadow-sm hover:shadow-md"
@@ -112,13 +109,9 @@ export default function Header() {
                 </a>
               ))}
               <hr className="my-2 border-emerald-100" />
-              <Link
-                href="https://dashboard.genieportal.de/login"
-                onClick={() => setMobileOpen(false)}
-                className="block text-sm text-gray-600 px-3 py-2.5 font-medium"
-              >
-                Login
-              </Link>
+              <div className="px-3 py-2">
+                {!isLoading && (isLoggedIn ? <UserMenu /> : <LoginButton />)}
+              </div>
               <Link
                 href="https://dashboard.genieportal.de/register"
                 onClick={() => setMobileOpen(false)}
