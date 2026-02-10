@@ -1,0 +1,51 @@
+{
+  "slug": "nachhilfelehrer",
+  "name": "Nachhilfelehrer/in",
+  "category": "Nachhilfe & Betreuung",
+  "categorySlug": "nachhilfe-betreuung",
+  "stundenlohn": [15, 25],
+  "typischeStunden": "4-10 Std./Woche",
+  "beschreibung": "Als Nachhilfelehrer/in im Minijob hilfst du Schülerinnen und Schülern dabei, ihre Noten zu verbessern und Lernlücken zu schließen. Dieser Minijob gehört zu den bestbezahlten Nebentätigkeiten, da qualifizierte Nachhilfe stark nachgefragt ist und Stundenlöhne von bis zu 25 Euro möglich sind. Du kannst die Nachhilfe flexibel bei den Familien zu Hause oder online per Videokonferenz geben.",
+  "aufgaben": [
+    "Individuelle Nachhilfe in einem oder mehreren Schulfächern erteilen",
+    "Lernstoff erklären und mit eigenen Beispielen veranschaulichen",
+    "Übungsaufgaben vorbereiten und gemeinsam durcharbeiten",
+    "Auf Klassenarbeiten und Prüfungen gezielt vorbereiten",
+    "Lernfortschritte dokumentieren und Eltern Feedback geben",
+    "Lernstrategien und Lerntechniken vermitteln"
+  ],
+  "voraussetzungen": [
+    "Sehr gute Kenntnisse in den unterrichteten Fächern",
+    "Geduld und Einfühlungsvermögen im Umgang mit Schüler/innen",
+    "Fähigkeit, komplexe Sachverhalte verständlich zu erklären",
+    "Zuverlässigkeit und pünktliches Erscheinen",
+    "Idealerweise Abitur oder laufendes Studium"
+  ],
+  "vorteile": [
+    "Einer der bestbezahlten Minijobs mit bis zu 25 €/Stunde",
+    "Sehr flexible Zeiteinteilung nach Absprache mit den Familien",
+    "Auch online-Nachhilfe von zu Hause möglich",
+    "Sinnvolle Tätigkeit mit direktem Erfolgserlebnis",
+    "Wertvolle pädagogische Erfahrung für angehende Lehrkräfte"
+  ],
+  "flexibilitaet": "Sehr flexibel",
+  "geeignetFuer": [
+    "Studierende mit guten Fachkenntnissen",
+    "Lehramtsstudierende für praktische Erfahrung",
+    "Oberstufenschüler/innen mit starken Noten",
+    "Fachkräfte, die ihr Wissen weitergeben möchten"
+  ],
+  "tipps": [
+    "Erstelle ein Profil auf Nachhilfe-Plattformen wie Superprof oder Erste Nachhilfe",
+    "Spezialisiere dich auf gefragte Fächer wie Mathematik, Englisch oder Deutsch",
+    "Bereite jede Stunde individuell vor und bringe eigene Übungsmaterialien mit",
+    "Bitte zufriedene Eltern um Weiterempfehlungen in ihrem Bekanntenkreis",
+    "Biete eine kostenlose Probestunde an, um neue Schüler/innen zu gewinnen"
+  ],
+  "relatedSlugs": [
+    "babysitter",
+    "seniorenbetreuung",
+    "datenerfasser",
+    "hundesitter"
+  ]
+}

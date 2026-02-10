@@ -1,0 +1,51 @@
+{
+  "slug": "kassierer",
+  "name": "Kassierer/in",
+  "category": "Einzelhandel & Verkauf",
+  "categorySlug": "einzelhandel-verkauf",
+  "stundenlohn": [12, 14],
+  "typischeStunden": "8-15 Std./Woche",
+  "beschreibung": "Als Kassierer/in im Minijob bist du an der Kasse eines Supermarkts, Baumarkts oder einer Drogerie für das Scannen der Waren und die Zahlungsabwicklung verantwortlich. Du bist die letzte Anlaufstelle für die Kunden vor dem Ausgang und prägst damit maßgeblich den Einkaufseindruck. Dieser Minijob bietet planbare Schichten und ist auch ohne vorherige Kassenerfahrung schnell erlernbar.",
+  "aufgaben": [
+    "Waren scannen und Zahlungsvorgänge korrekt abwickeln",
+    "Bar- und Kartenzahlungen sowie Gutscheine entgegennehmen",
+    "Kunden freundlich begrüßen und verabschieden",
+    "Kassenabrechnung am Schichtende durchführen",
+    "Pfandflaschen und Retouren bearbeiten",
+    "Bei Fragen der Kunden weiterhelfen und an Kollegen verweisen"
+  ],
+  "voraussetzungen": [
+    "Schnelle und sorgfältige Arbeitsweise im Umgang mit Geld",
+    "Freundliches Auftreten auch bei hohem Kundenaufkommen",
+    "Grundlegende Rechenkenntnisse und Konzentrationsfähigkeit",
+    "Zuverlässigkeit und Ehrlichkeit im Umgang mit Bargeld",
+    "Bereitschaft zu Schichtarbeit (auch samstags)"
+  ],
+  "vorteile": [
+    "Planbare und feste Arbeitsschichten",
+    "Kassensysteme werden in der Einarbeitung erklärt",
+    "Mitarbeiterrabatte in vielen Einzelhandelsunternehmen",
+    "Schneller Einstieg ohne besondere Vorkenntnisse",
+    "Erfahrung im Kundenkontakt und im Umgang mit Geld"
+  ],
+  "flexibilitaet": "Feste Schichten",
+  "geeignetFuer": [
+    "Schüler/innen ab 16 Jahren mit Zahlenverständnis",
+    "Studierende mit festen freien Tagen",
+    "Quereinsteiger/innen, die schnell starten möchten",
+    "Rentner/innen, die sich etwas dazuverdienen möchten"
+  ],
+  "tipps": [
+    "Übe im Vorfeld den Umgang mit Geld und das schnelle Wechselgeldberechnen",
+    "Erwähne in deiner Bewerbung deine Zuverlässigkeit und Ehrlichkeit",
+    "Informiere dich vorab über die Kassensysteme des Unternehmens",
+    "Bleibe auch in stressigen Stoßzeiten freundlich und gelassen",
+    "Frage nach Möglichkeiten, dich langfristig weiterzuentwickeln"
+  ],
+  "relatedSlugs": [
+    "aushilfe-einzelhandel",
+    "regalauffueller",
+    "tankstellenaushilfe",
+    "baeckereiaushilfe"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "umzugshelfer",
+  "name": "Umzugshelfer/in",
+  "category": "Lager & Logistik",
+  "categorySlug": "lager-logistik",
+  "stundenlohn": [13, 17],
+  "typischeStunden": "Auf Abruf",
+  "beschreibung": "Als Umzugshelfer/in packst du kräftig mit an und hilfst beim Transport von Möbeln, Kartons und Haushaltsgegenständen. Dieser Minijob eignet sich hervorragend für körperlich fitte Personen, die flexibel auf Abruf arbeiten möchten. Die Einsätze sind oft am Wochenende und bieten gute Verdienstmöglichkeiten pro Einsatztag.",
+  "aufgaben": [
+    "Möbel und schwere Gegenstände tragen und verladen",
+    "Kartons packen, beschriften und transportieren",
+    "Möbel auf- und abbauen",
+    "Transporter be- und entladen",
+    "Räume besenrein hinterlassen",
+    "Sorgfältiger Umgang mit empfindlichen Gegenständen"
+  ],
+  "voraussetzungen": [
+    "Gute körperliche Fitness und Belastbarkeit",
+    "Teamfähigkeit und Kommunikationsbereitschaft",
+    "Pünktlichkeit und Zuverlässigkeit",
+    "Sorgfältiger Umgang mit fremdem Eigentum",
+    "Führerschein von Vorteil, aber nicht zwingend"
+  ],
+  "vorteile": [
+    "Hoher Stundenlohn im Vergleich zu anderen Minijobs",
+    "Flexible Einsätze auf Abruf – ideal neben Studium oder Hauptjob",
+    "Körperliches Training inklusive",
+    "Schnelle Bezahlung, oft direkt nach dem Einsatz",
+    "Keine Vorkenntnisse erforderlich"
+  ],
+  "flexibilitaet": "Sehr flexibel – Einsätze werden individuell vereinbart, häufig am Wochenende oder an einzelnen Tagen",
+  "geeignetFuer": [
+    "Studierende, die am Wochenende dazuverdienen möchten",
+    "Sportliche Personen, die körperliche Arbeit schätzen",
+    "Arbeitnehmer/innen mit unregelmäßigen Arbeitszeiten",
+    "Alle, die einen flexiblen Nebenverdienst suchen"
+  ],
+  "tipps": [
+    "Melde dich bei Umzugsunternehmen als Aushilfe auf Abruf an",
+    "Trage immer festes Schuhwerk und Arbeitshandschuhe",
+    "Achte auf rückenschonendes Heben – die richtige Technik schützt vor Verletzungen",
+    "Sammle gute Bewertungen, um regelmäßig gebucht zu werden"
+  ],
+  "relatedSlugs": [
+    "moebeltraeger",
+    "lagerarbeiter",
+    "paketzusteller",
+    "kurier"
+  ]
+}

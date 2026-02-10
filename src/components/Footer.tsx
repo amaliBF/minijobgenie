@@ -55,6 +55,7 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold text-white mb-3 text-sm">Minijobs nach Stadt</h4>
             <ul className="space-y-1.5 text-sm">
+              <li><Link href="/stellen" className="text-emerald-400 hover:text-emerald-300 font-medium transition-colors">Aktuelle Stellen →</Link></li>
               <li><Link href="/minijobs/berlin" className="hover:text-white transition-colors">Minijobs Berlin</Link></li>
               <li><Link href="/minijobs/hamburg" className="hover:text-white transition-colors">Minijobs Hamburg</Link></li>
               <li><Link href="/minijobs/muenchen" className="hover:text-white transition-colors">Minijobs München</Link></li>

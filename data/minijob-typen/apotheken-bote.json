@@ -1,0 +1,51 @@
+{
+  "slug": "apotheken-bote",
+  "name": "Apotheken-Bote/Botin",
+  "category": "Lieferung & Zustellung",
+  "categorySlug": "lieferung-zustellung",
+  "stundenlohn": [13, 16],
+  "typischeStunden": "5-10 Std./Woche",
+  "beschreibung": "Als Apotheken-Bote oder -Botin im Minijob lieferst du Medikamente und Apothekenprodukte direkt an Kunden nach Hause, die nicht selbst in die Apotheke kommen können. Dieser 538-Euro-Job verbindet Mobilität mit einer sozial wertvollen Aufgabe, denn du versorgst vor allem ältere und kranke Menschen mit ihren benötigten Medikamenten. Die Arbeitszeiten richten sich nach den Öffnungszeiten der Apotheke und sind gut planbar.",
+  "aufgaben": [
+    "Medikamente und Apothekenprodukte sicher ausliefern",
+    "Lieferscheine und Rezepte korrekt zuordnen",
+    "Empfangsbestätigungen bei den Kunden einholen",
+    "Kühlpflichtige Medikamente fachgerecht transportieren",
+    "Lieferrouten effizient planen",
+    "Rückgaben und Rezepte zur Apotheke zurückbringen"
+  ],
+  "voraussetzungen": [
+    "Führerschein Klasse B oder eigenes Fahrrad",
+    "Zuverlässigkeit und Verantwortungsbewusstsein",
+    "Diskretion im Umgang mit Patientendaten",
+    "Freundlicher Umgang mit kranken und älteren Menschen",
+    "Gute Ortskenntnisse im Liefergebiet"
+  ],
+  "vorteile": [
+    "Sozial sinnvolle Tätigkeit mit dankbaren Kunden",
+    "Regelmäßige und planbare Arbeitszeiten",
+    "Eigenständiges Arbeiten auf der Lieferroute",
+    "Gute Bezahlung im Apothekenumfeld",
+    "Wenig Zeitdruck im Vergleich zur Paketlogistik"
+  ],
+  "flexibilitaet": "Teilweise flexibel",
+  "geeignetFuer": [
+    "Studierende mit Führerschein und freien Vormittagen",
+    "Rentner/innen, die aktiv bleiben möchten",
+    "Menschen mit Freude am Kontakt mit Senioren",
+    "Ortskundige mit eigenem Fahrzeug oder Fahrrad"
+  ],
+  "tipps": [
+    "Frage direkt in Apotheken in deiner Nähe nach, viele suchen Botendienst-Aushilfen",
+    "Achte auf den sorgfältigen Transport kühlpflichtiger Medikamente, eine Kühltasche ist oft nötig",
+    "Sei besonders freundlich und geduldig, viele Kunden sind krank oder eingeschränkt",
+    "Informiere dich über die Datenschutzrichtlinien im Umgang mit Rezepten und Patientendaten",
+    "Halte dein Fahrzeug oder Fahrrad stets einsatzbereit und sauber"
+  ],
+  "relatedSlugs": [
+    "reinigungskraft",
+    "gartenhelfer",
+    "regalauffueller",
+    "aushilfe-einzelhandel"
+  ]
+}

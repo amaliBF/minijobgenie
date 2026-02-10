@@ -1,0 +1,51 @@
+{
+  "slug": "regalauffueller",
+  "name": "Regalauffüller/in",
+  "category": "Einzelhandel & Verkauf",
+  "categorySlug": "einzelhandel-verkauf",
+  "stundenlohn": [12, 14],
+  "typischeStunden": "6-12 Std./Woche",
+  "beschreibung": "Als Regalauffüller/in sorgst du dafür, dass die Regale in Supermärkten, Drogerien oder Baumärkten stets gefüllt und ordentlich präsentiert sind. Dieser Minijob ist besonders einsteigerfreundlich, da keine Vorkenntnisse nötig sind und die Einarbeitung schnell erfolgt. Viele Einsätze finden in den frühen Morgenstunden oder am Abend statt, was den Job ideal für Schüler/innen und Studierende macht.",
+  "aufgaben": [
+    "Regale mit neuer Ware auffüllen und nachsortieren",
+    "Mindesthaltbarkeitsdaten kontrollieren und Ware nach FIFO-Prinzip einräumen",
+    "Waren auspacken und für die Verkaufsfläche vorbereiten",
+    "Regalordnung und Sauberkeit der Verkaufsfläche sicherstellen",
+    "Preisschilder und Etiketten anbringen oder korrigieren",
+    "Leergut und Verpackungsmaterial entsorgen"
+  ],
+  "voraussetzungen": [
+    "Körperliche Fitness zum Heben und Tragen von Kisten",
+    "Sorgfältige und strukturierte Arbeitsweise",
+    "Zuverlässigkeit und Pünktlichkeit",
+    "Bereitschaft zu Früh- oder Spätschichten",
+    "Mindestalter je nach Markt ab 16 Jahren"
+  ],
+  "vorteile": [
+    "Keinerlei Vorkenntnisse oder Ausbildung erforderlich",
+    "Schnelle Einarbeitung und sofortiger Arbeitsbeginn möglich",
+    "Arbeitszeiten oft morgens oder abends, tagsüber frei",
+    "Mitarbeiterrabatte auf das Sortiment in vielen Märkten",
+    "Körperliche Betätigung statt Sitzarbeit"
+  ],
+  "flexibilitaet": "Feste Schichten",
+  "geeignetFuer": [
+    "Schüler/innen ab 16 Jahren ohne Berufserfahrung",
+    "Studierende, die morgens oder abends arbeiten möchten",
+    "Quereinsteiger/innen ohne Vorkenntnisse",
+    "Sportliche Menschen, die gerne körperlich arbeiten"
+  ],
+  "tipps": [
+    "Bewirb dich direkt im Markt an der Information oder beim Filialleiter",
+    "Trage bei der Arbeit bequeme Kleidung und festes Schuhwerk",
+    "Zeige deine Bereitschaft, auch bei Inventuren und Sonderaktionen zu helfen",
+    "Lerne die Regalstruktur und das Sortiment schnell auswendig, das beeindruckt",
+    "Frage nach Möglichkeiten, zusätzlich an der Kasse eingesetzt zu werden"
+  ],
+  "relatedSlugs": [
+    "aushilfe-einzelhandel",
+    "kassierer",
+    "warenverraumer",
+    "inventurhelfer"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "spuelkraft",
+  "name": "Spülkraft",
+  "category": "Gastronomie & Service",
+  "categorySlug": "gastronomie-service",
+  "stundenlohn": [12, 14],
+  "typischeStunden": "8-15 Std./Woche",
+  "beschreibung": "Als Spülkraft im Minijob sorgst du in Restaurants, Hotels oder Kantinen dafür, dass Geschirr, Gläser und Küchenutensilien stets sauber und einsatzbereit sind. Dieser Job ist das Rückgrat jeder Gastronomie-Küche und bietet einen unkomplizierten Einstieg in die Branche. Besonders abends und am Wochenende werden Spülkräfte dringend gesucht.",
+  "aufgaben": [
+    "Geschirr, Besteck und Gläser per Hand und Spülmaschine reinigen",
+    "Bedienung und Pflege der gewerblichen Spülmaschine",
+    "Sauberhalten des Spülbereichs und der Küche",
+    "Einräumen von sauberem Geschirr an die richtigen Plätze",
+    "Mülltrennung und Entsorgung von Küchenabfällen",
+    "Unterstützung des Küchenteams bei einfachen Aufgaben"
+  ],
+  "voraussetzungen": [
+    "Körperliche Belastbarkeit für stehende Tätigkeit",
+    "Bereitschaft zur Arbeit an Abenden und Wochenenden",
+    "Hygienebewusstsein und Sauberkeit",
+    "Schnelles und effizientes Arbeiten unter Zeitdruck",
+    "Teamfähigkeit im Küchenbetrieb"
+  ],
+  "vorteile": [
+    "Absolut keine Vorkenntnisse nötig",
+    "Sofortiger Einstieg ohne Einarbeitungszeit",
+    "Häufig kostenloses Personalessen inklusive",
+    "Gute Trinkgeld-Beteiligung in vielen Betrieben",
+    "Einstiegsmöglichkeit in die Gastronomie"
+  ],
+  "flexibilitaet": "Mittel bis flexibel – Schichten werden meist wöchentlich geplant, Hauptarbeitszeiten sind abends und am Wochenende",
+  "geeignetFuer": [
+    "Schüler/innen ab 16 Jahren als erster Nebenjob",
+    "Studierende, die abends arbeiten können",
+    "Quereinsteiger/innen ohne Berufserfahrung",
+    "Personen, die einen einfachen und sofort verfügbaren Job suchen"
+  ],
+  "tipps": [
+    "Frage direkt in Restaurants und Hotels in deiner Nähe nach offenen Stellen",
+    "Trage wasserfeste Schuhe und bequeme Kleidung",
+    "Zeige Initiative – wer gut arbeitet, wird oft zur Küchenhilfe befördert",
+    "Nutze die ruhigen Zeiten, um auch andere Bereiche der Gastronomie kennenzulernen"
+  ],
+  "relatedSlugs": [
+    "kuechenhilfe",
+    "kellner",
+    "barkeeper",
+    "caterer"
+  ]
+}

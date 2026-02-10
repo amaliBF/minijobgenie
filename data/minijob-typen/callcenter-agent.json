@@ -1,0 +1,50 @@
+{
+  "slug": "callcenter-agent",
+  "name": "Callcenter-Agent/in",
+  "category": "Büro & Verwaltung",
+  "categorySlug": "buero-verwaltung",
+  "stundenlohn": [13, 16],
+  "typischeStunden": "8-15 Std./Woche",
+  "beschreibung": "Als Callcenter-Agent/in im Minijob telefonierst du mit Kunden, bearbeitest Anfragen und unterstützt bei Bestellungen oder Reklamationen. Viele Callcenter bieten flexible Schichtmodelle und Home-Office-Möglichkeiten an, was diesen Minijob besonders attraktiv macht. Mit guter Kommunikationsfähigkeit und Geduld kannst du hier einen soliden Nebenverdienst erzielen.",
+  "aufgaben": [
+    "Entgegennahme und Bearbeitung von Kundenanrufen (Inbound)",
+    "Beantwortung von Fragen zu Produkten und Dienstleistungen",
+    "Bearbeitung von Bestellungen, Reklamationen und Beschwerden",
+    "Dokumentation von Gesprächen im CRM-System",
+    "Weiterleitung komplexer Anliegen an Fachabteilungen",
+    "Durchführung von Kundenzufriedenheitsumfragen"
+  ],
+  "voraussetzungen": [
+    "Sehr gute Deutschkenntnisse in Wort und Schrift",
+    "Freundliche und geduldige Gesprächsführung",
+    "Belastbarkeit und Stressresistenz bei schwierigen Kunden",
+    "Grundkenntnisse am PC und in der Arbeit mit Software",
+    "Ruhige Arbeitsumgebung bei Home-Office-Einsätzen"
+  ],
+  "vorteile": [
+    "Häufig Home-Office-Option verfügbar",
+    "Flexible Schichtplanung, auch abends und am Wochenende",
+    "Keine körperliche Belastung",
+    "Wertvolle Kommunikations- und Serviceerfahrung",
+    "Regelmäßige Arbeitszeiten und planbare Einkünfte"
+  ],
+  "flexibilitaet": "Flexibel – viele Callcenter bieten verschiedene Schichtmodelle und Home-Office an, Wunscharbeitszeiten werden oft berücksichtigt",
+  "geeignetFuer": [
+    "Kommunikative Menschen mit Freude am Telefonieren",
+    "Studierende, die im Home-Office arbeiten möchten",
+    "Personen mit eingeschränkter Mobilität",
+    "Quereinsteiger/innen mit guten Deutschkenntnissen"
+  ],
+  "tipps": [
+    "Bevorzuge Inbound-Callcenter (Anrufe annehmen) gegenüber Outbound (Kaltakquise) – das ist angenehmer",
+    "Frage gezielt nach Home-Office-Möglichkeiten und stelle sicher, dass du ein Headset und stabiles Internet hast",
+    "Übe Techniken zur Deeskalation – das hilft bei schwierigen Gesprächen enorm",
+    "Achte auf die Arbeitsbedingungen und lies Bewertungen des Arbeitgebers, bevor du dich bewirbst"
+  ],
+  "relatedSlugs": [
+    "buerokraft",
+    "empfangskraft",
+    "nachhilfelehrer",
+    "babysitter"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "haushaltshilfe",
+  "name": "Haushaltshilfe",
+  "category": "Reinigung & Haushalt",
+  "categorySlug": "reinigung-haushalt",
+  "stundenlohn": [12, 16],
+  "typischeStunden": "5-12 Std./Woche",
+  "beschreibung": "Als Haushaltshilfe im Minijob unterstützt du Familien und Einzelpersonen bei alltäglichen Aufgaben im Haushalt wie Putzen, Waschen und Aufräumen. Dieser 538-Euro-Job bietet besonders flexible Arbeitszeiten, da du die Einsätze oft individuell mit deinen Auftraggebern abstimmen kannst. Die Nachfrage nach zuverlässigen Haushaltshilfen ist dauerhaft hoch, sodass du dir langfristig einen festen Kundenstamm aufbauen kannst.",
+  "aufgaben": [
+    "Wohnräume reinigen und saugen",
+    "Küche und Bad gründlich putzen",
+    "Wäsche waschen, bügeln und zusammenlegen",
+    "Einkäufe erledigen und Vorräte auffüllen",
+    "Geschirr spülen und Küche aufräumen",
+    "Fenster und Oberflächen reinigen"
+  ],
+  "voraussetzungen": [
+    "Sorgfältige und gründliche Arbeitsweise",
+    "Zuverlässigkeit und Vertrauenswürdigkeit",
+    "Körperliche Belastbarkeit",
+    "Erfahrung im Haushalt von Vorteil",
+    "Diskretion im Umgang mit privaten Räumlichkeiten"
+  ],
+  "vorteile": [
+    "Sehr flexible Zeiteinteilung, individuell vereinbar",
+    "Kurze Anfahrtswege bei Kunden in der Nachbarschaft",
+    "Kein spezieller Abschluss erforderlich",
+    "Möglichkeit, sich einen festen Kundenstamm aufzubauen",
+    "Steuerfreier Minijob bei Anmeldung über die Minijob-Zentrale"
+  ],
+  "flexibilitaet": "Sehr flexibel",
+  "geeignetFuer": [
+    "Hausfrauen und Hausmänner mit freien Kapazitäten",
+    "Studierende mit flexiblem Stundenplan",
+    "Rentner/innen, die sich etwas dazuverdienen möchten",
+    "Quereinsteiger/innen ohne Vorkenntnisse"
+  ],
+  "tipps": [
+    "Lass dir ein polizeiliches Führungszeugnis ausstellen, das stärkt das Vertrauen potenzieller Auftraggeber",
+    "Vereinbare klare Aufgabenlisten, damit beide Seiten wissen, was erwartet wird",
+    "Bringe eigene Reinigungsmittel mit oder kläre vorab, welche Produkte verwendet werden sollen",
+    "Achte auf eine offizielle Anmeldung als Minijob im Privathaushalt für deinen Versicherungsschutz",
+    "Frage zufriedene Kunden nach Weiterempfehlungen, um deinen Kundenstamm zu vergrößern"
+  ],
+  "relatedSlugs": [
+    "reinigungskraft",
+    "buegelhilfe",
+    "gebaeudereiniger",
+    "treppenhausreiniger"
+  ]
+}

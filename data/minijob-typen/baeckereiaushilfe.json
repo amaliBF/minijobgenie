@@ -1,0 +1,50 @@
+{
+  "slug": "baeckereiaushilfe",
+  "name": "Bäckereiaushilfe",
+  "category": "Einzelhandel & Verkauf",
+  "categorySlug": "einzelhandel-verkauf",
+  "stundenlohn": [12, 14],
+  "typischeStunden": "6-12 Std./Woche",
+  "beschreibung": "Als Bäckereiaushilfe im Minijob bedienst du Kunden an der Theke, berätst bei der Auswahl von Backwaren und sorgst für eine ansprechende Warenpräsentation. Dieser Minijob bietet feste Arbeitszeiten – besonders frühmorgens und samstags – und ist ideal für Frühaufsteher. Viele Bäckereien suchen dauerhaft zuverlässige Aushilfen auf 538-Euro-Basis.",
+  "aufgaben": [
+    "Bedienung und Beratung von Kunden an der Verkaufstheke",
+    "Verpacken und Herausgeben von Brot, Brötchen und Gebäck",
+    "Kassieren und Abrechnung der Tageseinnahmen",
+    "Ansprechende Präsentation der Backwaren in der Auslage",
+    "Zubereitung einfacher Snacks und Heißgetränke",
+    "Sauberhalten des Verkaufsbereichs und Einhalten der Hygienevorschriften"
+  ],
+  "voraussetzungen": [
+    "Freundlichkeit und Kundenorientierung",
+    "Bereitschaft zu Frühschichten (oft ab 5:00 oder 6:00 Uhr)",
+    "Hygienebewusstsein und Sauberkeit",
+    "Grundkenntnisse im Kassieren",
+    "Belastbarkeit, besonders in Stoßzeiten am Morgen"
+  ],
+  "vorteile": [
+    "Regelmäßige und planbare Arbeitszeiten",
+    "Häufig kostenlose Backwaren für Mitarbeitende",
+    "Feierabend bereits am Mittag – der restliche Tag ist frei",
+    "Familiäre Arbeitsatmosphäre in vielen Bäckereien",
+    "Kein langes Pendeln – Bäckereien gibt es in jedem Stadtteil"
+  ],
+  "flexibilitaet": "Mittel – feste Schichtzeiten, aber die Arbeitstage lassen sich oft flexibel mit dem Arbeitgeber absprechen",
+  "geeignetFuer": [
+    "Frühaufsteher/innen, die morgens fit sind",
+    "Schüler/innen ab 16 Jahren für Samstagsarbeit",
+    "Mütter und Väter, die vormittags arbeiten möchten",
+    "Rentner/innen, die sich einen Nebenverdienst wünschen"
+  ],
+  "tipps": [
+    "Bewirb dich persönlich und direkt in der Filiale – das kommt besser an als eine Online-Bewerbung",
+    "Lerne die Produktnamen und Preise schnell auswendig – Kunden schätzen schnelle Bedienung",
+    "Frage nach einer Gesundheitsbelehrung beim Gesundheitsamt, falls du noch keine hast",
+    "Zeige Interesse an den Produkten – wer gut beraten kann, bekommt oft mehr Stunden"
+  ],
+  "relatedSlugs": [
+    "aushilfe-einzelhandel",
+    "kassierer",
+    "eisverkaufer",
+    "blumenladen-aushilfe"
+  ]
+}

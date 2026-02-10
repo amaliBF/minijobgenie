@@ -1,0 +1,51 @@
+{
+  "slug": "fensterputzer",
+  "name": "Fensterputzer/in",
+  "category": "Reinigung & Haushalt",
+  "categorySlug": "reinigung-haushalt",
+  "stundenlohn": [13, 17],
+  "typischeStunden": "5-12 Std./Woche",
+  "beschreibung": "Als Fensterputzer/in im Minijob reinigst du Fenster, Glasflächen und Schaufenster bei Privathaushalten, Büros und Geschäften. Dieser 538-Euro-Job wird gut bezahlt, da die Tätigkeit Geschick und Sorgfalt erfordert. Die Nachfrage ist besonders im Frühjahr und Herbst hoch, wenn viele Kunden ihre Fenster gründlich reinigen lassen möchten.",
+  "aufgaben": [
+    "Fenster und Glasflächen innen und außen streifenfrei reinigen",
+    "Fensterrahmen und Fensterbänke säubern",
+    "Schaufenster von Geschäften und Büros putzen",
+    "Wintergärten und Glasdächer reinigen",
+    "Reinigungsmittel und Werkzeuge pflegen und vorbereiten",
+    "Rollläden und Jalousien bei Bedarf mitreinigen"
+  ],
+  "voraussetzungen": [
+    "Schwindelfreiheit bei Arbeiten auf Leitern",
+    "Sorgfältige und streifenfreie Arbeitsweise",
+    "Körperliche Fitness für das Arbeiten über Kopf",
+    "Zuverlässigkeit und eigenständiges Arbeiten",
+    "Erfahrung im Fensterputzen von Vorteil"
+  ],
+  "vorteile": [
+    "Überdurchschnittlicher Stundenlohn für Reinigungstätigkeiten",
+    "Viel Arbeit an der frischen Luft",
+    "Eigenständige Zeiteinteilung bei Privatkunden",
+    "Möglichkeit, sich selbstständig einen Kundenstamm aufzubauen",
+    "Geringe Materialkosten für die Grundausstattung"
+  ],
+  "flexibilitaet": "Flexibel",
+  "geeignetFuer": [
+    "Sportliche Menschen ohne Höhenangst",
+    "Studierende, die gerne draußen arbeiten",
+    "Selbstständige Minijobber mit eigenem Kundenstamm",
+    "Quereinsteiger/innen mit Sinn für Sauberkeit"
+  ],
+  "tipps": [
+    "Investiere in professionelles Werkzeug wie Abzieher, Einwascher und Teleskopstange, das zahlt sich aus",
+    "Putze bei bedecktem Himmel, da direkte Sonneneinstrahlung zu Schlieren führt",
+    "Biete Privatkunden ein regelmäßiges Abo an, zum Beispiel vierteljährlich, für planbaren Verdienst",
+    "Übe die Abzieh-Technik, bis du streifenfrei arbeiten kannst, das ist dein Qualitätsmerkmal",
+    "Verteile Visitenkarten in der Nachbarschaft, Mundpropaganda ist der beste Weg zu neuen Kunden"
+  ],
+  "relatedSlugs": [
+    "reinigungskraft",
+    "gebaeudereiniger",
+    "treppenhausreiniger",
+    "buegelhilfe"
+  ]
+}

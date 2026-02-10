@@ -1,0 +1,51 @@
+{
+  "slug": "handwerker-helfer",
+  "name": "Handwerkerhelfer/in",
+  "category": "Handwerk & Garten",
+  "categorySlug": "handwerk-garten",
+  "stundenlohn": [13, 17],
+  "typischeStunden": "8-15 Std./Woche",
+  "beschreibung": "Als Handwerkerhelfer/in im Minijob unterstützt du Handwerksbetriebe bei verschiedensten Arbeiten auf Baustellen, in Werkstätten oder bei Kunden vor Ort. Du hilfst erfahrenen Handwerkern bei Vorbereitungsarbeiten, Transporten und einfachen Montagetätigkeiten. Dieser Minijob bietet einen attraktiven Stundenlohn und die Möglichkeit, praktische handwerkliche Fähigkeiten zu erlernen, die auch im eigenen Haushalt nützlich sind.",
+  "aufgaben": [
+    "Materialien und Werkzeuge vorbereiten und zur Baustelle transportieren",
+    "Bei Montage-, Installations- und Reparaturarbeiten assistieren",
+    "Baustellen aufräumen und Abfälle fachgerecht entsorgen",
+    "Einfache Zuarbeiten wie Schleifen, Grundieren oder Abkleben ausführen",
+    "Werkzeuge reinigen und Maschinen pflegen",
+    "Lieferungen entgegennehmen und Materialbestand verwalten"
+  ],
+  "voraussetzungen": [
+    "Körperliche Fitness und Belastbarkeit",
+    "Handwerkliches Geschick und technisches Verständnis",
+    "Pünktlichkeit und Zuverlässigkeit",
+    "Bereitschaft, bei Wind und Wetter draußen zu arbeiten",
+    "Führerschein Klasse B von Vorteil"
+  ],
+  "vorteile": [
+    "Überdurchschnittlicher Stundenlohn im Handwerk",
+    "Praktische Fähigkeiten erlernen, die im Alltag nützlich sind",
+    "Abwechslungsreiche Einsatzorte und Aufgaben",
+    "Körperliche Arbeit als Ausgleich zur Schreibtischtätigkeit",
+    "Mögliche Übernahme in eine Ausbildung oder Festanstellung"
+  ],
+  "flexibilitaet": "Feste Schichten",
+  "geeignetFuer": [
+    "Schüler/innen und Studierende mit handwerklichem Interesse",
+    "Quereinsteiger/innen, die ins Handwerk reinschnuppern möchten",
+    "Sportliche Menschen, die körperliche Arbeit bevorzugen",
+    "Handwerker im Ruhestand, die sich etwas dazuverdienen wollen"
+  ],
+  "tipps": [
+    "Frage bei kleinen Handwerksbetrieben in deiner Umgebung direkt nach – viele suchen spontan Helfer",
+    "Eigene Sicherheitsschuhe und Arbeitshandschuhe mitzubringen macht einen guten Eindruck",
+    "Zeige Lernbereitschaft und frage aktiv nach – so bekommst du anspruchsvollere Aufgaben",
+    "Nutze den Minijob als Einstieg in eine Ausbildung im Handwerk",
+    "Achte unbedingt auf Arbeitsschutzvorschriften und trage die vorgeschriebene Schutzausrüstung"
+  ],
+  "relatedSlugs": [
+    "umzugshelfer",
+    "gartenhelfer",
+    "lagerarbeiter",
+    "reinigungskraft"
+  ]
+}

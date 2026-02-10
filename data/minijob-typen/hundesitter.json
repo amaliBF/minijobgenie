@@ -1,0 +1,51 @@
+{
+  "slug": "hundesitter",
+  "name": "Hundesitter/in",
+  "category": "Nachhilfe & Betreuung",
+  "categorySlug": "nachhilfe-betreuung",
+  "stundenlohn": [12, 18],
+  "typischeStunden": "5-15 Std./Woche",
+  "beschreibung": "Als Hundesitter/in im Minijob kümmerst du dich um Hunde, während ihre Besitzer arbeiten, verreist sind oder andere Verpflichtungen haben. Du gehst mit den Vierbeinern Gassi, fütterst sie und sorgst für Beschäftigung und Auslauf. Dieser Minijob ist perfekt für Tierliebhaber, die sich gerne an der frischen Luft bewegen und eine persönliche Bindung zu ihren vierbeinigen Schützlingen aufbauen möchten.",
+  "aufgaben": [
+    "Regelmäßige Gassirunden mit einem oder mehreren Hunden drehen",
+    "Hunde füttern und frisches Wasser bereitstellen",
+    "Fellpflege und grundlegende Hygiene des Hundes sicherstellen",
+    "Hunde in der Wohnung oder im eigenen Zuhause betreuen",
+    "Besitzer über das Wohlbefinden und Verhalten des Hundes informieren",
+    "Tierarztbesuche bei Bedarf begleiten oder organisieren"
+  ],
+  "voraussetzungen": [
+    "Liebe zu Tieren und Erfahrung im Umgang mit Hunden",
+    "Körperliche Fitness für ausgedehnte Spaziergänge bei jedem Wetter",
+    "Zuverlässigkeit und Verantwortungsbewusstsein",
+    "Grundkenntnisse über Hundeverhalten und Körpersprache",
+    "Flexibilität bei den Betreuungszeiten"
+  ],
+  "vorteile": [
+    "Arbeit an der frischen Luft mit täglicher Bewegung",
+    "Emotionale Bereicherung durch die Arbeit mit Tieren",
+    "Sehr flexible Zeiteinteilung nach Absprache mit den Besitzern",
+    "Stundenlohn kann bei Betreuung mehrerer Hunde steigen",
+    "Aufbau langfristiger Kundenbeziehungen mit Stammkunden"
+  ],
+  "flexibilitaet": "Sehr flexibel",
+  "geeignetFuer": [
+    "Tierliebhaber/innen ohne eigenen Hund",
+    "Schüler/innen und Studierende mit flexiblem Zeitplan",
+    "Rentner/innen, die sich regelmäßig bewegen möchten",
+    "Alle, die einen naturnahen Nebenjob suchen"
+  ],
+  "tipps": [
+    "Registriere dich auf Plattformen wie Pawshake, Rover oder Betreut.de",
+    "Biete ein kostenloses Kennenlerntreffen mit Hund und Besitzer an",
+    "Schließe eine Tierhaftpflichtversicherung ab, die auch betreute Hunde abdeckt",
+    "Dokumentiere deine Spaziergänge mit Fotos, die du den Besitzern schickst",
+    "Bilde dich in Erste Hilfe für Hunde weiter, das schafft Vertrauen bei den Besitzern"
+  ],
+  "relatedSlugs": [
+    "babysitter",
+    "gartenhelfer",
+    "seniorenbetreuung",
+    "nachhilfelehrer"
+  ]
+}

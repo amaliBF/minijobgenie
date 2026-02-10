@@ -1,0 +1,51 @@
+{
+  "slug": "korrekturleser",
+  "name": "Korrekturleser/in",
+  "category": "Online & Digital",
+  "categorySlug": "online-digital",
+  "stundenlohn": [14, 20],
+  "typischeStunden": "5-10 Std./Woche",
+  "beschreibung": "Als Korrekturleser/in im Minijob prüfst du Texte auf Rechtschreibung, Grammatik, Zeichensetzung und Stil und sorgst für fehlerfreie Veröffentlichungen. Die Arbeit erfolgt komplett digital und kann von zu Hause aus erledigt werden, was diesen Minijob besonders flexibel macht. Verlage, Agenturen, Webseitenbetreiber und Studierende suchen regelmäßig nach zuverlässigen Korrekturlesern für verschiedene Textarten.",
+  "aufgaben": [
+    "Texte auf Rechtschreib-, Grammatik- und Zeichensetzungsfehler prüfen",
+    "Stilistische Unstimmigkeiten und inkonsistente Formulierungen korrigieren",
+    "Einheitlichkeit bei Schreibweisen und Formatierungen sicherstellen",
+    "Änderungen nachvollziehbar im Änderungsmodus dokumentieren",
+    "Fachbegriffe und Fakten auf Richtigkeit überprüfen",
+    "Feedback zu Lesbarkeit und Verständlichkeit geben"
+  ],
+  "voraussetzungen": [
+    "Hervorragende Deutschkenntnisse in Rechtschreibung und Grammatik",
+    "Hohes Konzentrationsvermögen und Liebe zum Detail",
+    "Sicherer Umgang mit Word, Google Docs oder Lektorats-Software",
+    "Kenntnisse der aktuellen Duden-Rechtschreibregeln",
+    "Zuverlässigkeit bei Terminfristen"
+  ],
+  "vorteile": [
+    "100 % Homeoffice – komplett ortsunabhängig arbeiten",
+    "Höherer Stundenlohn als bei vielen anderen Minijobs",
+    "Intellektuell anregende Tätigkeit mit verschiedenen Themen",
+    "Freie Zeiteinteilung innerhalb der Abgabefristen",
+    "Wertvolle Erfahrung für Berufe im Verlags- oder Medienwesen"
+  ],
+  "flexibilitaet": "Frei einteilbar",
+  "geeignetFuer": [
+    "Studierende der Germanistik, Linguistik oder Medienwissenschaften",
+    "Buchbegeisterte mit Sprachgefühl und Auge fürs Detail",
+    "Freiberufler/innen, die einen planbaren Nebenverdienst suchen",
+    "Lehrer/innen oder Journalist/innen im Ruhestand"
+  ],
+  "tipps": [
+    "Erstelle Arbeitsproben, indem du freiwillig Blogartikel oder Vereinstexte korrigierst",
+    "Registriere dich auf Plattformen wie Textbroker, content.de oder Fiverr",
+    "Investiere in ein Duden-Abo oder eine Rechtschreibprüfungs-Software als Arbeitshilfe",
+    "Spezialisiere dich auf bestimmte Textsorten (akademisch, Marketing, journalistisch) für höhere Honorare",
+    "Arbeite stets im Änderungsmodus, damit Auftraggeber deine Korrekturen nachvollziehen können"
+  ],
+  "relatedSlugs": [
+    "texter",
+    "datenerfasser",
+    "buerokraft",
+    "callcenter-agent"
+  ]
+}

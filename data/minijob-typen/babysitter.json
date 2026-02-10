@@ -1,0 +1,51 @@
+{
+  "slug": "babysitter",
+  "name": "Babysitter/in",
+  "category": "Nachhilfe & Betreuung",
+  "categorySlug": "nachhilfe-betreuung",
+  "stundenlohn": [12, 18],
+  "typischeStunden": "5-15 Std./Woche",
+  "beschreibung": "Als Babysitter/in betreust du Kinder in deren Zuhause, während die Eltern beruflich oder privat unterwegs sind. Du spielst, liest vor, hilfst bei den Hausaufgaben und sorgst für das Wohlbefinden der Kinder. Besonders an Abenden und Wochenenden werden Babysitter stark nachgefragt, und bei regelmäßigen Einsätzen entsteht oft eine vertrauensvolle Beziehung zu den Familien.",
+  "aufgaben": [
+    "Kinder altersgerecht betreuen und beaufsichtigen",
+    "Gemeinsam spielen, basteln und vorlesen",
+    "Mahlzeiten zubereiten und beim Essen begleiten",
+    "Kinder ins Bett bringen und Einschlafrituale begleiten",
+    "Bei Hausaufgaben unterstützen und zum Lernen motivieren",
+    "Sicherheit der Kinder jederzeit gewährleisten"
+  ],
+  "voraussetzungen": [
+    "Erfahrung im Umgang mit Kindern verschiedener Altersstufen",
+    "Verantwortungsbewusstsein und Zuverlässigkeit",
+    "Geduld, Einfühlungsvermögen und liebevoller Umgang",
+    "Erste-Hilfe-Kenntnisse bei Kindernotfällen von Vorteil",
+    "Nichtraucher/in bevorzugt"
+  ],
+  "vorteile": [
+    "Flexible Arbeitszeiten, ideal für Abende und Wochenenden",
+    "Vertrauensvolle und persönliche Arbeitsbeziehung zu Familien",
+    "Stundenlohn kann bei mehreren Kindern höher ausfallen",
+    "Sinnvolle Tätigkeit mit Kindern in familiärer Atmosphäre",
+    "Gute Vorbereitung auf pädagogische Berufe"
+  ],
+  "flexibilitaet": "Sehr flexibel",
+  "geeignetFuer": [
+    "Schüler/innen ab 16 Jahren mit Kinderliebe",
+    "Studierende der Pädagogik oder Erziehungswissenschaften",
+    "Eltern, die bereits Erfahrung mit Kindern haben",
+    "Quereinsteiger/innen mit Betreuungserfahrung"
+  ],
+  "tipps": [
+    "Absolviere einen Babysitter-Kurs beim Roten Kreuz oder der Volkshochschule",
+    "Registriere dich auf Plattformen wie Betreut.de oder HalloBabysitter.de",
+    "Lege dir ein kurzes Profil mit Erfahrungen und Referenzen an",
+    "Vereinbare beim ersten Treffen ein Kennenlerngespräch mit Eltern und Kindern",
+    "Halte immer Notfallnummern der Eltern und des Kinderarztes bereit"
+  ],
+  "relatedSlugs": [
+    "nachhilfelehrer",
+    "hundesitter",
+    "seniorenbetreuung",
+    "haushaltshilfe"
+  ]
+}

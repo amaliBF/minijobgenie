@@ -1,0 +1,51 @@
+{
+  "slug": "buerokraft",
+  "name": "Bürokraft/Bürohilfe",
+  "category": "Büro & Verwaltung",
+  "categorySlug": "buero-verwaltung",
+  "stundenlohn": [13, 16],
+  "typischeStunden": "8-15 Std./Woche",
+  "beschreibung": "Als Bürokraft oder Bürohilfe im Minijob unterstützt du Unternehmen bei administrativen und organisatorischen Aufgaben wie Datenpflege, Ablage, Korrespondenz und Terminplanung. Dieser Minijob findet in einem ruhigen Büroumfeld statt und bietet die Möglichkeit, wertvolle kaufmännische Erfahrungen zu sammeln. Besonders für Studierende der Wirtschafts- oder Verwaltungswissenschaften ist dieser Job eine praxisnahe Ergänzung zum Studium.",
+  "aufgaben": [
+    "Daten in Systeme einpflegen und Datenbanken aktualisieren",
+    "Dokumente ablegen, sortieren und archivieren",
+    "Briefe, E-Mails und Korrespondenz bearbeiten",
+    "Termine koordinieren und Besprechungen vorbereiten",
+    "Rechnungen und Belege vorsortieren und zuordnen",
+    "Büromaterial bestellen und Büroorganisation unterstützen"
+  ],
+  "voraussetzungen": [
+    "Sichere PC-Kenntnisse (MS Office, insbesondere Word und Excel)",
+    "Gute Deutschkenntnisse in Wort und Schrift",
+    "Sorgfältige und strukturierte Arbeitsweise",
+    "Grundlegendes Organisationstalent",
+    "Diskretion im Umgang mit vertraulichen Informationen"
+  ],
+  "vorteile": [
+    "Ruhige und angenehme Arbeitsumgebung im Büro",
+    "Wertvolle kaufmännische Erfahrung für den Lebenslauf",
+    "Regelmäßige Arbeitszeiten ohne Wochenendarbeit",
+    "Erlernen von Bürosoftware und administrativen Abläufen",
+    "Gute Möglichkeit, in eine Festanstellung übernommen zu werden"
+  ],
+  "flexibilitaet": "Flexibel",
+  "geeignetFuer": [
+    "Studierende der Wirtschafts- oder Verwaltungswissenschaften",
+    "Quereinsteiger/innen mit PC-Kenntnissen",
+    "Wiedereinsteiger/innen nach einer Berufspause",
+    "Schüler/innen ab 16 Jahren mit Interesse an Büroarbeit"
+  ],
+  "tipps": [
+    "Verbessere vorab deine Excel- und Word-Kenntnisse, das wird häufig verlangt",
+    "Hebe in der Bewerbung deine Genauigkeit und Sorgfalt hervor",
+    "Frage nach der Möglichkeit, auch von zu Hause aus zu arbeiten (Homeoffice)",
+    "Zeige Eigeninitiative und schlage Verbesserungen bei Abläufen vor",
+    "Nutze den Job, um ein berufliches Netzwerk in deiner Branche aufzubauen"
+  ],
+  "relatedSlugs": [
+    "empfangskraft",
+    "datenerfasser",
+    "callcenter-agent",
+    "reinigungskraft"
+  ]
+}

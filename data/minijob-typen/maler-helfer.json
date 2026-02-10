@@ -1,0 +1,51 @@
+{
+  "slug": "maler-helfer",
+  "name": "Malerhelfer/in",
+  "category": "Handwerk & Garten",
+  "categorySlug": "handwerk-garten",
+  "stundenlohn": [13, 16],
+  "typischeStunden": "8-15 Std./Woche",
+  "beschreibung": "Als Malerhelfer/in im Minijob unterstützt du Malermeister und -gesellen bei Streich-, Tapezier- und Lackierarbeiten in Wohnungen, Büros und auf Baustellen. Du bereitest Untergründe vor, klebst ab und hilfst beim Anstreichen großer Flächen. Gerade bei Wohnungsrenovierungen und Neubauprojekten werden regelmäßig Malerhelfer auf Minijobbasis gesucht, da die Nachfrage in der Branche konstant hoch ist.",
+  "aufgaben": [
+    "Wände und Decken mit Abdeckfolie und Kreppband schützen",
+    "Untergründe schleifen, spachteln und grundieren",
+    "Große Wand- und Deckenflächen mit Rolle und Pinsel streichen",
+    "Beim Tapezieren und Entfernen alter Tapeten helfen",
+    "Werkzeuge und Pinsel reinigen und Materialien vorbereiten",
+    "Arbeitsplatz aufräumen und Abfälle entsorgen"
+  ],
+  "voraussetzungen": [
+    "Körperliche Fitness, insbesondere für Arbeiten über Kopf",
+    "Saubere und sorgfältige Arbeitsweise",
+    "Schwindelfreiheit für Arbeiten auf Leitern und Gerüsten",
+    "Bereitschaft, sich schmutzig zu machen",
+    "Grundlegendes handwerkliches Geschick"
+  ],
+  "vorteile": [
+    "Schneller Einstieg ohne spezielle Vorkenntnisse",
+    "Nützliche Fähigkeiten für die eigene Wohnung erlernen",
+    "Sichtbare Arbeitsergebnisse, die zufriedenstellen",
+    "Guter Stundenlohn im Handwerksbereich",
+    "Möglichkeit, verschiedene Techniken (Lasur, Putz, Tapete) kennenzulernen"
+  ],
+  "flexibilitaet": "Feste Schichten",
+  "geeignetFuer": [
+    "Studierende, die praktische Arbeit suchen und körperlich fit sind",
+    "Kreative Menschen mit einem Auge für Farben und Flächen",
+    "Quereinsteiger/innen, die ins Malerhandwerk reinschnuppern möchten",
+    "Handwerklich begabte Schüler/innen ab 16 Jahren"
+  ],
+  "tipps": [
+    "Bring eigene weiße Arbeitskleidung mit – das macht bei Malerbetrieben einen professionellen Eindruck",
+    "Übe das saubere Abkleben und Streichen zu Hause, um deine Technik zu verbessern",
+    "Frage bei Renovierungs- und Malerteams in deiner Region direkt per Telefon nach",
+    "Melde dich bei Zeitarbeitsfirmen an, die sich auf Handwerk spezialisiert haben",
+    "Investiere in gute Knieschoner – viele Malerarbeiten finden bodennah statt"
+  ],
+  "relatedSlugs": [
+    "umzugshelfer",
+    "gartenhelfer",
+    "lagerarbeiter",
+    "reinigungskraft"
+  ]
+}

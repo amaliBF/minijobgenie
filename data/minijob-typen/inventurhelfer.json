@@ -1,0 +1,50 @@
+{
+  "slug": "inventurhelfer",
+  "name": "Inventurhelfer/in",
+  "category": "Lager & Logistik",
+  "categorySlug": "lager-logistik",
+  "stundenlohn": [13, 16],
+  "typischeStunden": "Auf Abruf",
+  "beschreibung": "Als Inventurhelfer/in zählst du Warenbestände in Geschäften, Lagern oder Kaufhäusern und erfasst die Ergebnisse in digitalen Systemen. Inventuren finden oft nachts oder am Wochenende statt, sodass sich dieser Minijob hervorragend als Nebenverdienst eignet. Besonders zum Jahreswechsel und bei Inventurstichtagen werden viele Aushilfen gesucht.",
+  "aufgaben": [
+    "Zählen von Warenbeständen in Regalen und Lagern",
+    "Erfassung der Bestände per Scanner oder Zählliste",
+    "Abgleich von Soll- und Ist-Beständen",
+    "Sortieren und Ordnen von Waren vor der Zählung",
+    "Dokumentation von Abweichungen und Fehlbeständen",
+    "Zusammenarbeit im Inventurteam"
+  ],
+  "voraussetzungen": [
+    "Sorgfältige und konzentrierte Arbeitsweise",
+    "Bereitschaft zur Nacht- oder Wochenendarbeit",
+    "Grundlegende Rechenkenntnisse",
+    "Zuverlässigkeit und Pünktlichkeit",
+    "Teamfähigkeit"
+  ],
+  "vorteile": [
+    "Keinerlei Vorkenntnisse oder Erfahrung nötig",
+    "Ideal als kurzfristiger Zusatzverdienst",
+    "Einsätze stören nicht den regulären Tagesablauf",
+    "Schnelle Einarbeitung am Einsatztag",
+    "Häufig Nachtzuschläge auf den Stundenlohn"
+  ],
+  "flexibilitaet": "Auf Abruf – Einsätze werden im Voraus angekündigt, häufig nachts oder am Wochenende, besonders zum Jahresende",
+  "geeignetFuer": [
+    "Studierende, die abends oder nachts arbeiten können",
+    "Personen mit einem Hauptjob, die zusätzlich verdienen möchten",
+    "Detailorientierte Menschen mit Zahlenaffinität",
+    "Alle, die einen unkomplizierten Nebenjob suchen"
+  ],
+  "tipps": [
+    "Melde dich bei Inventurdienstleistern wie RGIS oder OMS an",
+    "Sei besonders zum Jahreswechsel verfügbar – dann gibt es die meisten Einsätze",
+    "Trage bequeme Kleidung und festes Schuhwerk",
+    "Arbeite konzentriert und genau – Schnelligkeit kommt mit der Übung"
+  ],
+  "relatedSlugs": [
+    "regalauffueller",
+    "lagerarbeiter",
+    "aushilfe-einzelhandel",
+    "kassierer"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "garderobiere",
+  "name": "Garderobiere/Garderobier",
+  "category": "Events & Promotion",
+  "categorySlug": "events-promotion",
+  "stundenlohn": [12, 15],
+  "typischeStunden": "Auf Abruf",
+  "beschreibung": "Als Garderobiere oder Garderobier im Minijob betreust du die Garderobe bei Theatern, Konzerten, Galas und anderen Veranstaltungen. Dieser 538-Euro-Job ist ideal für freundliche und organisierte Menschen, die gerne im Eventbereich arbeiten. Die Einsätze finden vorwiegend abends und am Wochenende statt, was den Job perfekt als Nebenverdienst macht.",
+  "aufgaben": [
+    "Mäntel, Jacken und Taschen entgegennehmen und ordentlich verwahren",
+    "Garderobenmarken ausgeben und Ordnung halten",
+    "Kleidungsstücke beim Abholen korrekt zuordnen und aushändigen",
+    "Fundstücke sichern und an die Veranstaltungsleitung übergeben",
+    "Garderobenbereich sauber und übersichtlich halten",
+    "Gäste freundlich begrüßen und verabschieden"
+  ],
+  "voraussetzungen": [
+    "Freundliches und gepflegtes Auftreten",
+    "Organisationstalent und guter Überblick",
+    "Sorgfältiger Umgang mit fremdem Eigentum",
+    "Zuverlässigkeit und Ehrlichkeit",
+    "Bereitschaft zu Abend- und Wochenendarbeit"
+  ],
+  "vorteile": [
+    "Angenehmes Arbeitsumfeld bei kulturellen Veranstaltungen",
+    "Trinkgeld als häufiger zusätzlicher Verdienst",
+    "Wenig körperlich anspruchsvoll",
+    "Spannende Einblicke in die Event- und Kulturszene",
+    "Keinerlei Vorkenntnisse erforderlich"
+  ],
+  "flexibilitaet": "Auf Abruf",
+  "geeignetFuer": [
+    "Kultur- und Eventbegeisterte",
+    "Studierende mit freien Abenden",
+    "Rentner/innen, die sich etwas dazuverdienen möchten",
+    "Kommunikative Menschen mit Serviceorientierung"
+  ],
+  "tipps": [
+    "Kontaktiere Theater, Konzerthallen und Eventagenturen in deiner Stadt direkt",
+    "Kleide dich dezent und gepflegt, da du das erste und letzte Gesicht für die Gäste bist",
+    "Entwickle ein System für die schnelle Zuordnung der Garderobenmarken",
+    "Sei besonders aufmerksam beim Abholen, damit keine Verwechslungen passieren",
+    "Nutze ruhige Phasen während der Veranstaltung, um die Garderobe zu sortieren"
+  ],
+  "relatedSlugs": [
+    "kellner",
+    "barkeeper",
+    "promoter",
+    "reinigungskraft"
+  ]
+}

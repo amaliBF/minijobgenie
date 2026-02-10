@@ -1,0 +1,51 @@
+{
+  "slug": "eisverkaufer",
+  "name": "Eisverkäufer/in",
+  "category": "Gastronomie & Service",
+  "categorySlug": "gastronomie-service",
+  "stundenlohn": [12, 14],
+  "typischeStunden": "8-15 Std./Woche",
+  "beschreibung": "Als Eisverkäufer/in im Minijob portionierst du Eis, berätst Kunden bei der Sortenauswahl und sorgst für ein sauberes Verkaufsumfeld. Dieser 538-Euro-Job ist vor allem in den Frühjahrs- und Sommermonaten gefragt und bringt eine fröhliche, sommerliche Arbeitsatmosphäre mit sich. Besonders in Fußgängerzonen, an Strandpromenaden und in Parks sind Eisdielen beliebte Arbeitgeber für Minijobber.",
+  "aufgaben": [
+    "Eis in Waffeln und Becher portionieren",
+    "Kunden über Eissorten und Allergene beraten",
+    "Kasse bedienen und Zahlungen abwickeln",
+    "Eistheke sauber halten und Sorten nachfüllen",
+    "Milchshakes, Eisbecher und Waffeln zubereiten",
+    "Verkaufsraum und Außenbereich aufräumen"
+  ],
+  "voraussetzungen": [
+    "Gesundheitszeugnis nach §43 IfSG erforderlich",
+    "Freundliches Auftreten und Spaß am Kundenkontakt",
+    "Hygienisches Arbeiten im Umgang mit Lebensmitteln",
+    "Belastbarkeit bei hohem Kundenandrang",
+    "Grundlegende Rechenkenntnisse für die Kasse"
+  ],
+  "vorteile": [
+    "Fröhliche Arbeitsatmosphäre mit zufriedenen Kunden",
+    "Kostenlose Eisproben und Personalrabatt üblich",
+    "Sommerjob an der frischen Luft möglich",
+    "Ideal als saisonaler Nebenverdienst für Schüler und Studierende",
+    "Einfacher Einstieg ohne Vorkenntnisse"
+  ],
+  "flexibilitaet": "Flexibel",
+  "geeignetFuer": [
+    "Schüler/innen ab 16 Jahren im Sommer",
+    "Studierende in der vorlesungsfreien Zeit",
+    "Kommunikative Menschen mit guter Laune",
+    "Saisonarbeiter/innen für die Sommermonate"
+  ],
+  "tipps": [
+    "Bewirb dich bereits im März oder April, damit du zum Saisonstart dabei bist",
+    "Lerne alle Eissorten und deren Allergene auswendig, das beeindruckt Kunden und Chefs",
+    "Übe das Portionieren mit der Eiskugel-Zange, damit die Kugeln gleichmäßig und ansprechend aussehen",
+    "Bringe Sonnencreme und eine Kopfbedeckung mit, wenn du im Außenbereich arbeitest",
+    "Frage nach, ob du auch in der Eisherstellung mithelfen kannst, das erweitert deine Erfahrung"
+  ],
+  "relatedSlugs": [
+    "kellner",
+    "kuechenhilfe",
+    "kassierer",
+    "barkeeper"
+  ]
+}

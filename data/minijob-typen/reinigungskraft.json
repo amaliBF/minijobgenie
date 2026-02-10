@@ -1,0 +1,51 @@
+{
+  "slug": "reinigungskraft",
+  "name": "Reinigungskraft",
+  "category": "Reinigung & Haushalt",
+  "categorySlug": "reinigung-haushalt",
+  "stundenlohn": [12, 15],
+  "typischeStunden": "5-15 Std./Woche",
+  "beschreibung": "Als Reinigungskraft im Minijob sorgst du für Sauberkeit und Hygiene in Büros, Praxen, Treppenhäusern oder Privathaushalten. Die Einsätze finden häufig außerhalb der üblichen Geschäftszeiten statt, also am frühen Morgen oder am Abend. Reinigungskräfte werden in nahezu jeder Branche gesucht, sodass du in deiner Nähe schnell passende Stellen findest.",
+  "aufgaben": [
+    "Böden saugen, wischen und feucht reinigen",
+    "Sanitäranlagen gründlich putzen und desinfizieren",
+    "Oberflächen, Schreibtische und Regale abstauben und reinigen",
+    "Mülleimer leeren und Müll fachgerecht entsorgen",
+    "Reinigungsmittel und -geräte sachgemäß verwenden und pflegen",
+    "Verbrauchsmaterialien wie Seife und Toilettenpapier nachfüllen"
+  ],
+  "voraussetzungen": [
+    "Gründliche und sorgfältige Arbeitsweise",
+    "Körperliche Belastbarkeit für stehende und bückende Tätigkeiten",
+    "Zuverlässigkeit und Vertrauenswürdigkeit (oft allein in Räumen)",
+    "Bereitschaft zu flexiblen Arbeitszeiten (früh morgens oder abends)",
+    "Grundkenntnisse im Umgang mit Reinigungsmitteln"
+  ],
+  "vorteile": [
+    "Sehr hohe Nachfrage und schneller Jobeinstieg möglich",
+    "Keine Ausbildung oder besonderen Vorkenntnisse nötig",
+    "Arbeitszeiten außerhalb der Stoßzeiten (morgens/abends)",
+    "Selbstständiges Arbeiten ohne ständige Anleitung",
+    "Kombinierbar mit anderen Minijobs oder Hauptbeschäftigung"
+  ],
+  "flexibilitaet": "Flexibel",
+  "geeignetFuer": [
+    "Quereinsteiger/innen ohne spezielle Vorkenntnisse",
+    "Eltern, die morgens oder abends arbeiten können",
+    "Studierende, die einen unkomplizierten Nebenjob suchen",
+    "Rentner/innen, die aktiv bleiben und dazuverdienen möchten"
+  ],
+  "tipps": [
+    "Bewirb dich bei Gebäudereinigungsfirmen in deiner Stadt für regelmäßige Einsätze",
+    "Achte auf ergonomisches Arbeiten, um Rücken und Gelenke zu schonen",
+    "Frage nach einer Einweisung in die verwendeten Reinigungsmittel und Maschinen",
+    "Erstelle dir eine Checkliste für jedes Objekt, damit nichts vergessen wird",
+    "Private Reinigungsjobs findest du über Portale wie Helpling oder nebenan.de"
+  ],
+  "relatedSlugs": [
+    "haushaltshilfe",
+    "gartenhelfer",
+    "buerokraft",
+    "empfangskraft"
+  ]
+}

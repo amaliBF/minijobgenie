@@ -1,0 +1,51 @@
+{
+  "slug": "winterdienst",
+  "name": "Winterdienst",
+  "category": "Handwerk & Garten",
+  "categorySlug": "handwerk-garten",
+  "stundenlohn": [13, 17],
+  "typischeStunden": "Saisonal",
+  "beschreibung": "Im Winterdienst-Minijob räumst du Schnee und Eis von Gehwegen, Parkplätzen und Zufahrten und streust bei Glätte Salz oder Splitt. Grundstückseigentümer sind gesetzlich zur Räumpflicht verpflichtet und delegieren diese Aufgabe häufig an Minijobber. Dieser saisonale Job bringt einen attraktiven Stundenlohn, erfordert aber frühmorgendliche Einsatzbereitschaft bei winterlichem Wetter.",
+  "aufgaben": [
+    "Schnee von Gehwegen, Einfahrten und Parkplätzen räumen",
+    "Streumittel (Salz, Sand, Splitt) auf glatten Flächen ausbringen",
+    "Eisflächen beseitigen und Sturzgefahren minimieren",
+    "Räumgeräte wie Schneeschieber und Schneefräse bedienen",
+    "Wetterlage beobachten und bei Bedarf erneut räumen",
+    "Streumittelvorräte kontrollieren und nachfüllen"
+  ],
+  "voraussetzungen": [
+    "Körperliche Fitness und Belastbarkeit bei Kälte",
+    "Bereitschaft zu sehr frühen Einsatzzeiten (ab 5-6 Uhr)",
+    "Zuverlässigkeit auch bei schlechtem Wetter",
+    "Wetterfeste Kleidung und Schuhe mit Profil",
+    "Führerschein von Vorteil für mehrere Einsatzorte"
+  ],
+  "vorteile": [
+    "Überdurchschnittlicher Stundenlohn für saisonale Arbeit",
+    "Intensives Fitness-Training durch körperliche Tätigkeit",
+    "Arbeit erledigt, bevor der reguläre Tag beginnt",
+    "Hohe Nachfrage und kaum Konkurrenz bei Bewerbern",
+    "Kombination mehrerer Grundstücke für höheren Verdienst"
+  ],
+  "flexibilitaet": "Wetterabhängig",
+  "geeignetFuer": [
+    "Frühaufsteher/innen, die morgens aktiv sein möchten",
+    "Sportliche Menschen, die Kälte nichts ausmacht",
+    "Studierende, die vor der Uni arbeiten können",
+    "Menschen, die einen lukrativen Saisonjob suchen"
+  ],
+  "tipps": [
+    "Melde dich bereits im Herbst bei Hausverwaltungen und Winterdienst-Firmen an – die Vergabe erfolgt vor der Saison",
+    "Vereinbare klare Regelungen: Wie oft pro Tag muss geräumt werden? Wer stellt die Geräte?",
+    "Investiere in thermoaktive Unterwäsche und wasserdichte Handschuhe",
+    "Informiere dich über die Räumpflicht-Zeiten in deiner Gemeinde (meist 7-20 Uhr)",
+    "Dokumentiere deine Räumeinsätze mit Fotos und Uhrzeiten – das schützt den Auftraggeber und dich bei Haftungsfragen"
+  ],
+  "relatedSlugs": [
+    "gartenhelfer",
+    "umzugshelfer",
+    "lagerarbeiter",
+    "reinigungskraft"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "rezeptionist",
+  "name": "Rezeptionist/in",
+  "category": "Büro & Verwaltung",
+  "categorySlug": "buero-verwaltung",
+  "stundenlohn": [13, 16],
+  "typischeStunden": "8-15 Std./Woche",
+  "beschreibung": "Als Rezeptionist/in im Minijob bist du die erste Anlaufstelle für Besucher und Gäste in Hotels, Arztpraxen, Fitnessstudios oder Unternehmen. Du empfängst Menschen freundlich, nimmst Telefonate entgegen und kümmerst dich um die Terminverwaltung. Dieser Minijob bietet eine angenehme Arbeitsumgebung und ist ideal für kommunikative Menschen mit einem professionellen Auftreten.",
+  "aufgaben": [
+    "Besucher und Gäste empfangen und weiterleiten",
+    "Telefonate annehmen und an die richtigen Ansprechpartner vermitteln",
+    "Termine koordinieren und Reservierungen verwalten",
+    "Post und Pakete annehmen und verteilen",
+    "Empfangsbereich sauber und einladend halten",
+    "Informationen zu Angeboten und Dienstleistungen bereitstellen"
+  ],
+  "voraussetzungen": [
+    "Freundliches und professionelles Auftreten",
+    "Gute Deutschkenntnisse, Englisch von Vorteil",
+    "Sicherer Umgang mit PC und Telefon",
+    "Organisationstalent und Multitasking-Fähigkeit",
+    "Gepflegtes Erscheinungsbild und gute Umgangsformen"
+  ],
+  "vorteile": [
+    "Angenehme Arbeitsumgebung im Empfangsbereich",
+    "Wertvolle Erfahrung in Kundenkommunikation und Organisation",
+    "Feste, planbare Arbeitszeiten",
+    "Oft Vergünstigungen (z. B. Fitness-Mitgliedschaft, Hotelrabatte)",
+    "Gute Referenz für den Lebenslauf im Bereich Büromanagement"
+  ],
+  "flexibilitaet": "Feste Schichten",
+  "geeignetFuer": [
+    "Studierende aus den Bereichen BWL, Tourismus oder Kommunikation",
+    "Kommunikative Menschen mit Freude am Kundenkontakt",
+    "Quereinsteiger/innen mit gepflegtem Auftreten",
+    "Menschen, die eine Bürotätigkeit ohne schwere Aufgaben suchen"
+  ],
+  "tipps": [
+    "Bewirb dich bei Fitnessstudios und Hotels – dort werden besonders oft Rezeptionisten auf Minijob-Basis gesucht",
+    "Hebe in deiner Bewerbung Freundlichkeit und Organisationstalent hervor",
+    "Lerne die Grundlagen der Telefonetikette und professionellen Begrüßung",
+    "Frage nach Zusatzleistungen wie Mitgliedschaften oder Vergünstigungen",
+    "Zeige Bereitschaft, auch an Wochenenden oder Feiertagen zu arbeiten – das erhöht deine Chancen"
+  ],
+  "relatedSlugs": [
+    "empfangskraft",
+    "buerokraft",
+    "callcenter-agent",
+    "datenerfasser"
+  ]
+}

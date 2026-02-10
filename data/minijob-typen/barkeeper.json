@@ -1,0 +1,51 @@
+{
+  "slug": "barkeeper",
+  "name": "Barkeeper/in",
+  "category": "Gastronomie & Service",
+  "categorySlug": "gastronomie-service",
+  "stundenlohn": [12, 16],
+  "typischeStunden": "8-15 Std./Woche",
+  "beschreibung": "Als Barkeeper/in im Minijob mixt du Cocktails und Longdrinks, zapfst Bier und sorgst hinter dem Tresen für gute Stimmung in Bars, Clubs oder bei Veranstaltungen. Neben dem Grundlohn profitierst du häufig von großzügigem Trinkgeld, was diesen Minijob besonders lukrativ macht. Die Arbeitszeiten liegen typischerweise am Abend und nachts, ideal für Nachteulen und gesellige Menschen.",
+  "aufgaben": [
+    "Cocktails, Longdrinks und andere Getränke nach Rezept mixen",
+    "Bier zapfen, Wein einschenken und alkoholfreie Getränke zubereiten",
+    "Gäste an der Bar beraten und Getränkeempfehlungen aussprechen",
+    "Bar sauber halten, Gläser spülen und Arbeitsflächen reinigen",
+    "Getränkebestand kontrollieren und Nachbestellungen vorbereiten",
+    "Abrechnungen an der Bar durchführen und Kasse führen"
+  ],
+  "voraussetzungen": [
+    "Mindestalter 18 Jahre (Ausschank von Alkohol)",
+    "Kommunikationsstärke und Freude am Umgang mit Gästen",
+    "Belastbarkeit und Stressresistenz in hektischen Nächten",
+    "Grundkenntnisse über Getränke und Cocktails von Vorteil",
+    "Bereitschaft zu Nacht- und Wochenendarbeit"
+  ],
+  "vorteile": [
+    "Trinkgeld kann den Stundenlohn deutlich erhöhen",
+    "Lebhafte und gesellige Arbeitsatmosphäre",
+    "Kreatives Arbeiten beim Mixen von Cocktails",
+    "Kontakte zu vielen verschiedenen Menschen knüpfen",
+    "Gefragte Fähigkeit bei Events und Privatpartys"
+  ],
+  "flexibilitaet": "Feste Schichten",
+  "geeignetFuer": [
+    "Studierende, die abends und nachts arbeiten möchten",
+    "Gesellige Nachteulen mit Barista- oder Mixkenntnissen",
+    "Quereinsteiger/innen mit kommunikativem Wesen",
+    "Menschen mit Leidenschaft für Getränke und Cocktailkultur"
+  ],
+  "tipps": [
+    "Besuche einen Barkeeper-Kurs oder lerne Cocktailrezepte online, das verschafft dir einen Vorsprung",
+    "Übe Speed-Pouring und das gleichzeitige Bedienen mehrerer Gäste",
+    "Bewirb dich persönlich in Bars und Clubs, zeige deine Persönlichkeit",
+    "Frage nach der Trinkgeldregelung, bevor du den Job annimmst",
+    "Bleibe auch spät nachts professionell und behalte den Überblick über deine Gäste"
+  ],
+  "relatedSlugs": [
+    "kellner",
+    "kuechenhilfe",
+    "caterer",
+    "promoter"
+  ]
+}

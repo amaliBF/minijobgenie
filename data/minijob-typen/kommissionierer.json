@@ -1,0 +1,51 @@
+{
+  "slug": "kommissionierer",
+  "name": "Kommissionierer/in",
+  "category": "Lager & Logistik",
+  "categorySlug": "lager-logistik",
+  "stundenlohn": [13, 16],
+  "typischeStunden": "8-15 Std./Woche",
+  "beschreibung": "Als Kommissionierer/in im Minijob stellst du Waren nach Aufträgen zusammen und bereitest Sendungen für den Versand vor. Du arbeitest in Lagerhallen großer Handelsunternehmen oder Logistikzentren und sorgst dafür, dass Bestellungen korrekt und termingerecht gepackt werden. Durch die wachsende Bedeutung des Onlinehandels ist die Nachfrage nach Kommissionierern besonders hoch.",
+  "aufgaben": [
+    "Waren nach Picklisten aus Regalen entnehmen und zusammenstellen",
+    "Bestellungen auf Vollständigkeit und Qualität prüfen",
+    "Sendungen versandfertig verpacken und etikettieren",
+    "Warenein- und -ausgänge mit Scannern erfassen",
+    "Lagerbestände kontrollieren und Nachschub melden",
+    "Ordnung und Sauberkeit im Lagerbereich sicherstellen"
+  ],
+  "voraussetzungen": [
+    "Körperliche Belastbarkeit und Ausdauer",
+    "Sorgfältige und gewissenhafte Arbeitsweise",
+    "Grundlegende Deutschkenntnisse für Picklisten",
+    "Bereitschaft zu Schichtarbeit und Wochenendarbeit",
+    "Zuverlässigkeit und Pünktlichkeit"
+  ],
+  "vorteile": [
+    "Schneller Einstieg ohne Vorkenntnisse möglich",
+    "Körperliche Betätigung statt Schreibtischarbeit",
+    "Planbare Schichten, oft auch Nacht- und Wochenendschichten verfügbar",
+    "Gute Übernahmechancen bei großen Logistikunternehmen",
+    "Oft Zuschläge für Nacht- und Wochenendarbeit"
+  ],
+  "flexibilitaet": "Feste Schichten",
+  "geeignetFuer": [
+    "Studierende, die körperliche Arbeit bevorzugen",
+    "Quereinsteiger/innen ohne Berufserfahrung",
+    "Sportliche Menschen mit Freude an Bewegung",
+    "Nachteulen, die Spät- oder Nachtschichten mögen"
+  ],
+  "tipps": [
+    "Bewirb dich bei großen Logistikzentren wie Amazon, DHL oder Hermes für regelmäßige Schichten",
+    "Trage bequeme, geschlossene Schuhe mit Sicherheitssohle",
+    "Nutze die Einarbeitungszeit, um dich mit dem Lagerlayout vertraut zu machen",
+    "Frage nach Möglichkeiten für einen Staplerschein – das erhöht dein Stundengehalt",
+    "Achte auf ergonomisches Heben, um Rückenproblemen vorzubeugen"
+  ],
+  "relatedSlugs": [
+    "lagerarbeiter",
+    "umzugshelfer",
+    "gartenhelfer",
+    "reinigungskraft"
+  ]
+}

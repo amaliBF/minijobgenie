@@ -1,0 +1,50 @@
+{
+  "slug": "verpackungshelfer",
+  "name": "Verpackungshelfer/in",
+  "category": "Lager & Logistik",
+  "categorySlug": "lager-logistik",
+  "stundenlohn": [12, 14],
+  "typischeStunden": "8-15 Std./Woche",
+  "beschreibung": "Als Verpackungshelfer/in im Minijob bist du für das fachgerechte Verpacken, Etikettieren und Versandfertigmachen von Waren zuständig. Dieser Job findet in Lagern, Versandzentren oder Produktionsbetrieben statt und erfordert keine besonderen Vorkenntnisse. Besonders in der Vorweihnachtszeit und bei Saisonspitzen werden viele Verpackungshelfer gesucht.",
+  "aufgaben": [
+    "Verpacken von Produkten in Kartons und Versandtaschen",
+    "Etikettieren und Beschriften von Paketen",
+    "Qualitätskontrolle der Waren vor dem Verpacken",
+    "Kommissionieren von Bestellungen nach Packliste",
+    "Palettieren und versandfertig machen von Sendungen",
+    "Einfache Montage- und Konfektionierungsarbeiten"
+  ],
+  "voraussetzungen": [
+    "Sorgfältige und zügige Arbeitsweise",
+    "Körperliche Belastbarkeit für stehende Tätigkeit",
+    "Zuverlässigkeit und Pünktlichkeit",
+    "Teamfähigkeit in der Zusammenarbeit am Packband",
+    "Grundlegende Deutschkenntnisse"
+  ],
+  "vorteile": [
+    "Keinerlei Vorkenntnisse erforderlich",
+    "Schnelle Einarbeitung am ersten Arbeitstag",
+    "Regelmäßige Schichtzeiten für gute Planbarkeit",
+    "Häufig Zuschläge für Nacht- und Wochenendarbeit",
+    "Große Nachfrage, besonders in der Weihnachtszeit"
+  ],
+  "flexibilitaet": "Mittel – feste Schichtzeiten, aber oft verschiedene Schichtmodelle wählbar (Früh-, Spät-, Nachtschicht)",
+  "geeignetFuer": [
+    "Studierende, die neben dem Studium regelmäßig arbeiten möchten",
+    "Quereinsteiger/innen ohne Berufserfahrung",
+    "Personen, die einen einfachen und planbaren Nebenjob suchen",
+    "Saisonarbeiter/innen in der Vorweihnachtszeit"
+  ],
+  "tipps": [
+    "Bewirb dich bei großen Versandzentren wie Amazon, Zalando oder DHL",
+    "Achte auf ergonomisches Arbeiten – Rückenübungen helfen bei stehender Tätigkeit",
+    "Nutze die Weihnachtssaison für mehr Einsätze und höhere Zuschläge",
+    "Frage nach langfristigen Minijob-Verträgen statt nur Saisonarbeit"
+  ],
+  "relatedSlugs": [
+    "lagerarbeiter",
+    "regalauffueller",
+    "paketzusteller",
+    "kurier"
+  ]
+}

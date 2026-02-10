@@ -1,0 +1,50 @@
+{
+  "slug": "promoter",
+  "name": "Promoter/in",
+  "category": "Events & Promotion",
+  "categorySlug": "events-promotion",
+  "stundenlohn": [13, 18],
+  "typischeStunden": "5-15 Std./Woche",
+  "beschreibung": "Als Promoter/in im Minijob bist du das Gesicht einer Marke oder eines Produkts und sprichst potenzielle Kunden aktiv an. Du arbeitest auf Veranstaltungen, in Fußgängerzonen oder in Einkaufszentren und begeisterst Menschen für Produkte und Dienstleistungen. Dieser Job ist perfekt für kommunikative Menschen mit einer offenen und freundlichen Art.",
+  "aufgaben": [
+    "Aktive Kundenansprache in Fußgängerzonen oder Einkaufszentren",
+    "Verteilen von Flyern, Proben und Werbematerialien",
+    "Produkte oder Dienstleistungen vorstellen und erklären",
+    "Gewinnspiele und Aktionen betreuen",
+    "Feedback und Kontaktdaten von Interessenten sammeln",
+    "Aufbau und Abbau von Promotionständen"
+  ],
+  "voraussetzungen": [
+    "Kommunikationsstärke und offenes Auftreten",
+    "Freundlichkeit und Überzeugungskraft",
+    "Gutes Deutsch in Wort und Schrift",
+    "Selbstbewusstes und gepflegtes Erscheinungsbild",
+    "Bereitschaft, auch am Wochenende zu arbeiten"
+  ],
+  "vorteile": [
+    "Überdurchschnittlicher Stundenlohn möglich",
+    "Abwechslungsreiche Einsatzorte und Produkte",
+    "Ideal für kommunikative und kontaktfreudige Menschen",
+    "Wertvolle Erfahrung in Marketing und Verkauf",
+    "Flexible Einsatzplanung"
+  ],
+  "flexibilitaet": "Flexibel – Einsätze werden projektbezogen geplant, oft an Wochenenden und bei besonderen Aktionen",
+  "geeignetFuer": [
+    "Studierende mit Marketing- oder Kommunikationsinteresse",
+    "Extrovertierte Persönlichkeiten mit Redetalent",
+    "Schüler/innen ab 18 Jahren",
+    "Alle, die gerne mit Menschen arbeiten"
+  ],
+  "tipps": [
+    "Melde dich bei mehreren Promotion-Agenturen an, um regelmäßig Einsätze zu bekommen",
+    "Übe deine Ansprache vorher – der erste Satz entscheidet über den Erfolg",
+    "Kleide dich dem Anlass entsprechend und sei immer pünktlich",
+    "Dokumentiere deine Einsätze für zukünftige Bewerbungen im Marketing-Bereich"
+  ],
+  "relatedSlugs": [
+    "flyer-verteiler",
+    "messebauer",
+    "caterer",
+    "kellner"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "erntehelfer",
+  "name": "Erntehelfer/in",
+  "category": "Handwerk & Garten",
+  "categorySlug": "handwerk-garten",
+  "stundenlohn": [12, 15],
+  "typischeStunden": "Saisonal",
+  "beschreibung": "Als Erntehelfer/in im Minijob unterstützt du landwirtschaftliche Betriebe beim Pflücken, Sortieren und Verpacken von Obst, Gemüse oder Blumen – je nach Saison und Region. Die Arbeit findet überwiegend im Freien statt und ist besonders in den Sommermonaten gefragt, wenn Erdbeeren, Spargel, Äpfel und andere Feldfrüchte geerntet werden. Viele Höfe bieten zusätzlich zur Bezahlung kostenlose Verpflegung oder Ernteprodukte als Naturalien an.",
+  "aufgaben": [
+    "Obst und Gemüse von Hand ernten und in Kisten sammeln",
+    "Erntegut nach Qualität und Größe sortieren",
+    "Früchte und Gemüse für den Verkauf oder Transport verpacken",
+    "Pflanzen pflegen, jäten und bei der Aussaat helfen",
+    "Erntekisten und Fahrzeuge be- und entladen",
+    "Gewächshäuser und Felder nach der Ernte aufräumen"
+  ],
+  "voraussetzungen": [
+    "Gute körperliche Belastbarkeit für Arbeit in gebückter Haltung",
+    "Bereitschaft zur Arbeit im Freien bei Hitze und Regen",
+    "Frühes Aufstehen (Erntebeginn oft um 6-7 Uhr)",
+    "Zuverlässigkeit und Durchhaltevermögen",
+    "Keine besonderen Vorkenntnisse erforderlich"
+  ],
+  "vorteile": [
+    "Arbeit in der Natur und an der frischen Luft",
+    "Oft kostenlose Verpflegung und frische Produkte vom Hof",
+    "Intensives Gemeinschaftsgefühl unter den Erntehelfern",
+    "Körperliche Betätigung als Ausgleich zum Alltag",
+    "Ideal kombinierbar mit Semesterferien oder Schulferien"
+  ],
+  "flexibilitaet": "Saisonal",
+  "geeignetFuer": [
+    "Schüler/innen und Studierende in den Sommerferien",
+    "Naturverbundene Menschen, die gerne draußen arbeiten",
+    "Sportliche Menschen, die körperliche Herausforderungen mögen",
+    "Quereinsteiger/innen, die unkompliziert Geld verdienen wollen"
+  ],
+  "tipps": [
+    "Kontaktiere Bauernhöfe in deiner Region bereits im Frühjahr – die besten Plätze sind schnell vergeben",
+    "Trage Sonnenschutz, einen Hut und bequeme Arbeitskleidung, die schmutzig werden darf",
+    "Trinke ausreichend Wasser und mache regelmäßig Pausen bei Hitze",
+    "Informiere dich über die Erntezeiten: Spargel (April-Juni), Erdbeeren (Mai-Juli), Äpfel (August-Oktober)",
+    "Frage nach Leistungszulagen – manche Höfe zahlen Boni für fleißige Helfer"
+  ],
+  "relatedSlugs": [
+    "gartenhelfer",
+    "umzugshelfer",
+    "lagerarbeiter",
+    "reinigungskraft"
+  ]
+}

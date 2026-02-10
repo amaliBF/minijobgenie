@@ -1,0 +1,51 @@
+{
+  "slug": "seniorenbetreuung",
+  "name": "Seniorenbetreuung",
+  "category": "Nachhilfe & Betreuung",
+  "categorySlug": "nachhilfe-betreuung",
+  "stundenlohn": [13, 17],
+  "typischeStunden": "5-15 Std./Woche",
+  "beschreibung": "In der Seniorenbetreuung als Minijob begleitest du ältere Menschen im Alltag, leistest Gesellschaft und hilfst bei kleineren Besorgungen. Dieser 538-Euro-Job ist ideal für empathische Menschen, die gerne mit älteren Personen umgehen und eine sinnvolle Tätigkeit suchen. Die Einsätze können flexibel auf wenige Stunden pro Woche verteilt werden und sind oft wohnortnah.",
+  "aufgaben": [
+    "Gesellschaft leisten und Gespräche führen",
+    "Begleitung bei Spaziergängen und Arztbesuchen",
+    "Einkäufe und Besorgungen erledigen",
+    "Vorlesen und gemeinsame Freizeitgestaltung",
+    "Leichte Hilfe im Haushalt wie Mahlzeiten zubereiten",
+    "Unterstützung bei der Nutzung von Telefon und Technik"
+  ],
+  "voraussetzungen": [
+    "Einfühlungsvermögen und Geduld im Umgang mit älteren Menschen",
+    "Zuverlässigkeit und Pünktlichkeit",
+    "Gute Deutschkenntnisse für die Kommunikation",
+    "Grundkenntnisse in Erster Hilfe von Vorteil",
+    "Führerschein für Begleitfahrten wünschenswert"
+  ],
+  "vorteile": [
+    "Sinnvolle und erfüllende Tätigkeit mit sozialer Wirkung",
+    "Flexible Einsatzzeiten, oft wohnortnah",
+    "Wertvolle Erfahrung für soziale und pflegerische Berufe",
+    "Dankbare und herzliche Zusammenarbeit mit Senioren",
+    "Steuerfreier Verdienst im Rahmen der Minijob-Grenze"
+  ],
+  "flexibilitaet": "Flexibel",
+  "geeignetFuer": [
+    "Studierende sozialer Fachrichtungen",
+    "Eltern mit flexibler Zeiteinteilung",
+    "Menschen mit Freude am Umgang mit Senioren",
+    "Quereinsteiger/innen mit sozialem Engagement"
+  ],
+  "tipps": [
+    "Erkundige dich bei lokalen Pflegediensten oder Seniorenheimen nach offenen Minijob-Stellen",
+    "Ein Erste-Hilfe-Kurs gibt dir Sicherheit und macht dich für Auftraggeber attraktiver",
+    "Halte regelmäßige Zeiten ein, denn Senioren schätzen Verlässlichkeit und Routine",
+    "Informiere dich über Demenz und altersbedingte Einschränkungen, um professionell reagieren zu können",
+    "Nutze Online-Plattformen für Seniorenbetreuung, um Aufträge in deiner Nähe zu finden"
+  ],
+  "relatedSlugs": [
+    "babysitter",
+    "nachhilfelehrer",
+    "reinigungskraft",
+    "gartenhelfer"
+  ]
+}

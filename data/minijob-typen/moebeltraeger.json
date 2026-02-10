@@ -1,0 +1,51 @@
+{
+  "slug": "moebeltraeger",
+  "name": "Möbelträger/in",
+  "category": "Lager & Logistik",
+  "categorySlug": "lager-logistik",
+  "stundenlohn": [14, 18],
+  "typischeStunden": "Auf Abruf",
+  "beschreibung": "Als Möbelträger/in im Minijob unterstützt du Umzugsunternehmen oder Privatpersonen beim Transport von Möbeln und schweren Gegenständen. Dieser 538-Euro-Job wird meist auf Abruf vergeben, sodass du nur dann arbeitest, wenn Aufträge anstehen. Die körperlich anspruchsvolle Tätigkeit wird überdurchschnittlich gut bezahlt und eignet sich hervorragend für sportliche Menschen.",
+  "aufgaben": [
+    "Möbel und Hausrat sicher verpacken und transportieren",
+    "Schwere Gegenstände tragen und in Umzugswagen verladen",
+    "Möbel ab- und wieder aufbauen",
+    "Transportwege sichern und Treppenhäuser schützen",
+    "Einrichtungsgegenstände am Zielort positionieren",
+    "Verpackungsmaterial entsorgen und aufräumen"
+  ],
+  "voraussetzungen": [
+    "Gute körperliche Fitness und Belastbarkeit",
+    "Teamfähigkeit und Kommunikationsbereitschaft",
+    "Zuverlässigkeit, auch bei kurzfristigen Einsätzen",
+    "Handwerkliches Geschick für Möbelmontage",
+    "Führerschein Klasse B von Vorteil"
+  ],
+  "vorteile": [
+    "Überdurchschnittlicher Stundenlohn für körperliche Arbeit",
+    "Flexible Einsätze auf Abruf, keine festen Schichten",
+    "Gutes Fitnesstraining nebenbei",
+    "Schnelle Auszahlung, oft direkt nach dem Einsatz",
+    "Keine Vorkenntnisse oder Ausbildung erforderlich"
+  ],
+  "flexibilitaet": "Auf Abruf",
+  "geeignetFuer": [
+    "Sportliche Studierende mit freien Tagen",
+    "Schüler/innen ab 18 Jahren",
+    "Fitness-Enthusiasten, die beim Arbeiten trainieren möchten",
+    "Menschen, die flexible Abruf-Jobs bevorzugen"
+  ],
+  "tipps": [
+    "Melde dich bei mehreren Umzugsunternehmen als Aushilfe an, um regelmäßig Einsätze zu bekommen",
+    "Trage immer festes Schuhwerk und arbeite mit Handschuhen, um Verletzungen zu vermeiden",
+    "Lerne die richtige Hebetechnik, um deinen Rücken zu schonen",
+    "Sei pünktlich und zuverlässig, dann wirst du bei neuen Aufträgen bevorzugt angefragt",
+    "Frage nach Trinkgeld-Regelungen, bei Umzügen gibt es oft zusätzliche Zuwendungen"
+  ],
+  "relatedSlugs": [
+    "umzugshelfer",
+    "lagerarbeiter",
+    "kommissionierer",
+    "gartenhelfer"
+  ]
+}

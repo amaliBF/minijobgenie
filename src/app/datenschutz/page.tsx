@@ -13,9 +13,19 @@ export const metadata: Metadata = {
 };
 
 export default function DatenschutzPage() {
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://minijobgenie.de' },
+      { '@type': 'ListItem', position: 2, name: 'Datenschutzerklärung' },
+    ],
+  };
+
   return (
     <div className="min-h-screen bg-[#F0FDF4]">
       <Header />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
 
       {/* Hero */}
       <section className="pt-32 pb-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-emerald-500 via-green-600 to-emerald-700 text-white relative overflow-hidden">

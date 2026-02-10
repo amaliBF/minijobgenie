@@ -1,0 +1,50 @@
+{
+  "slug": "messehostess",
+  "name": "Messehostess/Messehost",
+  "category": "Events & Promotion",
+  "categorySlug": "events-promotion",
+  "stundenlohn": [14, 20],
+  "typischeStunden": "Auf Abruf",
+  "beschreibung": "Als Messehostess oder Messehost repräsentierst du Unternehmen auf Messen, Kongressen und Firmenevents. Du empfängst Besucher, führst Gespräche und sorgst für einen professionellen Auftritt am Messestand. Dieser Minijob bietet attraktive Stundenlöhne und spannende Einblicke in verschiedene Branchen.",
+  "aufgaben": [
+    "Empfang und Betreuung von Messebesuchern",
+    "Repräsentation des Unternehmens am Messestand",
+    "Informationsmaterialien verteilen und Fragen beantworten",
+    "Registrierung und Check-in von Gästen",
+    "Unterstützung bei Auf- und Abbau des Messestands",
+    "Koordination von Gesprächsterminen und Leads"
+  ],
+  "voraussetzungen": [
+    "Professionelles und gepflegtes Auftreten",
+    "Sehr gute Deutschkenntnisse, Fremdsprachen von Vorteil",
+    "Kommunikationsstärke und Serviceorientierung",
+    "Bereitschaft für ganztägige Einsätze",
+    "Belastbarkeit und Stehvermögen"
+  ],
+  "vorteile": [
+    "Einer der bestbezahlten Minijobs überhaupt",
+    "Spannende Einblicke in verschiedene Branchen und Unternehmen",
+    "Netzwerken mit Fachleuten und Entscheidern",
+    "Einsätze sind klar terminiert und planbar",
+    "Wertvolle Berufserfahrung für Karriere in Events oder Marketing"
+  ],
+  "flexibilitaet": "Einsätze auf Abruf – Messen und Events werden Wochen im Voraus angekündigt, sodass du gut planen kannst",
+  "geeignetFuer": [
+    "Studierende mit professionellem Auftreten",
+    "Personen mit Fremdsprachenkenntnissen",
+    "Kommunikationstalente mit Servicegedanken",
+    "Alle, die Events und Messeluft mögen"
+  ],
+  "tipps": [
+    "Registriere dich bei spezialisierten Hostess-Agenturen in deiner Region",
+    "Investiere in ein professionelles Bewerbungsfoto – das ist in dieser Branche wichtig",
+    "Lerne Grundlagen in Englisch und einer weiteren Fremdsprache für internationale Messen",
+    "Sei immer mindestens 15 Minuten vor Einsatzbeginn vor Ort"
+  ],
+  "relatedSlugs": [
+    "caterer",
+    "garderobiere",
+    "empfangskraft",
+    "flyer-verteiler"
+  ]
+}

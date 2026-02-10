@@ -1,0 +1,51 @@
+{
+  "slug": "kuechenhilfe",
+  "name": "Küchenhilfe",
+  "category": "Gastronomie & Service",
+  "categorySlug": "gastronomie-service",
+  "stundenlohn": [12, 14],
+  "typischeStunden": "8-15 Std./Woche",
+  "beschreibung": "Als Küchenhilfe im Minijob unterstützt du das Küchenteam in Restaurants, Kantinen oder Catering-Betrieben bei der Vor- und Nachbereitung von Speisen. Du übernimmst das Schneiden von Zutaten, das Anrichten von Tellern und die Reinigung des Arbeitsplatzes. Dieser Job bietet einen spannenden Blick hinter die Kulissen der Gastronomie und ist ein idealer Einstieg für alle, die sich für das Kochen interessieren.",
+  "aufgaben": [
+    "Gemüse, Obst und weitere Zutaten waschen, schälen und schneiden",
+    "Speisen nach Anweisung des Kochs anrichten und garnieren",
+    "Küche, Geräte und Arbeitsflächen sauber halten",
+    "Spülmaschine bedienen und Geschirr einräumen",
+    "Lebensmittellieferungen entgegennehmen und einlagern",
+    "Müll entsorgen und Hygienevorschriften einhalten"
+  ],
+  "voraussetzungen": [
+    "Bereitschaft, körperlich zu arbeiten und lange zu stehen",
+    "Sauberkeit und Einhaltung von Hygienestandards (HACCP)",
+    "Belastbarkeit auch in hektischen Stoßzeiten",
+    "Teamfähigkeit und Bereitschaft, Anweisungen zu befolgen",
+    "Bereitschaft zu Abend- und Wochenendschichten"
+  ],
+  "vorteile": [
+    "Kostenlose Verpflegung während der Arbeitszeit in vielen Betrieben",
+    "Keine Vorkenntnisse oder Ausbildung erforderlich",
+    "Einblicke in die professionelle Küche und Kochtechniken",
+    "Möglichkeit, sich intern zum Koch oder zur Köchin weiterzuentwickeln",
+    "Kollegiales Arbeitsumfeld im Küchenteam"
+  ],
+  "flexibilitaet": "Feste Schichten",
+  "geeignetFuer": [
+    "Schüler/innen und Studierende mit Interesse am Kochen",
+    "Quereinsteiger/innen ohne Gastronomieerfahrung",
+    "Menschen, die gerne im Team arbeiten",
+    "Alle, die einen aktiven Job statt Büroarbeit bevorzugen"
+  ],
+  "tipps": [
+    "Informiere dich vorab über grundlegende Hygieneregeln in der Gastronomie",
+    "Trage bei der Bewerbung saubere, gepflegte Kleidung und zeige Motivation",
+    "Frage nach einer Gesundheitsbelehrung gemäß Infektionsschutzgesetz (§43 IfSG)",
+    "Zeige Eigeninitiative beim Aufräumen und Sauberhalten der Küche",
+    "Sei offen für unterschiedliche Aufgaben, auch Spülen gehört dazu"
+  ],
+  "relatedSlugs": [
+    "kellner",
+    "spuelkraft",
+    "caterer",
+    "barkeeper"
+  ]
+}

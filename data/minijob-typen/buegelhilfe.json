@@ -1,0 +1,51 @@
+{
+  "slug": "buegelhilfe",
+  "name": "Bügelhilfe",
+  "category": "Reinigung & Haushalt",
+  "categorySlug": "reinigung-haushalt",
+  "stundenlohn": [12, 15],
+  "typischeStunden": "3-8 Std./Woche",
+  "beschreibung": "Als Bügelhilfe im Minijob unterstützt du Privathaushalte oder gewerbliche Wäschedienste beim Bügeln und Zusammenlegen von Kleidung, Tischdecken und Bettwäsche. Dieser Minijob lässt sich besonders flexibel in den Alltag integrieren und erfordert keine spezielle Ausbildung. Gerade Familien mit Kindern oder berufstätige Paare suchen häufig zuverlässige Bügelhilfen über Kleinanzeigen oder Haushaltshilfe-Portale.",
+  "aufgaben": [
+    "Wäsche bügeln und nach Kleidungstypen sortieren",
+    "Hemden, Blusen und empfindliche Stoffe fachgerecht glätten",
+    "Gebügelte Kleidung zusammenlegen und in Schränke einräumen",
+    "Bettwäsche und Tischwäsche bügeln und falten",
+    "Pflegehinweise auf Etiketten beachten und Temperaturen anpassen",
+    "Bei Bedarf Wäsche waschen und zum Trocknen aufhängen"
+  ],
+  "voraussetzungen": [
+    "Erfahrung im Umgang mit Bügeleisen und Dampfbügelstation",
+    "Sorgfältige und geduldige Arbeitsweise",
+    "Kenntnis verschiedener Stoffarten und Pflegehinweise",
+    "Vertrauenswürdigkeit für die Arbeit in Privathaushalten",
+    "Pünktlichkeit und Zuverlässigkeit"
+  ],
+  "vorteile": [
+    "Ruhige und entspannte Tätigkeit ohne Zeitdruck",
+    "Flexible Zeiteinteilung nach Absprache",
+    "Keine körperlich schwere Arbeit",
+    "Arbeit in angenehmer Umgebung (Privathaushalt)",
+    "Guter Nebenverdienst mit wenigen Wochenstunden"
+  ],
+  "flexibilitaet": "Frei einteilbar",
+  "geeignetFuer": [
+    "Hausfrauen und Hausmänner mit freier Zeit",
+    "Rentner/innen, die sich etwas dazuverdienen möchten",
+    "Studierende, die eine ruhige Nebentätigkeit suchen",
+    "Menschen mit Erfahrung in der Textilpflege"
+  ],
+  "tipps": [
+    "Erstelle ein Profil auf Haushaltshilfe-Portalen wie Betreut.de oder Helpling",
+    "Investiere in eine gute Dampfbügelstation – das beschleunigt die Arbeit erheblich",
+    "Vereinbare einen festen wöchentlichen Termin mit deinen Auftraggebern",
+    "Frage, ob du im Haushalt oder bei dir zu Hause bügeln kannst",
+    "Biete Kombi-Pakete an (Bügeln + leichte Haushaltstätigkeiten) für einen höheren Stundenlohn"
+  ],
+  "relatedSlugs": [
+    "haushaltshilfe",
+    "reinigungskraft",
+    "fensterputzer",
+    "empfangskraft"
+  ]
+}

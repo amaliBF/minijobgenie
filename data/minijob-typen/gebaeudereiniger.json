@@ -1,0 +1,51 @@
+{
+  "slug": "gebaeudereiniger",
+  "name": "Gebäudereiniger/in",
+  "category": "Reinigung & Haushalt",
+  "categorySlug": "reinigung-haushalt",
+  "stundenlohn": [13, 16],
+  "typischeStunden": "5-15 Std./Woche",
+  "beschreibung": "Als Gebäudereiniger/in im Minijob reinigst du Bürogebäude, Praxen, Schulen oder öffentliche Einrichtungen und sorgst für hygienische Sauberkeit. Die Arbeitszeiten liegen häufig in den frühen Morgen- oder späten Abendstunden, was diesen Job ideal als Nebenverdienst macht. Gebäudereinigung gehört zu den gefragtesten Minijob-Branchen in Deutschland mit tariflich geregelten Mindestlöhnen.",
+  "aufgaben": [
+    "Böden saugen, wischen und maschinell reinigen",
+    "Sanitäranlagen desinfizieren und Verbrauchsmaterial auffüllen",
+    "Büroräume und Gemeinschaftsflächen reinigen und entstauben",
+    "Müll entsorgen und Abfallbehälter leeren",
+    "Glasflächen und Fenster im Innenbereich putzen",
+    "Reinigungsgeräte pflegen und Materialbestand prüfen"
+  ],
+  "voraussetzungen": [
+    "Körperliche Belastbarkeit und Ausdauer",
+    "Zuverlässigkeit und selbstständige Arbeitsweise",
+    "Bereitschaft zu Früh- oder Spätschichten",
+    "Grundkenntnisse im Umgang mit Reinigungsmitteln",
+    "Diskretion beim Arbeiten in fremden Räumlichkeiten"
+  ],
+  "vorteile": [
+    "Tariflich geregelter Mindestlohn in der Gebäudereinigung",
+    "Flexible Arbeitszeiten morgens oder abends",
+    "Hohe Nachfrage und Jobsicherheit",
+    "Selbstständiges Arbeiten ohne ständige Überwachung",
+    "Körperliche Bewegung statt Büroarbeit"
+  ],
+  "flexibilitaet": "Feste Schichten",
+  "geeignetFuer": [
+    "Frühaufsteher/innen, die morgens vor der Hauptarbeit arbeiten möchten",
+    "Quereinsteiger/innen ohne Berufserfahrung",
+    "Menschen mit Sinn für Ordnung und Sauberkeit",
+    "Studierende, die morgens oder abends Zeit haben"
+  ],
+  "tipps": [
+    "Bewirb dich bei Gebäudereinigungsunternehmen, die Tarifverträge anwenden – so bekommst du den höheren Branchenmindestlohn",
+    "Achte auf ergonomisches Arbeiten und rückenschonendes Heben",
+    "Lass dich in die Bedienung von Reinigungsmaschinen einweisen – das erweitert dein Einsatzgebiet",
+    "Frage nach festen Objekten, damit du nicht ständig wechseln musst",
+    "Informiere dich über den aktuellen Branchenmindestlohn in der Gebäudereinigung"
+  ],
+  "relatedSlugs": [
+    "reinigungskraft",
+    "fensterputzer",
+    "haushaltshilfe",
+    "umzugshelfer"
+  ]
+}

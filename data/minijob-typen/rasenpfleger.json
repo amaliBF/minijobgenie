@@ -1,0 +1,51 @@
+{
+  "slug": "rasenpfleger",
+  "name": "Rasenpfleger/in",
+  "category": "Handwerk & Garten",
+  "categorySlug": "handwerk-garten",
+  "stundenlohn": [13, 16],
+  "typischeStunden": "5-10 Std./Woche",
+  "beschreibung": "Als Rasenpfleger/in im Minijob kümmerst du dich um die Pflege und den Erhalt von Rasenflächen bei Privathaushalten, Wohnanlagen oder gewerblichen Grundstücken. Du mähst Rasen, vertikutierst, düngst und sorgst für ein gepflegtes Erscheinungsbild der Grünflächen. Besonders in der Wachstumsperiode von Frühjahr bis Herbst ist die Nachfrage nach zuverlässigen Rasenpflegern hoch.",
+  "aufgaben": [
+    "Rasen mähen, trimmen und Kanten sauber schneiden",
+    "Rasenflächen vertikutieren und belüften",
+    "Dünger und Rasensaat ausbringen",
+    "Unkraut und Moos entfernen",
+    "Rasenmäher und Gartengeräte pflegen und warten",
+    "Laub harken und Grünschnitt entsorgen"
+  ],
+  "voraussetzungen": [
+    "Erfahrung im Umgang mit Rasenmähern und Gartenwerkzeugen",
+    "Körperliche Fitness für Arbeiten im Freien",
+    "Grundkenntnisse in Rasenpflege und Düngung",
+    "Zuverlässigkeit und eigenständige Arbeitsweise",
+    "Wetterfestigkeit und Bereitschaft bei Hitze zu arbeiten"
+  ],
+  "vorteile": [
+    "Arbeit an der frischen Luft und in der Natur",
+    "Überschaubares Arbeitspensum mit wenigen Stunden pro Woche",
+    "Kombination mehrerer Kunden für höheren Verdienst möglich",
+    "Sichtbare Ergebnisse, die sofort zufriedenstellen",
+    "Sportlicher Ausgleich zum Alltag oder Studium"
+  ],
+  "flexibilitaet": "Frei einteilbar",
+  "geeignetFuer": [
+    "Naturverbundene Menschen, die gerne draußen arbeiten",
+    "Studierende mit flexiblem Stundenplan",
+    "Schüler/innen ab 16 Jahren mit Gartenerfahrung",
+    "Rentner/innen, die aktiv bleiben und dazuverdienen möchten"
+  ],
+  "tipps": [
+    "Biete deinen Service über Aushänge in der Nachbarschaft und auf Kleinanzeigen-Portalen an",
+    "Erstelle Paket-Angebote (z. B. wöchentliches Mähen + monatliches Vertikutieren) für Stammkunden",
+    "Eigene Geräte mitzubringen erhöht deinen Stundenlohn und deine Unabhängigkeit",
+    "Plane deine Einsätze wetterabhängig – bei Regen wächst der Rasen schneller, gemäht wird bei Trockenheit",
+    "Informiere dich über biologische Rasenpflege – das ist ein wachsendes Verkaufsargument bei umweltbewussten Kunden"
+  ],
+  "relatedSlugs": [
+    "gartenhelfer",
+    "umzugshelfer",
+    "reinigungskraft",
+    "fensterputzer"
+  ]
+}

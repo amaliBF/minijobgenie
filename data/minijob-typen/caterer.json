@@ -1,0 +1,51 @@
+{
+  "slug": "caterer",
+  "name": "Caterer/in",
+  "category": "Gastronomie & Service",
+  "categorySlug": "gastronomie-service",
+  "stundenlohn": [13, 17],
+  "typischeStunden": "Auf Abruf",
+  "beschreibung": "Als Caterer/in im Minijob unterstützt du bei der Vorbereitung und Durchführung von Veranstaltungen wie Hochzeiten, Firmenfeiern und Konferenzen. Dieser 538-Euro-Job bietet abwechslungsreiche Einsätze an wechselnden Orten, oft abends und am Wochenende. Die Kombination aus Service, Küche und Eventorganisation macht den Catering-Minijob besonders vielseitig und spannend.",
+  "aufgaben": [
+    "Speisen und Getränke an Buffets und Tischen servieren",
+    "Catering-Equipment auf- und abbauen",
+    "Speisen anrichten und Buffets bestücken",
+    "Gäste freundlich bedienen und beraten",
+    "Geschirr und Besteck abräumen und reinigen",
+    "Bei der Vorbereitung in der Küche unterstützen"
+  ],
+  "voraussetzungen": [
+    "Freundliches und gepflegtes Auftreten",
+    "Belastbarkeit auch bei langen Veranstaltungen",
+    "Teamfähigkeit und schnelle Auffassungsgabe",
+    "Bereitschaft zu Abend- und Wochenendarbeit",
+    "Gesundheitszeugnis nach §43 IfSG erforderlich"
+  ],
+  "vorteile": [
+    "Abwechslungsreiche Einsätze an verschiedenen Locations",
+    "Gutes Trinkgeld bei Veranstaltungen üblich",
+    "Wertvolle Erfahrung in der Gastronomie und Eventbranche",
+    "Flexible Einsätze auf Abruf, keine Schichtpflicht",
+    "Netzwerken mit Eventplanern und Gastronomen"
+  ],
+  "flexibilitaet": "Auf Abruf",
+  "geeignetFuer": [
+    "Studierende mit freien Abenden und Wochenenden",
+    "Gastronomie-Interessierte ohne feste Anstellung",
+    "Menschen mit Serviceerfahrung",
+    "Quereinsteiger/innen mit Freude am Gastgewerbe"
+  ],
+  "tipps": [
+    "Besorge dir frühzeitig ein Gesundheitszeugnis, das wird bei fast jedem Catering-Einsatz verlangt",
+    "Investiere in schwarze Servicekleidung und bequeme, rutschfeste Schuhe",
+    "Registriere dich bei mehreren Catering-Firmen, um regelmäßig Einsätze zu erhalten",
+    "Merke dir die gängigen Allergene und Unverträglichkeiten für die Gästeberatung",
+    "Sei offen für kurzfristige Einsätze, das macht dich für Catering-Firmen unverzichtbar"
+  ],
+  "relatedSlugs": [
+    "kellner",
+    "kuechenhilfe",
+    "barkeeper",
+    "promoter"
+  ]
+}

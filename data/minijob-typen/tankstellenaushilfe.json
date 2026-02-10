@@ -1,0 +1,50 @@
+{
+  "slug": "tankstellenaushilfe",
+  "name": "Tankstellenaushilfe",
+  "category": "Einzelhandel & Verkauf",
+  "categorySlug": "einzelhandel-verkauf",
+  "stundenlohn": [12, 14],
+  "typischeStunden": "8-15 Std./Woche",
+  "beschreibung": "Als Tankstellenaushilfe im Minijob bedienst du Kunden, kassierst Waren und sorgst für Ordnung im Shop-Bereich der Tankstelle. Besonders für Nachtschichten und Wochenenden werden regelmäßig Aushilfen gesucht, oft mit attraktiven Nachtzuschlägen. Dieser Minijob eignet sich hervorragend für Nachteulen und Personen, die flexible Schichtarbeit bevorzugen.",
+  "aufgaben": [
+    "Kassieren von Kraftstoffen, Shop-Artikeln und Dienstleistungen",
+    "Kundenberatung und Bedienung im Tankstellen-Shop",
+    "Auffüllen von Regalen und Kühlschränken",
+    "Zubereitung von Kaffee, Snacks und Backwaren",
+    "Sauberhalten des Shop-Bereichs und der Zapfsäulen",
+    "Wareneingang kontrollieren und einräumen"
+  ],
+  "voraussetzungen": [
+    "Zuverlässigkeit, besonders bei Alleinarbeit in Nachtschichten",
+    "Grundkenntnisse im Kassieren und Umgang mit Geld",
+    "Freundlicher Kundenumgang auch in Stresssituationen",
+    "Bereitschaft zu Nacht-, Feiertags- und Wochenendarbeit",
+    "Mindestalter 18 Jahre (wegen Verkauf von Tabak und Alkohol)"
+  ],
+  "vorteile": [
+    "Nachtzuschläge und Feiertagszuschläge erhöhen den Verdienst",
+    "Abwechslungsreiche Tätigkeit mit vielen verschiedenen Aufgaben",
+    "Keine besondere Ausbildung erforderlich",
+    "Regelmäßige Schichten für gute Planbarkeit",
+    "Tankstellen gibt es überall – kurze Arbeitswege möglich"
+  ],
+  "flexibilitaet": "Mittel – feste Schichtpläne, aber verschiedene Schichtzeiten (Früh, Spät, Nacht) sorgen für Flexibilität",
+  "geeignetFuer": [
+    "Nachteulen, die gerne in Nachtschichten arbeiten",
+    "Studierende mit wechselnden Vorlesungszeiten",
+    "Personen ab 18 Jahren, die Zuschläge nutzen möchten",
+    "Alle, die einen abwechslungsreichen Verkaufsjob suchen"
+  ],
+  "tipps": [
+    "Bewirb dich direkt bei den großen Ketten wie Aral, Shell, Esso oder Total",
+    "Nachtschichten bringen oft deutlich mehr Geld – rechne die Zuschläge mit ein",
+    "Mache dich mit dem Kassensystem vertraut – die Einarbeitung ist meist kurz",
+    "Achte auf Sicherheitsvorschriften, besonders bei Alleinarbeit nachts"
+  ],
+  "relatedSlugs": [
+    "kassierer",
+    "aushilfe-einzelhandel",
+    "regalauffueller",
+    "wachmann"
+  ]
+}

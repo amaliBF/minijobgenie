@@ -1,0 +1,51 @@
+{
+  "slug": "treppenhausreiniger",
+  "name": "Treppenhausreiniger/in",
+  "category": "Reinigung & Haushalt",
+  "categorySlug": "reinigung-haushalt",
+  "stundenlohn": [12, 15],
+  "typischeStunden": "3-8 Std./Woche",
+  "beschreibung": "Als Treppenhausreiniger/in im Minijob bist du für die regelmäßige Reinigung von Treppenhäusern, Fluren und Eingangsbereichen in Wohnhäusern zuständig. Dieser Minijob bietet ein überschaubares Arbeitspensum mit festen, planbaren Einsatzzeiten und eignet sich perfekt als kleiner Nebenverdienst. Hausverwaltungen und Wohnungsgesellschaften suchen regelmäßig zuverlässige Reinigungskräfte für ihre Objekte.",
+  "aufgaben": [
+    "Treppenstufen und Geländer feucht wischen und reinigen",
+    "Hauseingänge und Flure sauber halten",
+    "Briefkastenanlagen und Klingelbretter abstauben",
+    "Handläufe und Lichtschalter desinfizieren",
+    "Fußmatten reinigen und Spinnweben entfernen",
+    "Im Winter Eingangsbereiche von Schmutz und Nässe befreien"
+  ],
+  "voraussetzungen": [
+    "Zuverlässigkeit und Pünktlichkeit",
+    "Selbstständige Arbeitsweise ohne Aufsicht",
+    "Körperliche Fitness für Treppensteigen",
+    "Eigene Reinigungsgeräte von Vorteil",
+    "Diskretion und Rücksichtnahme gegenüber Bewohnern"
+  ],
+  "vorteile": [
+    "Sehr wenige Wochenstunden für einen soliden Nebenverdienst",
+    "Komplett selbstständiges Arbeiten ohne Vorgesetzten vor Ort",
+    "Frei einteilbare Arbeitszeiten innerhalb vereinbarter Tage",
+    "Kombination mehrerer Objekte für höheren Verdienst möglich",
+    "Kein Bewerbungsaufwand – Hausverwaltungen suchen direkt"
+  ],
+  "flexibilitaet": "Frei einteilbar",
+  "geeignetFuer": [
+    "Menschen, die nur wenige Stunden pro Woche arbeiten möchten",
+    "Rentner/innen, die sich etwas dazuverdienen wollen",
+    "Studierende mit wenig Zeit neben dem Studium",
+    "Eltern, die während der Schulzeit der Kinder arbeiten möchten"
+  ],
+  "tipps": [
+    "Biete deine Dienste direkt bei Hausverwaltungen an – viele suchen über Aushänge",
+    "Kalkuliere deinen Zeitaufwand realistisch: Ein Treppenhaus dauert ca. 30-60 Minuten",
+    "Kombiniere mehrere Objekte in der Nachbarschaft, um Fahrtwege zu minimieren",
+    "Halte eigene Reinigungsmittel bereit – das macht dich unabhängiger",
+    "Vereinbare klare Leistungsvereinbarungen schriftlich mit dem Auftraggeber"
+  ],
+  "relatedSlugs": [
+    "reinigungskraft",
+    "fensterputzer",
+    "haushaltshilfe",
+    "gartenhelfer"
+  ]
+}

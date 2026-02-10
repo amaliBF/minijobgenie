@@ -1,0 +1,51 @@
+{
+  "slug": "aushilfe-einzelhandel",
+  "name": "Aushilfe im Einzelhandel",
+  "category": "Einzelhandel & Verkauf",
+  "categorySlug": "einzelhandel-verkauf",
+  "stundenlohn": [12, 15],
+  "typischeStunden": "8-15 Std./Woche",
+  "beschreibung": "Als Aushilfe im Einzelhandel unterstützt du das Verkaufsteam bei der Kundenberatung, beim Kassieren und bei der Warenpräsentation. Dieser Minijob eignet sich besonders für kommunikative Menschen, die gerne mit Kunden arbeiten und flexible Arbeitszeiten schätzen. Die Einsatzzeiten liegen häufig an Nachmittagen und Samstagen, was sich ideal mit Studium oder Schule vereinbaren lässt.",
+  "aufgaben": [
+    "Kunden beraten und bei der Produktauswahl unterstützen",
+    "Waren auffüllen und Regale einräumen",
+    "Kassieren und Zahlungsvorgänge abwickeln",
+    "Verkaufsfläche ordentlich und ansprechend halten",
+    "Ware annehmen und Lieferungen kontrollieren",
+    "Preisauszeichnungen und Etikettierungen vornehmen"
+  ],
+  "voraussetzungen": [
+    "Freundliches und serviceorientiertes Auftreten",
+    "Gute Deutschkenntnisse für die Kundenberatung",
+    "Zuverlässigkeit und Pünktlichkeit",
+    "Bereitschaft zur Samstagsarbeit",
+    "Grundlegende Rechenkenntnisse für den Kassenbereich"
+  ],
+  "vorteile": [
+    "Flexible Arbeitszeiten, oft auch am Wochenende möglich",
+    "Personalrabatte auf das Sortiment in vielen Geschäften",
+    "Wertvolle Erfahrung im Umgang mit Kunden",
+    "Gute Übernahmechancen bei engagierter Arbeit",
+    "Abwechslungsreiche Tätigkeiten im Tagesgeschäft"
+  ],
+  "flexibilitaet": "Flexibel",
+  "geeignetFuer": [
+    "Schüler/innen ab 16 Jahren",
+    "Studierende mit flexiblem Stundenplan",
+    "Quereinsteiger/innen ohne Vorkenntnisse",
+    "Eltern in Teilzeit"
+  ],
+  "tipps": [
+    "Betone in deiner Bewerbung deine Kommunikationsstärke und Serviceorientierung",
+    "Erkundige dich vorab über das Sortiment und die Zielgruppe des Geschäfts",
+    "Zeige Bereitschaft für Einsätze an Samstagen und vor Feiertagen",
+    "Frage nach Einarbeitungszeit und Schulungen am Kassensystem",
+    "Bewirb dich rechtzeitig vor der Weihnachtssaison, da dann besonders viele Aushilfen gesucht werden"
+  ],
+  "relatedSlugs": [
+    "kassierer",
+    "regalauffueller",
+    "inventurhelfer",
+    "warenverraumer"
+  ]
+}

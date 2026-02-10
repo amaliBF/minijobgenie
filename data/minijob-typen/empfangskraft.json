@@ -1,0 +1,51 @@
+{
+  "slug": "empfangskraft",
+  "name": "Empfangskraft",
+  "category": "Büro & Verwaltung",
+  "categorySlug": "buero-verwaltung",
+  "stundenlohn": [13, 16],
+  "typischeStunden": "8-15 Std./Woche",
+  "beschreibung": "Als Empfangskraft im Minijob bist du die erste Anlaufstelle für Besucher, Kunden und Geschäftspartner in Unternehmen, Arztpraxen oder Hotels. Du empfängst Gäste professionell, nimmst Telefonate entgegen und koordinierst Termine. Dieser Minijob ist ideal für kommunikative Menschen mit gepflegtem Auftreten, die in einem angenehmen Büroumfeld arbeiten möchten.",
+  "aufgaben": [
+    "Besucher und Gäste freundlich empfangen und weiterleiten",
+    "Telefonanrufe entgegennehmen und an die richtige Abteilung verbinden",
+    "Termine koordinieren und den Empfangsbereich organisieren",
+    "Post und Pakete annehmen und verteilen",
+    "Besprechungsräume vorbereiten und Getränke bereitstellen",
+    "Besucherlisten führen und Zugangsausweise ausgeben"
+  ],
+  "voraussetzungen": [
+    "Gepflegtes und professionelles Auftreten",
+    "Sehr gute Deutschkenntnisse, Englisch von Vorteil",
+    "Freundlichkeit und souveräner Umgang mit verschiedenen Menschen",
+    "Grundlegende PC-Kenntnisse (E-Mail, Kalender, Textverarbeitung)",
+    "Organisationstalent und Multitasking-Fähigkeit"
+  ],
+  "vorteile": [
+    "Angenehme Arbeitsumgebung in einem Büro oder Hotel",
+    "Wertvolle Berufserfahrung in der Unternehmenskommunikation",
+    "Regelmäßige Arbeitszeiten ohne körperliche Schwerstarbeit",
+    "Kontakt zu vielen verschiedenen Menschen und Abteilungen",
+    "Gute Übernahmechancen in eine Festanstellung"
+  ],
+  "flexibilitaet": "Feste Schichten",
+  "geeignetFuer": [
+    "Studierende mit professionellem Auftreten",
+    "Quereinsteiger/innen mit Kommunikationsstärke",
+    "Eltern, die in festen Schichten arbeiten möchten",
+    "Menschen mit Interesse an Büro- und Verwaltungsarbeit"
+  ],
+  "tipps": [
+    "Kleide dich beim Vorstellungsgespräch angemessen und professionell",
+    "Betone deine Kommunikationsfähigkeit und Fremdsprachenkenntnisse",
+    "Informiere dich vorab über das Unternehmen und seine Besucher",
+    "Übe einen freundlichen und professionellen Telefonumgang",
+    "Zeige, dass du auch in stressigen Situationen ruhig und organisiert bleibst"
+  ],
+  "relatedSlugs": [
+    "buerokraft",
+    "garderobiere",
+    "callcenter-agent",
+    "datenerfasser"
+  ]
+}

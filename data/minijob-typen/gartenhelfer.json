@@ -1,0 +1,49 @@
+{
+  "slug": "gartenhelfer",
+  "name": "Gartenhelfer/in",
+  "category": "Handwerk & Garten",
+  "categorySlug": "handwerk-garten",
+  "stundenlohn": [13, 17],
+  "typischeStunden": "5-12 Std./Woche",
+  "beschreibung": "Als Gartenhelfer/in im Minijob unterstützt du Privatpersonen oder Gartenbaubetriebe bei der Pflege von Gärten und Außenanlagen. Typische Aufgaben sind Rasenmähen, Heckenschneiden, Unkrautjäten und saisonale Bepflanzungen. Der Job ist ideal für alle, die gerne an der frischen Luft arbeiten und sich körperlich betätigen möchten.",
+  "aufgaben": [
+    "Rasen mähen, vertikutieren und bewässern",
+    "Hecken und Sträucher schneiden und pflegen",
+    "Unkraut jäten und Beete anlegen",
+    "Laub zusammenrechen und entsorgen",
+    "Blumen und Stauden pflanzen und pflegen",
+    "Einfache Gartenarbeiten wie Kompostieren und Mulchen"
+  ],
+  "voraussetzungen": [
+    "Körperliche Belastbarkeit und Ausdauer",
+    "Grundkenntnisse im Umgang mit Gartengeräten",
+    "Zuverlässigkeit und selbstständiges Arbeiten",
+    "Wetterfestigkeit und Freude an Outdoor-Arbeit"
+  ],
+  "vorteile": [
+    "Arbeit an der frischen Luft und in der Natur",
+    "Flexible Arbeitszeiten, oft an Wochenenden oder Nachmittagen",
+    "Körperlich aktiver Job statt Büroarbeit",
+    "Saisonale Verfügbarkeit – besonders im Frühling und Sommer gefragt",
+    "Keine formale Ausbildung erforderlich"
+  ],
+  "flexibilitaet": "Sehr flexibel – Arbeitszeiten lassen sich individuell mit dem Auftraggeber absprechen, saisonale Schwerpunkte im Frühling und Sommer",
+  "geeignetFuer": [
+    "Studierende mit freien Nachmittagen",
+    "Rentner/innen, die aktiv bleiben möchten",
+    "Naturbegeisterte und Hobbygärtner/innen",
+    "Schüler/innen ab 16 Jahren"
+  ],
+  "tipps": [
+    "Biete deine Dienste über lokale Kleinanzeigen oder Nachbarschafts-Apps an",
+    "Investiere in gute Arbeitshandschuhe und wetterfeste Kleidung",
+    "Erweitere dein Wissen über Pflanzenpflege – das steigert deinen Stundenlohn",
+    "Stammkunden sichern dir regelmäßige Einkünfte über die gesamte Saison"
+  ],
+  "relatedSlugs": [
+    "haushaltshilfe",
+    "fensterputzer",
+    "moebeltraeger",
+    "flyer-verteiler"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "pizzalieferant",
+  "name": "Pizzalieferant/in",
+  "category": "Lieferung & Zustellung",
+  "categorySlug": "lieferung-zustellung",
+  "stundenlohn": [12, 15],
+  "typischeStunden": "8-15 Std./Woche",
+  "beschreibung": "Als Pizzalieferant/in bringst du frisch zubereitete Pizzen und andere Speisen direkt zu den Kunden nach Hause. Neben dem Stundenlohn erhältst du in der Regel Trinkgeld und eine Kilometerpauschale, wenn du dein eigenes Fahrzeug nutzt. Besonders an Wochenenden und Feiertagen ist die Nachfrage nach Lieferfahrern hoch, was diesen Minijob besonders flexibel und lukrativ macht.",
+  "aufgaben": [
+    "Bestellungen beim Restaurant abholen und sicher transportieren",
+    "Lieferungen pünktlich und freundlich an der Haustür übergeben",
+    "Bargeld und Kartenzahlungen entgegennehmen und abrechnen",
+    "Lieferrouten effizient planen, um Wartezeiten zu minimieren",
+    "Fahrzeug (Auto, Roller oder Fahrrad) sauber und einsatzbereit halten",
+    "Bestellungen auf Vollständigkeit und Richtigkeit überprüfen"
+  ],
+  "voraussetzungen": [
+    "Führerschein Klasse B oder Rollerführerschein (AM/A1)",
+    "Gute Ortskenntnisse oder sicherer Umgang mit Navigationsgeräten",
+    "Eigenes Fahrzeug oder Fahrrad von Vorteil",
+    "Zuverlässigkeit und freundliches Auftreten an der Tür",
+    "Bereitschaft zu Abend- und Wochenendarbeit"
+  ],
+  "vorteile": [
+    "Trinkgeld und Kilometerpauschale zusätzlich zum Grundlohn",
+    "Selbstständiges Arbeiten unterwegs ohne direkte Aufsicht",
+    "Flexible Einsatzzeiten, besonders abends und am Wochenende",
+    "Schneller Einstieg ohne besondere Qualifikation",
+    "Oft kostenlose oder vergünstigte Mahlzeiten vom Restaurant"
+  ],
+  "flexibilitaet": "Flexibel",
+  "geeignetFuer": [
+    "Studierende mit Führerschein und eigenem Fahrzeug",
+    "Schüler/innen ab 18 Jahren mit Rollerführerschein",
+    "Alle, die gerne unterwegs sind statt im Büro zu sitzen",
+    "Quereinsteiger/innen, die abends dazuverdienen möchten"
+  ],
+  "tipps": [
+    "Nutze Google Maps oder Waze, um die schnellsten Routen zu finden",
+    "Halte Wechselgeld bereit, damit du an der Tür schnell abrechnen kannst",
+    "Investiere in eine gute Thermobox, um die Speisen warm zu transportieren",
+    "Fahre vorsichtig und halte dich an die Verkehrsregeln, auch unter Zeitdruck",
+    "Bewirb dich auch bei Plattformen wie Lieferando für zusätzliche Aufträge"
+  ],
+  "relatedSlugs": [
+    "zeitungszusteller",
+    "kurier",
+    "paketzusteller",
+    "kellner"
+  ]
+}

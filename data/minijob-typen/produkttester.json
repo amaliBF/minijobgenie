@@ -1,0 +1,50 @@
+{
+  "slug": "produkttester",
+  "name": "Produkttester/in",
+  "category": "Online & Digital",
+  "categorySlug": "online-digital",
+  "stundenlohn": [12, 20],
+  "typischeStunden": "3-8 Std./Woche",
+  "beschreibung": "Als Produkttester/in im Minijob probierst du neue Produkte aus und gibst dein ehrliches Feedback an Hersteller weiter. Von Kosmetik über Lebensmittel bis hin zu Technik-Gadgets ist alles dabei. Neben der Bezahlung darfst du die getesteten Produkte häufig behalten – ein spannender Nebenverdienst für neugierige Menschen.",
+  "aufgaben": [
+    "Testen von Produkten nach vorgegebenen Kriterien",
+    "Ausfüllen von detaillierten Bewertungsbögen und Fragebögen",
+    "Verfassen von ausführlichen Testberichten und Erfahrungsberichten",
+    "Teilnahme an Online-Umfragen und Produktstudien",
+    "Dokumentation von Produkterfahrungen mit Fotos oder Videos",
+    "Vergleich von Produkten mit Konkurrenzartikeln"
+  ],
+  "voraussetzungen": [
+    "Ehrlichkeit und objektives Urteilsvermögen",
+    "Fähigkeit, differenziertes Feedback schriftlich auszudrücken",
+    "Aufmerksamkeit für Details und Qualität",
+    "Internetzugang und Grundkenntnisse am PC",
+    "Zuverlässige Einhaltung von Testfristen"
+  ],
+  "vorteile": [
+    "Produkte kostenlos erhalten und testen",
+    "Sehr geringer Zeitaufwand pro Woche",
+    "Von zu Hause aus durchführbar",
+    "Spannende Einblicke in neue Produkte vor dem Marktstart",
+    "Keine besonderen Qualifikationen erforderlich"
+  ],
+  "flexibilitaet": "Sehr flexibel – Tests können jederzeit zu Hause durchgeführt werden, eigene Zeiteinteilung innerhalb der Testphase",
+  "geeignetFuer": [
+    "Neugierige Menschen, die gerne neue Produkte ausprobieren",
+    "Studierende mit wenig Zeit für einen regulären Nebenjob",
+    "Eltern in Elternzeit",
+    "Alle, die einen unkomplizierten Nebenverdienst von zu Hause suchen"
+  ],
+  "tipps": [
+    "Melde dich bei seriösen Testportalen wie Testerheld, Empfohlen.de oder Konsumgöttinnen an",
+    "Sei bei unseriösen Angeboten vorsichtig – du solltest niemals Geld für die Teilnahme bezahlen",
+    "Schreibe ausführliche und ehrliche Bewertungen – das erhöht deine Chancen auf weitere Aufträge",
+    "Kombiniere Produkttests mit bezahlten Online-Umfragen für mehr Verdienst"
+  ],
+  "relatedSlugs": [
+    "nachhilfelehrer",
+    "buerokraft",
+    "hundesitter",
+    "babysitter"
+  ]
+}

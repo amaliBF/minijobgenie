@@ -1,0 +1,51 @@
+{
+  "slug": "paketzusteller",
+  "name": "Paketzusteller/in",
+  "category": "Lieferung & Zustellung",
+  "categorySlug": "lieferung-zustellung",
+  "stundenlohn": [13, 16],
+  "typischeStunden": "8-15 Std./Woche",
+  "beschreibung": "Als Paketzusteller/in im Minijob lieferst du Pakete und Sendungen an Privathaushalte und Unternehmen in einem festen Zustellgebiet aus. Dieser 538-Euro-Job ist besonders in der Vorweihnachtszeit und während Aktionswochen stark nachgefragt. Du arbeitest eigenverantwortlich und bist viel an der frischen Luft unterwegs, was den Job besonders abwechslungsreich macht.",
+  "aufgaben": [
+    "Pakete sortieren und ins Zustellfahrzeug laden",
+    "Sendungen an Empfänger im Zustellgebiet ausliefern",
+    "Unterschriften und Empfangsbestätigungen einholen",
+    "Benachrichtigungen bei Abwesenheit hinterlassen",
+    "Retouren und Abholsendungen entgegennehmen",
+    "Zustellfahrzeug ordentlich und sauber halten"
+  ],
+  "voraussetzungen": [
+    "Führerschein Klasse B erforderlich",
+    "Körperliche Fitness für das Tragen schwerer Pakete",
+    "Gute Ortskenntnisse im Zustellgebiet",
+    "Freundlicher Umgang mit Empfängern",
+    "Pünktlichkeit und Zuverlässigkeit"
+  ],
+  "vorteile": [
+    "Regelmäßige Arbeitszeiten mit planbaren Schichten",
+    "Zustellfahrzeug wird in der Regel vom Arbeitgeber gestellt",
+    "Festes Zustellgebiet, das du schnell kennenlernen wirst",
+    "Gute Verdienstmöglichkeiten mit Zuschlägen in der Hochsaison",
+    "Steuerfreier Minijob bis 538 Euro monatlich"
+  ],
+  "flexibilitaet": "Teilweise flexibel",
+  "geeignetFuer": [
+    "Frühaufsteher mit Führerschein",
+    "Sportliche Menschen, die Bewegung im Job suchen",
+    "Studierende mit freien Vormittagen",
+    "Quereinsteiger/innen mit Fahrpraxis"
+  ],
+  "tipps": [
+    "Bewirb dich frühzeitig vor der Weihnachtssaison, da Paketzusteller dann besonders gesucht werden",
+    "Trage bequeme Schuhe mit guter Dämpfung, du bist den ganzen Tag auf den Beinen",
+    "Lerne dein Zustellgebiet schnell auswendig, das spart enorm viel Zeit",
+    "Halte das Fahrzeug stets aufgeräumt, damit du Pakete schnell finden kannst",
+    "Achte auf ergonomisches Heben, um Rückenprobleme zu vermeiden"
+  ],
+  "relatedSlugs": [
+    "lagerarbeiter",
+    "kommissionierer",
+    "umzugshelfer",
+    "regalauffueller"
+  ]
+}

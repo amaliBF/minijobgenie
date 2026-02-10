@@ -1,0 +1,51 @@
+{
+  "slug": "aushilfe-kino",
+  "name": "Aushilfe im Kino",
+  "category": "Gastronomie & Service",
+  "categorySlug": "gastronomie-service",
+  "stundenlohn": [12, 14],
+  "typischeStunden": "8-15 Std./Woche",
+  "beschreibung": "Als Aushilfe im Kino bist du im Minijob für den reibungslosen Ablauf des Kinobetriebs verantwortlich – vom Popcornverkauf über die Ticketkontrolle bis zur Saalreinigung. Dieser Minijob ist besonders bei Filmfans beliebt, da du kostenlos Filme schauen kannst und in einer lockeren Arbeitsatmosphäre arbeitest. Die Hauptarbeitszeiten liegen am Abend und am Wochenende, was den Job ideal für Schüler/innen und Studierende macht.",
+  "aufgaben": [
+    "Popcorn, Nachos und Getränke am Concession Stand zubereiten und verkaufen",
+    "Tickets kontrollieren und Gäste zu den richtigen Kinosälen leiten",
+    "Kinosäle nach jeder Vorstellung reinigen und vorbereiten",
+    "Kassentätigkeiten durchführen und Snack-Bestände auffüllen",
+    "Gäste zu Filmprogramm und Sondervorstellungen beraten",
+    "Bei Filmstarts und Events für einen reibungslosen Ablauf sorgen"
+  ],
+  "voraussetzungen": [
+    "Freundliches Auftreten und Serviceorientierung",
+    "Bereitschaft zu Abend- und Wochenendarbeit",
+    "Teamfähigkeit und Flexibilität",
+    "Gute Deutschkenntnisse für die Kundenberatung",
+    "Mindestalter 16 Jahre (je nach Kinobetreiber)"
+  ],
+  "vorteile": [
+    "Kostenlose Kinobesuche als Mitarbeiter-Benefit",
+    "Lockere und junge Arbeitsatmosphäre",
+    "Abwechslungsreiche Aufgaben von Verkauf bis Saalbetreuung",
+    "Premieren und Sonderveranstaltungen hautnah erleben",
+    "Gute Trinkgeldmöglichkeiten am Concession Stand"
+  ],
+  "flexibilitaet": "Feste Schichten",
+  "geeignetFuer": [
+    "Filmbegeisterte Schüler/innen ab 16 Jahren",
+    "Studierende, die abends und am Wochenende arbeiten können",
+    "Teamplayer mit Spaß an Gastronomie und Service",
+    "Menschen, die eine Arbeitsumgebung mit Unterhaltungsfaktor suchen"
+  ],
+  "tipps": [
+    "Bewirb dich rechtzeitig vor der Sommersaison oder vor großen Filmstarts – dann wird verstärkt eingestellt",
+    "Zeige Begeisterung für Filme und Kino im Vorstellungsgespräch",
+    "Sei bereit, alle Bereiche zu übernehmen – vom Verkauf bis zur Reinigung",
+    "Frage nach Freikarten für Freunde und Familie als zusätzliches Benefit",
+    "Große Kinoketten wie CinemaxX, Cineplex oder UCI haben oft standardisierte Minijob-Programme"
+  ],
+  "relatedSlugs": [
+    "kellner",
+    "barkeeper",
+    "aushilfe-einzelhandel",
+    "caterer"
+  ]
+}

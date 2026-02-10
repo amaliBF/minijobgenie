@@ -1,0 +1,51 @@
+{
+  "slug": "blumenladen-aushilfe",
+  "name": "Blumenladen-Aushilfe",
+  "category": "Einzelhandel & Verkauf",
+  "categorySlug": "einzelhandel-verkauf",
+  "stundenlohn": [12, 14],
+  "typischeStunden": "6-12 Std./Woche",
+  "beschreibung": "Als Blumenladen-Aushilfe im Minijob unterstützt du das Floristik-Team beim Verkauf, bei der Pflege der Pflanzen und beim Binden einfacher Sträuße. Dieser 538-Euro-Job bietet eine kreative und angenehme Arbeitsumgebung inmitten von Blumen und Pflanzen. Besonders zu Feiertagen wie Valentinstag, Muttertag und in der Trauerfloristik werden zusätzliche Aushilfen benötigt.",
+  "aufgaben": [
+    "Kunden bei der Blumen- und Pflanzenauswahl beraten",
+    "Sträuße nach Kundenwunsch zusammenstellen und einwickeln",
+    "Pflanzen gießen, pflegen und frisch halten",
+    "Verkaufsraum dekorieren und Ware ansprechend präsentieren",
+    "Kasse bedienen und Lieferungen entgegennehmen",
+    "Arbeitsflächen reinigen und Grünschnitt entsorgen"
+  ],
+  "voraussetzungen": [
+    "Interesse an Blumen und Pflanzen",
+    "Kreativität und ein Auge für Ästhetik",
+    "Freundliches Auftreten und Kundenorientierung",
+    "Sorgfältiger Umgang mit empfindlichen Pflanzen",
+    "Bereitschaft zur Samstagsarbeit"
+  ],
+  "vorteile": [
+    "Kreative und angenehme Arbeitsatmosphäre",
+    "Grundkenntnisse in der Floristik als Nebenverdienst lernen",
+    "Personalrabatt auf Blumen und Pflanzen häufig inklusive",
+    "Abwechslungsreiche Tätigkeiten im Tagesgeschäft",
+    "Steuerfreier Minijob-Verdienst"
+  ],
+  "flexibilitaet": "Flexibel",
+  "geeignetFuer": [
+    "Kreative Menschen mit Sinn für Ästhetik",
+    "Studierende mit grünem Daumen",
+    "Schüler/innen ab 16 Jahren",
+    "Eltern mit Interesse an Floristik"
+  ],
+  "tipps": [
+    "Bewirb dich vor den großen Anlässen wie Valentinstag, Muttertag und Weihnachten, da dann besonders viele Aushilfen gebraucht werden",
+    "Eigne dir Grundwissen über beliebte Schnittblumen und ihre Haltbarkeit an",
+    "Zeige Eigeninitiative bei der Dekoration und bringe kreative Ideen ein",
+    "Frage, ob du beim Binden von Sträußen angelernt werden kannst, das macht den Job noch interessanter",
+    "Trage bequeme Kleidung, die schmutzig werden darf, und festes Schuhwerk"
+  ],
+  "relatedSlugs": [
+    "aushilfe-einzelhandel",
+    "kassierer",
+    "gartenhelfer",
+    "regalauffueller"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "datenerfasser",
+  "name": "Datenerfasser/in",
+  "category": "Online & Digital",
+  "categorySlug": "online-digital",
+  "stundenlohn": [13, 16],
+  "typischeStunden": "5-15 Std./Woche",
+  "beschreibung": "Als Datenerfasser/in im Minijob überträgst du Informationen aus verschiedenen Quellen in digitale Datenbanken und Systeme. Dieser Job lässt sich häufig von zu Hause aus erledigen und eignet sich ideal für Personen, die sorgfältig und strukturiert arbeiten. Typische Aufgaben umfassen die Eingabe von Adressen, Rechnungsdaten oder Umfrageergebnissen.",
+  "aufgaben": [
+    "Übertragung von Daten aus Papierformularen in digitale Systeme",
+    "Pflege und Aktualisierung von Datenbanken und CRM-Systemen",
+    "Prüfung und Korrektur von Bestandsdaten",
+    "Erfassung von Adressen, Rechnungen und Bestellungen",
+    "Kategorisierung und Sortierung von Datensätzen",
+    "Erstellung einfacher Auswertungen und Listen in Excel"
+  ],
+  "voraussetzungen": [
+    "Sicherer Umgang mit PC und gängigen Office-Programmen",
+    "Schnelles und fehlerfreies Tippen (10-Finger-System von Vorteil)",
+    "Hohe Sorgfalt und Genauigkeit",
+    "Gute Deutschkenntnisse in Rechtschreibung und Grammatik",
+    "Eigener PC/Laptop mit Internetanschluss für Home-Office"
+  ],
+  "vorteile": [
+    "Oft als Home-Office-Minijob möglich",
+    "Flexible Zeiteinteilung, keine festen Schichten",
+    "Kein Kundenkontakt nötig",
+    "Ideal für ruhige, konzentrierte Arbeitstypen",
+    "Guter Einstieg in kaufmännische Tätigkeiten"
+  ],
+  "flexibilitaet": "Sehr flexibel – häufig freie Zeiteinteilung im Home-Office, Ergebnisse zählen mehr als Anwesenheitszeiten",
+  "geeignetFuer": [
+    "Studierende mit guten PC-Kenntnissen",
+    "Eltern in Elternzeit, die von zu Hause arbeiten möchten",
+    "Personen mit eingeschränkter Mobilität",
+    "Detailorientierte Menschen, die gerne am Computer arbeiten"
+  ],
+  "tipps": [
+    "Verbessere deine Tippgeschwindigkeit mit Online-Trainings",
+    "Lerne den Umgang mit Excel und Google Sheets – das erweitert deine Einsatzmöglichkeiten",
+    "Achte auf seriöse Stellenangebote – bei Datenerfassung gibt es leider viele unseriöse Anbieter",
+    "Frage bei Unternehmen in deiner Nähe direkt nach, ob Datenerfassung auf Minijob-Basis möglich ist"
+  ],
+  "relatedSlugs": [
+    "buerokraft",
+    "empfangskraft",
+    "nachhilfelehrer",
+    "reinigungskraft"
+  ]
+}

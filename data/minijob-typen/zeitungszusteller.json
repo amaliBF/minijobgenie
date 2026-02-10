@@ -1,0 +1,51 @@
+{
+  "slug": "zeitungszusteller",
+  "name": "Zeitungszusteller/in",
+  "category": "Lieferung & Zustellung",
+  "categorySlug": "lieferung-zustellung",
+  "stundenlohn": [12, 15],
+  "typischeStunden": "5-10 Std./Woche",
+  "beschreibung": "Als Zeitungszusteller/in lieferst du Tageszeitungen, Anzeigenblätter oder Wochenmagazine direkt in die Briefkästen der Abonnenten in deinem Zustellbezirk. Die Zustellung erfolgt meist in den frühen Morgenstunden, sodass du den restlichen Tag für andere Aktivitäten frei hast. Dieser Minijob ist ideal für Frühaufsteher, die sich an der frischen Luft bewegen möchten und ein zuverlässiges Nebeneinkommen suchen.",
+  "aufgaben": [
+    "Zeitungen und Werbeprospekte in den zugewiesenen Bezirk austragen",
+    "Zustellroute eigenständig planen und effizient abarbeiten",
+    "Zeitungen bei jedem Wetter pünktlich vor die Haustür liefern",
+    "Beschwerden und Reklamationen an den Verlag weiterleiten",
+    "Neue Abonnenten in die Route aufnehmen und abgemeldete entfernen",
+    "Sonderbeilagen und Werbematerial mitverteilen"
+  ],
+  "voraussetzungen": [
+    "Bereitschaft, in den frühen Morgenstunden zu arbeiten (oft ab 4-5 Uhr)",
+    "Wetterfestigkeit und körperliche Grundfitness",
+    "Zuverlässigkeit und Pünktlichkeit bei der täglichen Zustellung",
+    "Ortskenntnis im Zustellgebiet von Vorteil",
+    "Eigenes Fahrrad oder Transportmittel empfehlenswert"
+  ],
+  "vorteile": [
+    "Arbeit an der frischen Luft und tägliche Bewegung",
+    "Restlicher Tag komplett frei für andere Tätigkeiten",
+    "Selbstständiges Arbeiten ohne direkte Aufsicht",
+    "Zuverlässiges und planbares Einkommen",
+    "Auch für Frühaufsteher ohne besondere Qualifikation geeignet"
+  ],
+  "flexibilitaet": "Feste Schichten",
+  "geeignetFuer": [
+    "Frühaufsteher/innen, die morgens aktiv sein möchten",
+    "Schüler/innen ab 13 Jahren (Zeitungsaustragen ist ab 13 erlaubt)",
+    "Rentner/innen, die sich fit halten und dazuverdienen möchten",
+    "Studierende, die morgens vor den Vorlesungen arbeiten wollen"
+  ],
+  "tipps": [
+    "Optimiere deine Route, um Zeit und Wege zu sparen",
+    "Investiere in wetterfeste Kleidung und eine gute Zeitungstasche",
+    "Stelle sicher, dass du eine Vertretung für Urlaub und Krankheit organisierst",
+    "Bewirb dich direkt beim lokalen Zeitungsverlag oder Zustelldienst",
+    "Ein Fahrrad mit Korb oder Anhänger erleichtert die Zustellung enorm"
+  ],
+  "relatedSlugs": [
+    "pizzalieferant",
+    "flyer-verteiler",
+    "kurier",
+    "paketzusteller"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "lagerarbeiter",
+  "name": "Lagerarbeiter/in",
+  "category": "Lager & Logistik",
+  "categorySlug": "lager-logistik",
+  "stundenlohn": [12, 15],
+  "typischeStunden": "8-15 Std./Woche",
+  "beschreibung": "Als Lagerarbeiter/in im Minijob hilfst du bei der Warenannahme, Kommissionierung und dem Versand von Paketen in Lagerhallen, Versandzentren oder Großhandelsunternehmen. Besonders vor Weihnachten und während Verkaufsaktionen wie dem Black Friday werden viele Lagerkräfte gesucht. Dieser Minijob ist körperlich anspruchsvoll, bietet aber einen unkomplizierten Einstieg und oft auch Nachtzuschläge.",
+  "aufgaben": [
+    "Wareneingang kontrollieren und Lieferungen prüfen",
+    "Bestellungen kommissionieren und versandfertig verpacken",
+    "Waren an den richtigen Lagerplätzen einlagern und sortieren",
+    "Pakete für den Versand etikettieren und bereitstellen",
+    "Inventuren durchführen und Lagerbestände kontrollieren",
+    "Ordnung und Sauberkeit im Lagerbereich sicherstellen"
+  ],
+  "voraussetzungen": [
+    "Körperliche Fitness zum Heben, Tragen und Stehen",
+    "Sorgfältige Arbeitsweise beim Kommissionieren und Verpacken",
+    "Bereitschaft zu Schichtarbeit (auch Nacht- und Wochenendschichten)",
+    "Zuverlässigkeit und Teamfähigkeit",
+    "Staplerschein von Vorteil, aber nicht zwingend erforderlich"
+  ],
+  "vorteile": [
+    "Hohe Nachfrage, besonders in Stoßzeiten und vor Feiertagen",
+    "Einstieg ohne Vorkenntnisse oder Ausbildung möglich",
+    "Häufig Nachtzuschläge und Zulagen bei Wochenendarbeit",
+    "Körperliche Betätigung als Ausgleich zur Schreibtischarbeit",
+    "Möglichkeit, einen Staplerschein auf Kosten des Arbeitgebers zu machen"
+  ],
+  "flexibilitaet": "Feste Schichten",
+  "geeignetFuer": [
+    "Studierende, die in den Semesterferien intensiv arbeiten möchten",
+    "Körperlich fitte Menschen ohne besondere Qualifikation",
+    "Quereinsteiger/innen, die schnell Geld verdienen wollen",
+    "Schüler/innen ab 18 Jahren für Lagerarbeit"
+  ],
+  "tipps": [
+    "Bewirb dich rechtzeitig vor dem Weihnachtsgeschäft, dann werden besonders viele Kräfte gesucht",
+    "Trage Sicherheitsschuhe und bequeme Arbeitskleidung",
+    "Frage nach der Möglichkeit, einen Staplerschein zu erwerben",
+    "Zeige deine Bereitschaft, auch bei Inventuren und Sonderaktionen mitzuhelfen",
+    "Registriere dich bei Zeitarbeitsfirmen, die häufig Lagerpersonal vermitteln"
+  ],
+  "relatedSlugs": [
+    "verpackungshelfer",
+    "umzugshelfer",
+    "moebeltraeger",
+    "inventurhelfer"
+  ]
+}

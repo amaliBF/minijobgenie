@@ -1,0 +1,51 @@
+{
+  "slug": "kurier",
+  "name": "Kurier/in",
+  "category": "Lieferung & Zustellung",
+  "categorySlug": "lieferung-zustellung",
+  "stundenlohn": [13, 17],
+  "typischeStunden": "8-15 Std./Woche",
+  "beschreibung": "Als Kurier/in im Minijob transportierst du Dokumente, Pakete und Waren innerhalb einer Stadt oder Region. Dieser 538-Euro-Job eignet sich besonders für Menschen mit eigenem Fahrzeug oder Fahrrad, die gerne unterwegs sind. Die Nachfrage nach Kurierdiensten steigt stetig, insbesondere im innerstädtischen Bereich für eilige Sendungen und Sonderzustellungen.",
+  "aufgaben": [
+    "Dokumente und Pakete sicher transportieren und zustellen",
+    "Sendungen beim Absender abholen und quittieren lassen",
+    "Routen effizient planen und Lieferzeiten einhalten",
+    "Empfangsbestätigungen einholen und dokumentieren",
+    "Fahrzeug oder Fahrrad pflegen und einsatzbereit halten",
+    "Sorgfältiger Umgang mit empfindlichen oder vertraulichen Sendungen"
+  ],
+  "voraussetzungen": [
+    "Eigenes Fahrrad, E-Bike oder Führerschein mit Fahrzeug",
+    "Gute Ortskenntnisse in deiner Stadt",
+    "Zuverlässigkeit und Pünktlichkeit",
+    "Verantwortungsbewusster Umgang mit Sendungen",
+    "Smartphone mit Navigations-App"
+  ],
+  "vorteile": [
+    "Eigenständiges Arbeiten ohne direkte Vorgesetzte",
+    "Viel Bewegung an der frischen Luft, besonders per Fahrrad",
+    "Guter Stundenlohn mit möglichen Zuschlägen für Eilsendungen",
+    "Flexible Schichten, oft als Teilzeit oder auf Abruf",
+    "Steuerfreier Verdienst bis zur 538-Euro-Grenze"
+  ],
+  "flexibilitaet": "Flexibel",
+  "geeignetFuer": [
+    "Studierende mit eigenem Fahrrad oder Fahrzeug",
+    "Fahrradfahrer/innen, die sich fit halten möchten",
+    "Ortskundige mit guter Orientierung",
+    "Menschen, die gerne selbstständig arbeiten"
+  ],
+  "tipps": [
+    "Investiere in eine gute Fahrradtasche oder einen wetterfesten Rucksack für den Transport",
+    "Lade dir Offline-Karten herunter, um auch ohne Netz navigieren zu können",
+    "Melde dich bei mehreren Kurierdiensten an, um deine Wochenstunden flexibel zu füllen",
+    "Achte auf eine ordentliche Versicherung, insbesondere bei Fahrten mit dem eigenen Fahrzeug",
+    "Plane Pausen ein und sorge für ausreichend Trinken, besonders im Sommer"
+  ],
+  "relatedSlugs": [
+    "umzugshelfer",
+    "lagerarbeiter",
+    "kommissionierer",
+    "regalauffueller"
+  ]
+}

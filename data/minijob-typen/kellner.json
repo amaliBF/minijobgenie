@@ -1,0 +1,51 @@
+{
+  "slug": "kellner",
+  "name": "Kellner/in",
+  "category": "Gastronomie & Service",
+  "categorySlug": "gastronomie-service",
+  "stundenlohn": [12, 16],
+  "typischeStunden": "10-20 Std./Woche",
+  "beschreibung": "Als Kellner/in im Minijob bedienst du Gäste in Restaurants, Cafés oder Biergärten und sorgst für ein angenehmes Gastronomieerlebnis. Neben dem Grundlohn kannst du durch Trinkgeld dein Einkommen deutlich aufbessern, was diesen Minijob besonders attraktiv macht. Die Arbeitszeiten liegen typischerweise am Abend und am Wochenende, sodass der Job gut mit anderen Verpflichtungen kombinierbar ist.",
+  "aufgaben": [
+    "Gäste begrüßen, an Tische führen und Speisekarten aushändigen",
+    "Bestellungen aufnehmen und an die Küche weitergeben",
+    "Speisen und Getränke servieren und abräumen",
+    "Rechnungen erstellen und Zahlungen entgegennehmen",
+    "Tische eindecken und den Gastraum vorbereiten",
+    "Gäste zu Speisen und Getränken beraten"
+  ],
+  "voraussetzungen": [
+    "Freundliches Auftreten und Kommunikationsstärke",
+    "Körperliche Belastbarkeit und Stressresistenz",
+    "Gute Deutschkenntnisse, Fremdsprachen von Vorteil",
+    "Bereitschaft zu Abend- und Wochenendarbeit",
+    "Teamfähigkeit und schnelle Auffassungsgabe"
+  ],
+  "vorteile": [
+    "Zusätzliches Trinkgeld neben dem Stundenlohn",
+    "Lebhafte und abwechslungsreiche Arbeitsumgebung",
+    "Schneller Einstieg ohne Ausbildung möglich",
+    "Wertvolle Soft Skills wie Stressmanagement und Multitasking",
+    "Oft kostenlose Verpflegung während der Schicht"
+  ],
+  "flexibilitaet": "Feste Schichten",
+  "geeignetFuer": [
+    "Studierende mit freien Abenden und Wochenenden",
+    "Kommunikative Menschen mit Servicefreude",
+    "Quereinsteiger/innen aus allen Bereichen",
+    "Schüler/innen ab 16 Jahren"
+  ],
+  "tipps": [
+    "Sammle erste Erfahrungen in kleineren Cafés, bevor du dich bei gehobenen Restaurants bewirbst",
+    "Investiere in bequeme, rutschfeste Schuhe für lange Schichten",
+    "Hebe in deiner Bewerbung Teamfähigkeit und Belastbarkeit hervor",
+    "Frage im Vorstellungsgespräch nach der Trinkgeldregelung im Betrieb",
+    "Zeige Bereitschaft, bei Veranstaltungen und Feiertagen einzuspringen"
+  ],
+  "relatedSlugs": [
+    "barkeeper",
+    "kuechenhilfe",
+    "caterer",
+    "spuelkraft"
+  ]
+}

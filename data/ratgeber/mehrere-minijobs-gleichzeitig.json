@@ -1,0 +1,61 @@
+{
+  "slug": "mehrere-minijobs-gleichzeitig",
+  "title": "Mehrere Minijobs gleichzeitig – Geht das?",
+  "description": "Kannst du zwei oder mehr Minijobs gleichzeitig ausüben? Erfahre, welche Regeln bei der Zusammenrechnung gelten, wann Sozialversicherungspflicht entsteht und worauf du achten musst.",
+  "category": "Recht & Finanzen",
+  "author": "Minijobgenie Redaktion",
+  "publishDate": "2025-12-15",
+  "readTime": "6 Min. Lesezeit",
+  "heroImage": "/images/ratgeber/mehrere-minijobs-gleichzeitig.jpg",
+  "tags": ["Mehrere Minijobs", "Zusammenrechnung", "Sozialversicherung", "Verdienstgrenze", "Minijob"],
+  "sections": [
+    {
+      "id": "grundsatz-zusammenrechnung",
+      "title": "Der Grundsatz: Mehrere Minijobs werden zusammengerechnet",
+      "content": "Ja, du darfst grundsätzlich mehrere Minijobs gleichzeitig ausüben. Allerdings gibt es eine entscheidende Regel: Die Verdienste aller Minijobs werden zusammengerechnet. Die 538-Euro-Grenze gilt nicht pro Minijob, sondern für die Summe aller geringfügigen Beschäftigungen.\n\nVerdienst du bei Arbeitgeber A 300 Euro und bei Arbeitgeber B 200 Euro, liegst du mit 500 Euro insgesamt unter der Grenze. Beide Minijobs behalten ihren Status. Verdienst du jedoch bei Arbeitgeber A 350 Euro und bei Arbeitgeber B 250 Euro, überschreitest du mit 600 Euro die Grenze – und alle Minijobs werden sozialversicherungspflichtig."
+    },
+    {
+      "id": "ausnahme-hauptjob",
+      "title": "Sonderregel bei Hauptjob: Ein Minijob bleibt frei",
+      "content": "Eine wichtige Ausnahme gilt, wenn du neben einem sozialversicherungspflichtigen Hauptjob arbeitest. In diesem Fall bleibt ein einziger Minijob von der Zusammenrechnung ausgenommen und behält seinen geringfügigen Status. Erst ab dem zweiten Minijob wird zusammengerechnet.\n\nDer erste Minijob neben dem Hauptjob bleibt also abgabenfrei für dich. Hast du einen zweiten Minijob, wird dessen Verdienst mit dem Hauptjob zusammengerechnet und unterliegt der vollen Sozialversicherungspflicht. Welcher Minijob als \"erster\" zählt, richtet sich nach dem zeitlichen Beginn der Beschäftigung.\n\nOhne Hauptjob gibt es diese Sonderregel nicht. Wenn du ausschließlich Minijobs ausübst, werden alle Verdienste zusammengerechnet. Überschreitest du die Grenze, werden sämtliche Minijobs sozialversicherungspflichtig."
+    },
+    {
+      "id": "meldepflichten",
+      "title": "Meldepflichten: Alle Arbeitgeber müssen informiert sein",
+      "content": "Du bist gesetzlich verpflichtet, jeden deiner Arbeitgeber über weitere Beschäftigungsverhältnisse zu informieren. Dein Arbeitgeber muss bei der Anmeldung zur Minijob-Zentrale angeben, ob du weitere Minijobs ausübst. Die Minijob-Zentrale gleicht die Daten ab und prüft, ob die Verdienstgrenze eingehalten wird.\n\nVerschweigst du einen Minijob, kann das unangenehme Folgen haben. Wird bei einer Betriebsprüfung festgestellt, dass die Grenze überschritten wurde, drohen Nachzahlungen von Sozialversicherungsbeiträgen. Diese muss in der Regel der Arbeitgeber leisten, der sich dann an dich wenden kann.\n\nAuch arbeitsrechtlich kann das Verschweigen Konsequenzen haben. Wenn dein Arbeitsvertrag eine Mitteilungspflicht für Nebentätigkeiten enthält und du diese verletzt, kann das eine Abmahnung oder im Wiederholungsfall eine Kündigung rechtfertigen."
+    },
+    {
+      "id": "arbeitszeitgesetz-beachten",
+      "title": "Arbeitszeitgesetz: Die Gesamtarbeitszeit im Blick",
+      "content": "Bei mehreren Minijobs musst du auch das Arbeitszeitgesetz beachten. Die maximale tägliche Arbeitszeit von 8 Stunden (in Ausnahmefällen 10 Stunden) gilt für die Summe aller Beschäftigungen. Zwischen zwei Arbeitseinsätzen muss eine Ruhezeit von mindestens 11 Stunden liegen.\n\nEin Beispiel: Du arbeitest bei Arbeitgeber A von 8 bis 12 Uhr und bei Arbeitgeber B von 17 bis 20 Uhr. Das sind insgesamt 7 Stunden – kein Problem. Aber: Du musst nach deinem letzten Einsatz 11 Stunden Ruhezeit einhalten, darfst also am nächsten Tag frühestens um 7 Uhr wieder arbeiten.\n\nDie Arbeitszeitdokumentation liegt bei jedem einzelnen Arbeitgeber. Informiere deine Arbeitgeber über deine Arbeitszeiten bei anderen Beschäftigungen, damit alle die gesetzlichen Grenzen einhalten können."
+    },
+    {
+      "id": "praktische-tipps-mehrere-minijobs",
+      "title": "Praktische Tipps für mehrere Minijobs",
+      "content": "Wenn du mehrere Minijobs ausüben möchtest, plane vorher genau: Addiere alle erwarteten Verdienste und stelle sicher, dass die Summe unter 538 Euro monatlich bleibt. Berücksichtige dabei auch mögliche Schwankungen, Zuschläge und Sonderzahlungen.\n\nFühre eine Gesamtübersicht über alle deine Beschäftigungsverhältnisse – inklusive Arbeitszeiten, Verdiensten und Ansprechpartnern. Diese Übersicht hilft dir, den Überblick zu behalten und bei Bedarf schnell reagieren zu können.\n\nBedenke auch die organisatorischen Herausforderungen: Mehrere Arbeitgeber bedeuten unterschiedliche Dienstpläne, verschiedene Ansprechpartner und möglicherweise Terminüberschneidungen. Kommuniziere klar, an welchen Tagen und zu welchen Zeiten du verfügbar bist. Eine transparente Kommunikation mit allen Arbeitgebern ist der Schlüssel zum reibungslosen Ablauf."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Darf ich zwei Minijobs gleichzeitig haben?",
+      "answer": "Ja, du darfst mehrere Minijobs gleichzeitig ausüben. Allerdings werden die Verdienste aller Minijobs zusammengerechnet. Die 538-Euro-Grenze gilt für die Gesamtsumme. Überschreitest du die Grenze, werden alle Minijobs sozialversicherungspflichtig."
+    },
+    {
+      "question": "Was passiert, wenn die Summe meiner Minijobs über 538 Euro liegt?",
+      "answer": "Wenn die Summe aller Minijob-Verdienste die 538-Euro-Grenze übersteigt, verlieren alle Minijobs ihren geringfügigen Status und werden sozialversicherungspflichtig. Das bedeutet, dass auf die gesamten Verdienste Beiträge zur Kranken-, Pflege-, Renten- und Arbeitslosenversicherung fällig werden."
+    },
+    {
+      "question": "Muss ich meinen Arbeitgebern von anderen Minijobs erzählen?",
+      "answer": "Ja, du bist gesetzlich verpflichtet, jeden Arbeitgeber über weitere Beschäftigungsverhältnisse zu informieren. Die Arbeitgeber müssen bei der Minijob-Zentrale angeben, ob du weitere Minijobs hast. Verschweigen kann zu Nachzahlungen und arbeitsrechtlichen Konsequenzen führen."
+    },
+    {
+      "question": "Kann ich neben meinem Hauptjob zwei Minijobs haben?",
+      "answer": "Grundsätzlich ja, aber nur der erste Minijob neben dem Hauptjob bleibt abgabenprivilegiert. Der zweite Minijob wird mit dem Hauptjob zusammengerechnet und unterliegt der vollen Sozialversicherungspflicht. Es lohnt sich daher meistens nur ein Minijob neben dem Hauptjob."
+    }
+  ],
+  "relatedSlugs": [
+    "538-euro-grenze-alles-was-du-wissen-musst",
+    "minijob-plus-hauptjob-das-musst-du-beachten",
+    "minijob-und-steuern-so-bleibt-mehr-uebrig"
+  ]
+}

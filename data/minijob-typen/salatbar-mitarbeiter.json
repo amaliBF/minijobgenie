@@ -1,0 +1,51 @@
+{
+  "slug": "salatbar-mitarbeiter",
+  "name": "Salatbar-Mitarbeiter/in",
+  "category": "Gastronomie & Service",
+  "categorySlug": "gastronomie-service",
+  "stundenlohn": [12, 14],
+  "typischeStunden": "6-12 Std./Woche",
+  "beschreibung": "Als Salatbar-Mitarbeiter/in im Minijob bereitest du frische Salate, Bowls und Snacks zu und bedienst Kunden an der Theke. Dieser 538-Euro-Job ist besonders in Innenstädten, Einkaufszentren und Bürovierteln gefragt, wo die Mittagspause zur Hauptgeschäftszeit wird. Die Arbeit ist ideal für Menschen, die sich für gesunde Ernährung interessieren und gerne im Team arbeiten.",
+  "aufgaben": [
+    "Zutaten frisch zubereiten, waschen und schneiden",
+    "Salate und Bowls nach Kundenwunsch zusammenstellen",
+    "Salatbar und Theke sauber und appetitlich bestücken",
+    "Kunden beraten und Bestellungen entgegennehmen",
+    "Kassiervorgänge abwickeln",
+    "Küche und Arbeitsplatz reinigen und Hygienevorschriften einhalten"
+  ],
+  "voraussetzungen": [
+    "Gesundheitszeugnis nach §43 IfSG erforderlich",
+    "Saubere und hygienische Arbeitsweise",
+    "Freundlichkeit und schnelles Arbeiten unter Zeitdruck",
+    "Interesse an gesunder Ernährung von Vorteil",
+    "Teamfähigkeit und Belastbarkeit zur Mittagszeit"
+  ],
+  "vorteile": [
+    "Geregelte Arbeitszeiten, meist tagsüber zur Mittagszeit",
+    "Kostenloses oder vergünstigtes Essen während der Schicht",
+    "Einstieg in die Gastro-Branche ohne Ausbildung",
+    "Angenehmes Arbeiten mit frischen Produkten",
+    "Steuerfreier Verdienst im Minijob-Rahmen"
+  ],
+  "flexibilitaet": "Teilweise flexibel",
+  "geeignetFuer": [
+    "Studierende mit freier Mittagszeit",
+    "Ernährungsbewusste Menschen mit Spaß am Kochen",
+    "Schüler/innen ab 16 Jahren",
+    "Quereinsteiger/innen in die Gastronomie"
+  ],
+  "tipps": [
+    "Hole dir rechtzeitig ein Gesundheitszeugnis beim Gesundheitsamt, das geht schnell und kostet wenig",
+    "Lerne die Allergene und Inhaltsstoffe der Zutaten auswendig, um Kunden kompetent beraten zu können",
+    "Arbeite zügig und strukturiert, besonders in der Mittagspause ist Tempo gefragt",
+    "Zeige Eigeninitiative beim Nachfüllen der Theke, das fällt positiv auf",
+    "Bewirb dich in Bürovierteln oder Einkaufszentren, dort ist die Nachfrage am höchsten"
+  ],
+  "relatedSlugs": [
+    "kellner",
+    "kuechenhilfe",
+    "kassierer",
+    "barkeeper"
+  ]
+}
